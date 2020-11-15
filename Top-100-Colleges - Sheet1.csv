@@ -1,0 +1,101 @@
+Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, Hybrid)","closingStatus (Post Finals, Thanksgiving, Early (before thanksgiving), Fully Remote)"
+1,Princeton University,Completely Closed,Fully Remote
+2,Harvard University,Completely Closed,Fully Remote
+3,Columbia University,Completely Open,Post Finals
+4,Massachusetts Institute of Technology,Hybrid,Post Finals
+5,Yale University,Completely Open ,Post Finals
+6,Standford University,Completely Open ,Thanksgiving
+7,University of Chicago,Completely Open ,Thanksgiving
+8,University of Pennsylvania,Completely Closed,Fully Remote
+9,California Institute of Technology,Completely Closed,Fully Remote
+10,Johns Hopkins University,Hybrid,Post Finals
+11,Northwestern University,Completely Open ,Post Finals
+12,Duke University,Completely Open,Post Finals
+13,Dartmouth College,Completely Open,Post Finals
+14,Brown University,Hybrid,Thanksgiving
+15,Vanderbuilt University,Completely Open,Thanksgiving
+16,Rice University,Completely Open,Thanksgiving
+17,Washington University in St. Louis,Completely Open,Thanksgiving
+18,Cornell University,Completely Open,Thanksgiving
+19,University of Notre Dame,Completely Open,Thanksgiving
+20,"University of California, Los Angeles",Completely Closed,Fully Remote
+21,Emory University,Hybrid,Post Finals
+22,"University of California, Berkeley",Completely Closed,Fully Remote
+23,Georgetown University,Completely Open,Post Finals
+24,University of Michigan - Ann Arbor,Completely Open,Post Finals
+25,University of Southern California,Completely Closed,Fully Remote
+26,Carnegie Mellon University,Completely Open,Fully Remote
+27,University of Virginia,Completely Open,Thanksgiving
+28,University of North Carolina at Chapel Hill,Completely Open,Thanksgiving
+29,Wake Forest University,Completely Open,Fully Remote
+30,New York University,Completely Open,Post Finals
+31,Tufts University,Completely Open,
+32,"University of California, Santa Barbara",Hybrid,Post Finals
+33,University of Florida,Completely Open,Post Finals
+34,University of Rochester,Completely Open,Post Finals
+35,Boston College,Completely Open,Fully Remote
+36,Georgia Institute of Technlogy,Completely Open,Fully Remote
+37,"University of California, Irvine",Completely Open,Post Finals
+38,"University of California, San Diego",Completely Open,Post Finals
+39,"University of California, Davis",Completely Open,Post Finals
+40,William & Mary,Completely Open,Thanksgiving
+41,Tulane University,Completely Open,Fully Remote
+42,Boston University,Completely Open,Post Finals
+43,Brandeis University,Completely Open,Fully Remote
+44,Case Western Reserve University,Completely Open,Fully Remote
+45,University of Texas at Austin,Completely Open,Fully Remote
+46,University of Wisconsin-Madison,Completely Open,Fully Remote
+47,University of Georgia,Completely Open,Fully Remote
+48,University of Illinois Urbana-Champaign,Completely Open,Fully Remote
+49,Lehigh University,Completely Open,Fully Remote
+50,Northeastern University,Completely Open,Fully Remote
+51,Pepperdine University,Completely Closed,Fully Remote
+52,University of Miami,Completely Open,Thanksgiving
+53,Ohio State University,Completely Open,Thanksgiving
+54,Purdue University,Completely Open,Post Finals
+55,Rensselaer Polytechnic Institute,Hybrid,Post Finals
+56,Santa Clara University,Completely Closed,Fully Remote
+57,Villanova University,Completely Open,Thanksgiving
+58,Florida State University,Completely Open,Post Finals
+59,Syracuse University,Completely Open,Thanksgiving
+60,University of Maryland,Completely Open,Post Finals
+61,University of Pittsburgh,Completely Open,Thanksgiving
+62,University of Washington,Completely Open,Post Finals
+63,Pennsylvania State University,Completely Open,Thanksgiving
+64,Rutgers University,Completely Open,Post Finals
+65,University of Connecticut,Completely Open,Early
+66,Fordham University,Completely Open,Thanksgiving
+67,George Washington University,Completely Closed,Fully Remote
+68,Loyola Marymount University,Completely Open,Thanksgiving
+69,Southern Methodist University,Completely Open,Thanksgiving
+70,Texas A&M University,Completely Open,Post Finals
+71,University of Massachusetts Amherst,Completely Open,Thanksgiving
+72,University of Minnesota Twin Cities,Completely Open,Post Finals
+73,Worcester Polytechnic Institute,Completely Open,Post Finals
+74,Clemson University,Completely Open,Thanksgiving
+75,Virgina Tech,Completely Open,Thanksgiving
+76,American University,Completely Open,Thanksgiving
+77,Baylor University,Completely Open,Thanksgiving
+78,Indiana University Bloomington,Completely Open,Thanksgiving
+79,Yeshiva University,Completely Open,Christmas
+80,Brigham Young University,Completely Open,Thanksgiving
+81,Gonzaga University,Completely Open,Thanksgiving
+82,Howard University,Completely Closed,Fully Remote
+83,Michigan State University,Completely Closed,Fully Remote
+84,North Carolina State University,Completely Closed,Fully Remote
+85,Stevens Institute of Technology,Hybrid,Thanksgiving
+86,Texas Christian University,Completely Open,Thanksgiving
+87,University of Denver,Completely Open,Thanksgiving
+88,SUNY Binghamton,Completely Open,Thanksgiving
+89,Colorado School of Mines,Completely Open,Thanksgiving
+90,Elon University,Completely Open,Thanksgiving
+91,Marquette University,Completely Open,Thanksgiving
+92,Stony Brook University,Completely Open,Thanksgiving
+93,SUNY University at Buffalo,Completely Open,Thanksgiving
+94,"University of California, Riverside",Completely Closed,Fully Remote
+95,University of Iowa,Completely Open,Thanksgiving
+96,University of San Diego,Completely Closed,Fully Remote
+97,Auburn University,Completely Open,Thanksgiving
+98,University of Arizona,Completely Open,Thanksgiving
+99,"University of California, Merced",Hybrid,Thanksgiving
+100,"University of California, Santa Cruz",Hybrid,Thanksgiving

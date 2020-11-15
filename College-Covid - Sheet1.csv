@@ -1,0 +1,1765 @@
+date,state,county,city,college,cases,stateRestrictionsMasksRequired,cumulativeCases
+2020-11-05,Alabama,Madison,Huntsville,Alabama A&M University,41,yes,199158
+2020-11-05,Alabama,Montgomery,Montgomery,Alabama State University,,yes,199158
+2020-11-05,Alabama,Limestone,Athens,Athens State University,23,yes,199158
+2020-11-05,Alabama,Lee,Auburn,Auburn University,2047,yes,199158
+2020-11-05,Alabama,Montgomery,Montgomery,Auburn University at Montgomery,80,yes,199158
+2020-11-05,Alabama,Walker,Jasper,Bevill State Community College,4,yes,199158
+2020-11-05,Alabama,Jefferson,Birmingham,Birmingham-Southern College,196,yes,199158
+2020-11-05,Alabama,Limestone,Tanner,Calhoun Community College,36,yes,199158
+2020-11-05,Alabama,Tallapoosa,Alexander City,Central Alabama Community College,24,yes,199158
+2020-11-05,Alabama,Coffee,Enterprise,Enterprise State Community College,32,yes,199158
+2020-11-05,Alabama,Etowah,Gadsden,Gadsden State Community College,45,yes,199158
+2020-11-05,Alabama,Montgomery,Montgomery,Huntingdon College,,yes,199158
+2020-11-05,Alabama,Calhoun,Jacksonville,Jacksonville State University,219,yes,199158
+2020-11-05,Alabama,Covington,Andalusia,Lurleen B. Wallace Community College,16,yes,199158
+2020-11-05,Alabama,Perry,Marion,Marion Military Institute,5,yes,199158
+2020-11-05,Alabama,Jefferson,Fairfield,Miles College,,yes,199158
+2020-11-05,Alabama,Jefferson,Birmingham,Samford University,379,yes,199158
+2020-11-05,Alabama,Marshall,Boaz,Snead State Community College,13,yes,199158
+2020-11-05,Alabama,Randolph,Wadley,Southern Union State Community College,59,yes,199158
+2020-11-05,Alabama,Mobile,Mobile,Spring Hill College,113,yes,199158
+2020-11-05,Alabama,Pike,Troy,Troy University,628,yes,199158
+2020-11-05,Alabama,Houston,Dothan,Troy University Dothan,12,yes,199158
+2020-11-05,Alabama,Montgomery,Montgomery,Troy University Montgomery,16,yes,199158
+2020-11-05,Alabama,Russell,Phenix,Troy University-Phenix City Campus,8,yes,199158
+2020-11-05,Alabama,Macon,Tuskeegee,Tuskegee University,69,yes,199158
+2020-11-05,Alabama,Tuscaloosa,Tuscaloosa,University of Alabama,3037,yes,199158
+2020-11-05,Alabama,Jefferson,Birmingham,University of Alabama at Birmingham,1779,yes,199158
+2020-11-05,Alabama,Madison,Huntsville,University of Alabama in Huntsville,119,yes,199158
+2020-11-05,Alabama,Shelby,Montevallo,University of Montevallo,110,yes,199158
+2020-11-05,Alabama,Lauderdale,Florence,University of North Alabama,370,yes,199158
+2020-11-05,Alabama,Mobile,Mobile,University of South Alabama,378,yes,199158
+2020-11-05,Alabama,Sumter,Livingston,University of West Alabama,,yes,199158
+2020-11-05,Alaska,North Slope Borough,Utqiagvik,Ilisagvik College,,no,18174
+2020-11-05,Alaska,Anchorage Municipality,Anchorage,University of Alaska Anchorage,10,no,18174
+2020-11-05,Alaska,Fairbanks North Star Borough,Fairbanks,University of Alaska Fairbanks,94,no,18174
+2020-11-05,Alaska,Juneau City and Borough,Juneau,University of Alaska Southeast,1,no,18174
+2020-11-05,Arizona,Maricopa,Tempe,Arizona State University,2518,no,252768
+2020-11-05,Arizona,Yuma,Yuma,Arizona Western College,41,no,252768
+2020-11-05,Arizona,Apache,Tsaile,Dine College,7,no,252768
+2020-11-05,Arizona,Yavapai,Prescott,Embry-Riddle Aeronautical University at Prescott,37,no,252768
+2020-11-05,Arizona,Maricopa,Phoenix,Grand Canyon University,230,no,252768
+2020-11-05,Arizona,Maricopa,Glendale,Midwestern University at Glendale,72,no,252768
+2020-11-05,Arizona,Mohave,Kingman,Mohave Community College,,no,252768
+2020-11-05,Arizona,Coconino,Flagstaff,Northern Arizona University,268,no,252768
+2020-11-05,Arizona,Pima,Tucson,University of Arizona,2517,no,252768
+2020-11-05,Arkansas,Mississippi,Blytheville,Arkansas Northeastern College,28,yes,117360
+2020-11-05,Arkansas,Craighead,Jonesboro,Arkansas State University,692,yes,117360
+2020-11-05,Arkansas,Pope,Russellville,Arkansas Tech University,340,yes,117360
+2020-11-05,Arkansas,Randolph,Pocahontas,Black River Technical College,56,yes,117360
+2020-11-05,Arkansas,White,Searcy,Harding University,300,yes,117360
+2020-11-05,Arkansas,Clark,Arkadelphia,Henderson State University,116,yes,117360
+2020-11-05,Arkansas,Faulkner,Conway,Hendrix College,17,yes,117360
+2020-11-05,Arkansas,Benton,Siloam Springs,John Brown University,36,yes,117360
+2020-11-05,Arkansas,Independence,Batesville,Lyon College,12,yes,117360
+2020-11-05,Arkansas,Garland,Hot Springs,National Park College,36,yes,117360
+2020-11-05,Arkansas,Benton,Bentonville,NorthWest Arkansas Community College,16,yes,117360
+2020-11-05,Arkansas,Clark,Arkadelphia,Ouachita Baptist University,147,yes,117360
+2020-11-05,Arkansas,Columbia,Magnolia,Southern Arkansas University,144,yes,117360
+2020-11-05,Arkansas,Washington,Fayetteville,University of Arkansas,2262,yes,117360
+2020-11-05,Arkansas,Polk,Mena,University of Arkansas Community College Rich Mountain,19,yes,117360
+2020-11-05,Arkansas,Miller,Texarkana,University of Arkansas Community College at Hope - Texarkana,16,yes,117360
+2020-11-05,Arkansas,Conway,Morrilton,University of Arkansas Community College-Morrilton,34,yes,117360
+2020-11-05,Arkansas,Sebastian,Fort Smith,University of Arkansas at Fort Smith,104,yes,117360
+2020-11-05,Arkansas,Pulaski,Little Rock,University of Arkansas at Little Rock,149,yes,117360
+2020-11-05,Arkansas,Drew,Monticello,University of Arkansas at Monticello,40,yes,117360
+2020-11-05,Arkansas,Jefferson,Pine Bluff,University of Arkansas at Pine Bluff,172,yes,117360
+2020-11-05,Arkansas,Pulaski,Little Rock,University of Arkansas for Medical Sciences,69,yes,117360
+2020-11-05,Arkansas,Conway,Conway,University of Central Arkansas,379,yes,117360
+2020-11-05,Arkansas,Johnson,Clarksville,University of the Ozarks,52,yes,117360
+2020-11-05,California,San Francisco,San Francisco,Academy of Art University,,yes,944576
+2020-11-05,California,Los Angeles,Lancaster,Antelope Valley College,14,yes,944576
+2020-11-05,California,Los Angeles,Azusa,Azusa Pacific University,8,yes,944576
+2020-11-05,California,Kern,Bakersfield,Bakersfield College,0,yes,944576
+2020-11-05,California,Los Angeles,La Mirada,Biola University,6,yes,944576
+2020-11-05,California,Riverside,Riverside,California Baptist University,9,yes,944576
+2020-11-05,California,Los Angeles,Pasadena,California Institute of Technology,29,yes,944576
+2020-11-05,California,Ventura,Thousand Oaks,California Lutheran University,7,yes,944576
+2020-11-05,California,San Luis Obispo,San Luis Obispo,"California Polytechnic State University, San Luis Obispo",271,yes,944576
+2020-11-05,California,Los Angeles,Pomona,"California State Polytechnic University, Pomona",16,yes,944576
+2020-11-05,California,Solano,Vallejo,California State University Maritime Academy,3,yes,944576
+2020-11-05,California,Kern,Bakersfield,"California State University, Bakersfield",5,yes,944576
+2020-11-05,California,Ventura,Camarillo,"California State University, Channel Islands",9,yes,944576
+2020-11-05,California,Butte,Chico,"California State University, Chico",204,yes,944576
+2020-11-05,California,Los Angeles,Carson,"California State University, Dominguez Hills",9,yes,944576
+2020-11-05,California,Alameda,Hayward,"California State University, East Bay",22,yes,944576
+2020-11-05,California,Orange,Fullerton,"California State University, Fullerton",10,yes,944576
+2020-11-05,California,Los Angeles,Long Beach,"California State University, Long Beach",32,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,"California State University, Los Angeles",88,yes,944576
+2020-11-05,California,Monterey,Marina,"California State University, Monterey Bay",5,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,"California State University, Northridge",39,yes,944576
+2020-11-05,California,Sacramento,Sacramento,"California State University, Sacramento",43,yes,944576
+2020-11-05,California,San Bernardino,San Bernardino,"California State University, San Bernardino",30,yes,944576
+2020-11-05,California,San Diego,San Marcos,"California State University, San Marcos",27,yes,944576
+2020-11-05,California,Stanislaus,Turlock,"California State University, Stanislaus",15,yes,944576
+2020-11-05,California,Orange,Orange,Chapman University,37,yes,944576
+2020-11-05,California,Los Angeles,Claremont,Claremont McKenna College,,yes,944576
+2020-11-05,California,Orange,Irvine,Concordia University Irvine,10,yes,944576
+2020-11-05,California,Orange,Cypress,Cypress College,9,yes,944576
+2020-11-05,California,Marin,San Rafael,Dominican University of California,4,yes,944576
+2020-11-05,California,Plumas,Quincy,Feather River College,7,yes,944576
+2020-11-05,California,Santa Clara,Los Altos,Foothill College,0,yes,944576
+2020-11-05,California,Fresno,Fresno,Fresno Pacific University,,yes,944576
+2020-11-05,California,Fresno,Fresno,Fresno State University,30,yes,944576
+2020-11-05,California,Los Angeles,Claremont,Harvey Mudd College,5,yes,944576
+2020-11-05,California,Alameda,Oakland,Holy Names University,2,yes,944576
+2020-11-05,California,Humboldt,Arcata,Humboldt State University,12,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,Los Angeles Community College District,175,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,Loyola Marymount University,21,yes,944576
+2020-11-05,California,San Mateo,Atherton,Menlo College,3,yes,944576
+2020-11-05,California,Alameda,Oakland,Mills College,3,yes,944576
+2020-11-05,California,San Diego,Oceanside,MiraCosta College,9,yes,944576
+2020-11-05,California,Stanislaus,Modesto,Modesto Junior College,,yes,944576
+2020-11-05,California,Monterey,Monterey,Naval Postgraduate School,,yes,944576
+2020-11-05,California,San Mateo,Belmont,Notre Dame de Namur University,0,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,Occidental College,5,yes,944576
+2020-11-05,California,Los Angeles,Malibu,Pepperdine University,26,yes,944576
+2020-11-05,California,Los Angeles,Claremont,Pitzer College,1,yes,944576
+2020-11-05,California,San Diego,San Diego,Point Loma Nazarene University,46,yes,944576
+2020-11-05,California,Los Angeles,Claremont,Pomona College,1,yes,944576
+2020-11-05,California,Los Angeles,Whittier,Rio Hondo College,19,yes,944576
+2020-11-05,California,Contra Costa,Moraga,Saint Mary's College of California,9,yes,944576
+2020-11-05,California,San Diego,San Diego,San Diego City College,5,yes,944576
+2020-11-05,California,San Diego,San Diego,San Diego Mesa College,2,yes,944576
+2020-11-05,California,San Diego,San Diego,San Diego Miramar College,2,yes,944576
+2020-11-05,California,San Diego,San Diego,San Diego State University System,1301,yes,944576
+2020-11-05,California,San Francisco,San Francisco,San Francisco State University,7,yes,944576
+2020-11-05,California,Santa Clara,San Jose,San Jose State University,54,yes,944576
+2020-11-05,California,Orange,Santa Ana,Santa Ana College,9,yes,944576
+2020-11-05,California,Santa Clara,Santa Clara,Santa Clara University,36,yes,944576
+2020-11-05,California,Los Angeles,Santa Monica,Santa Monica College,5,yes,944576
+2020-11-05,California,Los Angeles,Claremont,Scripps College,4,yes,944576
+2020-11-05,California,Shasta,Redding,Shasta College,5,yes,944576
+2020-11-05,California,San Mateo,San Bruno,Skyline College,0,yes,944576
+2020-11-05,California,Solano,Fairfield,Solano Community College,0,yes,944576
+2020-11-05,California,Sonoma,Ronhert Park,Sonoma State University,4,yes,944576
+2020-11-05,California,San Diego,Chula Vista,Southwestern College,10,yes,944576
+2020-11-05,California,Santa Clara,Stanford,Stanford University,165,yes,944576
+2020-11-05,California,San Joaquin,Stockton,Teachers College of San Joaquin,,yes,944576
+2020-11-05,California,Alameda,Berkeley,"University of California, Berkeley",238,yes,944576
+2020-11-05,California,Yolo,Davis,"University of California, Davis",96,yes,944576
+2020-11-05,California,San Francisco,San Francisco,"University of California, Hastings College of Law",5,yes,944576
+2020-11-05,California,Orange,Irvine,"University of California, Irvine",119,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,"University of California, Los Angeles",251,yes,944576
+2020-11-05,California,Merced,Merced,"University of California, Merced",22,yes,944576
+2020-11-05,California,Riverside,Riverside,"University of California, Riverside",80,yes,944576
+2020-11-05,California,San Diego,San Diego,"University of California, San Diego",384,yes,944576
+2020-11-05,California,San Francisco,San Francisco,"University of California, San Francisco",263,yes,944576
+2020-11-05,California,Santa Barbara,Santa Barbara,"University of California, Santa Barbara",33,yes,944576
+2020-11-05,California,Santa Cruz,Santa Cruz,"University of California, Santa Cruz",20,yes,944576
+2020-11-05,California,Los Angeles,La Verne,University of La Verne,0,yes,944576
+2020-11-05,California,San Bernardino,Redlands,University of Redlands,9,yes,944576
+2020-11-05,California,San Diego,San Diego,University of San Diego,175,yes,944576
+2020-11-05,California,San Francisco,San Francisco,University of San Francisco,9,yes,944576
+2020-11-05,California,Los Angeles,Los Angeles,University of Southern California,556,yes,944576
+2020-11-05,California,San Joaquin,Stockton,University of the Pacific,10,yes,944576
+2020-11-05,California,Santa Barbara,Santa Barbara,Westmont College,8,yes,944576
+2020-11-05,California,Los Angeles,Whittier,Whittier College,2,yes,944576
+2020-11-05,Colorado,Alamosa,Alamosa,Adams State University,17,yes,117637
+2020-11-05,Colorado,Arapahoe,Littleton,Arapahoe Community College,29,yes,117637
+2020-11-05,Colorado,Jefferson,Lakewood,Colorado Christian University,25,yes,117637
+2020-11-05,Colorado,El Paso,Colorado Springs,Colorado College,18,yes,117637
+2020-11-05,Colorado,Mesa,Grand Junction,Colorado Mesa University,164,yes,117637
+2020-11-05,Colorado,Garfield,Glenwood Springs,Colorado Mountain College Glenwood Springs,10,yes,117637
+2020-11-05,Colorado,Jefferson,Golden,Colorado School of Mines,109,yes,117637
+2020-11-05,Colorado,Larimer,Fort Collins,Colorado State University,727,yes,117637
+2020-11-05,Colorado,Pueblo,Pueblo,Colorado State University-Pueblo,54,yes,117637
+2020-11-05,Colorado,Denver,Denver,Community College of Denver,21,yes,117637
+2020-11-05,Colorado,La Plata,Durango,Fort Lewis College,42,yes,117637
+2020-11-05,Colorado,Adams,Westminster,Front Range Community College,19,yes,117637
+2020-11-05,Colorado,Denver,Denver,Johnson & Wales University-Denver,1,yes,117637
+2020-11-05,Colorado,Denver,Denver,Metropolitan State University of Denver,50,yes,117637
+2020-11-05,Colorado,Morgan,Fort Morgan,Morgan Community College,6,yes,117637
+2020-11-05,Colorado,El Paso,Colorado Springs,Pikes Peak Community College,40,yes,117637
+2020-11-05,Colorado,Pueblo,Pueblo,Pueblo Community College,5,yes,117637
+2020-11-05,Colorado,Jefferson,Lakewood,Red Rocks Community College,,yes,117637
+2020-11-05,Colorado,Denver,Denver,Regis University,101,yes,117637
+2020-11-05,Colorado,Las Animas,Trinidad,Trinidad State Junior College,4,yes,117637
+2020-11-05,Colorado,El Paso,Air Force Academy,United States Air Force Academy,2,yes,117637
+2020-11-05,Colorado,Boulder,Boulder,University of Colorado Boulder,1943,yes,117637
+2020-11-05,Colorado,El Paso,Colorado Springs,University of Colorado Colorado Springs,55,yes,117637
+2020-11-05,Colorado,Adams,Aurora,University of Colorado Denver and Anschutz Medical Campus,94,yes,117637
+2020-11-05,Colorado,Denver,Denver,University of Denver,289,yes,117637
+2020-11-05,Colorado,Weld,Greeley,University of Northern Colorado,99,yes,117637
+2020-11-05,Colorado,Gunnison,Gunnison,Western Colorado University,13,yes,117637
+2020-11-05,Connecticut,New Haven,New Haven,Albertus Magnus College,4,yes,77060
+2020-11-05,Connecticut,Hartford,New Britain,Central Connecticut State University,99,yes,77060
+2020-11-05,Connecticut,New London,New London,Connecticut College,30,yes,77060
+2020-11-05,Connecticut,Windham,Windham,Eastern Connecticut State University,52,yes,77060
+2020-11-05,Connecticut,Fairfield,Fairfield,Fairfield University,359,yes,77060
+2020-11-05,Connecticut,New London,New London,Mitchell College,3,yes,77060
+2020-11-05,Connecticut,New Haven,Waterbury,Post University,0,yes,77060
+2020-11-05,Connecticut,New Haven,Hamden,Quinnipiac University,56,yes,77060
+2020-11-05,Connecticut,Fairfield,Fairfield,Sacred Heart University,425,yes,77060
+2020-11-05,Connecticut,New Haven,New Haven,Southern Connecticut State University,59,yes,77060
+2020-11-05,Connecticut,Hartford,Hartford,Trinity College,90,yes,77060
+2020-11-05,Connecticut,Hartford,Farmington,Tunxis Community College,4,yes,77060
+2020-11-05,Connecticut,New London,New London,United States Coast Guard Academy,17,yes,77060
+2020-11-05,Connecticut,Fairfield,Bridgeport,University of Bridgeport,17,yes,77060
+2020-11-05,Connecticut,Tolland,Storrs,University of Connecticut,414,yes,77060
+2020-11-05,Connecticut,Hartford,West Hartford,University of Hartford,64,yes,77060
+2020-11-05,Connecticut,New Haven,West Haven,University of New Haven,190,yes,77060
+2020-11-05,Connecticut,Hartford,West Hartford,University of Saint Joseph,3,yes,77060
+2020-11-05,Connecticut,Middlesex,Middletown,Wesleyan University,11,yes,77060
+2020-11-05,Connecticut,Fairfield,Danbury,Western Connecticut State University,30,yes,77060
+2020-11-05,Connecticut,New Haven,New Haven,Yale University,244,yes,77060
+2020-11-05,Delaware,Kent,Dover,Delaware State University,77,yes,25753
+2020-11-05,Delaware,Kent,Dover,Delaware Technical Community College Dover,7,yes,25753
+2020-11-05,Delaware,Sussex,Georgetown,Delaware Technical Community College Georgetown,45,yes,25753
+2020-11-05,Delaware,New Castle,Stanton,Delaware Technical Community College Stanton,20,yes,25753
+2020-11-05,Delaware,New Castle,Wilmington,Goldey-Beacom College,0,yes,25753
+2020-11-05,Delaware,New Castle,Newark,University of Delaware,482,yes,25753
+2020-11-05,Delaware,Kent,Dover,Wesley College,15,yes,25753
+2020-11-05,Delaware,New Castle,New Castle,Wilmington University,,yes,25753
+2020-11-05,Florida,Orange,Orlando,AdventHealth University,2,no,816376
+2020-11-05,Florida,Pinellas,Largo,American Institute of Beauty,1,no,816376
+2020-11-05,Florida,Broward,Coconut Creek,Atlantic Technical College,1,no,816376
+2020-11-05,Florida,Collier,Ave Maria,Ave Maria University,30,no,816376
+2020-11-05,Florida,Miami-Dade,Miami,Barry University,1,no,816376
+2020-11-05,Florida,Volusia,Daytona Beach,Bethune-Cookman University,6,no,816376
+2020-11-05,Florida,Broward,Fort Lauderdale,Broward College,49,no,816376
+2020-11-05,Florida,Charlotte,Port Charlotte,Charlotte Technical College,,no,816376
+2020-11-05,Florida,Jackson,Marianna,Chipola College,5,no,816376
+2020-11-05,Florida,Alachua,Gainesville,City College at Gainesville,1,no,816376
+2020-11-05,Florida,Marion,Ocala,College of Central Florida,50,no,816376
+2020-11-05,Florida,Volusia,Daytona Beach,Daytona State College,92,no,816376
+2020-11-05,Florida,Brevard,Cocoa,Eastern Florida State College,12,no,816376
+2020-11-05,Florida,Pinellas,Saint Petersburg,Eckerd College,6,no,816376
+2020-11-05,Florida,Duval,Jacksonville,Edward Waters College,10,no,816376
+2020-11-05,Florida,Volusia,Daytona Beach,Embry-Riddle Aeronautical University at Daytona Beach,127,no,816376
+2020-11-05,Florida,St. Johns,St. Augustine,Flagler College,65,no,816376
+2020-11-05,Florida,Leon,Tallahassee,Florida A&M University,112,no,816376
+2020-11-05,Florida,Palm Beach,Boca Raton,Florida Atlantic University,310,no,816376
+2020-11-05,Florida,Hillsborough,Tampa,Florida Career College at Tampa,1,no,816376
+2020-11-05,Florida,Hillsborough,Temple Terrace,Florida College,54,no,816376
+2020-11-05,Florida,Columbia,Lake City,Florida Gateway College,,no,816376
+2020-11-05,Florida,Lee,Fort Myers,Florida Gulf Coast University,380,no,816376
+2020-11-05,Florida,Orange,Orlando,Florida Institute of Recording Sound and Technology,1,no,816376
+2020-11-05,Florida,Brevard,Melbourne,Florida Institute of Technology,75,no,816376
+2020-11-05,Florida,Miami-Dade,Miami,Florida International University,109,no,816376
+2020-11-05,Florida,Miami-Dade,Miami Gardens,Florida Memorial University,113,no,816376
+2020-11-05,Florida,Miami-Dade,Hialeah,Florida National University,,no,816376
+2020-11-05,Florida,Polk,Lakeland,Florida Polytechnic University,10,no,816376
+2020-11-05,Florida,Lee,Fort Myers,Florida SouthWestern State College,22,no,816376
+2020-11-05,Florida,Polk,Lakeland,Florida Southern College,67,no,816376
+2020-11-05,Florida,Duval,Jacksonville,Florida State College at Jacksonville,27,no,816376
+2020-11-05,Florida,Leon,Tallahassee,Florida State University,1738,no,816376
+2020-11-05,Florida,Lee,Fort Myers,Fort Myers Technical College,2,no,816376
+2020-11-05,Florida,St. Lucie,Port Saint Lucie,Fortis Institute at Port Saint Lucie,1,no,816376
+2020-11-05,Florida,Escambia,Pensacola,George Stone Technical College,1,no,816376
+2020-11-05,Florida,Bay,Panama City,Gulf Coast State College,54,no,816376
+2020-11-05,Florida,Orange,Orlando,Gwinnett Institute,1,no,816376
+2020-11-05,Florida,Palm Beach,West Palm Beach,HCI College,1,no,816376
+2020-11-05,Florida,Broward,Fort Lauderdale,HCI College at Fort Lauderdale,,no,816376
+2020-11-05,Florida,Hillsborough,Tampa,Hillsborough Community College,87,no,816376
+2020-11-05,Florida,Collier,Immokalee,Immokalee Technical College,3,no,816376
+2020-11-05,Florida,St. Lucie,Fort Pierce,Indian River State College,31,no,816376
+2020-11-05,Florida,Duval,Jacksonville,Jacksonville University,51,no,816376
+2020-11-05,Florida,Miami-Dade,North Miami,Johnson & Wales University-North Miami,0,no,816376
+2020-11-05,Florida,Lee,Fort Myers,Keiser University at Fort Myers,1,no,816376
+2020-11-05,Florida,Duval,Jacksonville,Keiser University at Jacksonville,1,no,816376
+2020-11-05,Florida,Polk,Lakeland,Keiser University at Lakeland,2,no,816376
+2020-11-05,Florida,Brevard,Melbourne,Keiser University at Melbourne,3,no,816376
+2020-11-05,Florida,Duval,Sarasota,Keiser University at Sarasota,1,no,816376
+2020-11-05,Florida,Leon,Tallahassee,Keiser University at Tallahassee,1,no,816376
+2020-11-05,Florida,Palm Beach,West Palm Beach,Keiser University at West Palm Beach,3,no,816376
+2020-11-05,Florida,Lake,Leesburg,Lake-Sumter State College,0,no,816376
+2020-11-05,Florida,Leon,Tallahassee,Lively Technical College,2,no,816376
+2020-11-05,Florida,Collier,Naples,Lorenzo Walker Technical College,0,no,816376
+2020-11-05,Florida,Palm Beach,Boca Raton,Lynn University,49,no,816376
+2020-11-05,Florida,Sarasota,Sarasota,Meridian College,1,no,816376
+2020-11-05,Florida,Miami-Dade,Miami,Miami Dade College,18,no,816376
+2020-11-05,Florida,Sarasota,Sarasota,New College of Florida,6,no,816376
+2020-11-05,Florida,Madison,Madison,North Florida College,14,no,816376
+2020-11-05,Florida,Okaloosa,Niceville,Northwest Florida State College,36,no,816376
+2020-11-05,Florida,Broward,Fort Lauderdale,Nova Southeastern University,15,no,816376
+2020-11-05,Florida,Palm Beach,West Palm Beach,Palm Beach Atlantic University,35,no,816376
+2020-11-05,Florida,Palm Beach,Lake Worth,Palm Beach State College,48,no,816376
+2020-11-05,Florida,Pasco,New Port Richey,Pasco-Hernando State College,44,no,816376
+2020-11-05,Florida,Duval,Jacksonville,Paul Mitchell the School-Jacksonville,,no,816376
+2020-11-05,Florida,Escambia,Pensacola,Pensacola State College,37,no,816376
+2020-11-05,Florida,Polk,Winter Haven,Polk State College,40,no,816376
+2020-11-05,Florida,Lee,Fort Myers,Rasmussen College at Fort Myers,1,no,816376
+2020-11-05,Florida,Orange,Winter Park,Rollins College,40,no,816376
+2020-11-05,Florida,Pasco,Saint Leo,Saint Leo University,41,no,816376
+2020-11-05,Florida,Alachua,Gainesville,Santa Fe College,25,no,816376
+2020-11-05,Florida,Seminole,Sanford,Seminole State College of Florida,24,no,816376
+2020-11-05,Florida,Highlands,Avon Park,South Florida State College,37,no,816376
+2020-11-05,Florida,Palm Beach,West Palm Beach,Southeastern College at West Palm Beach,1,no,816376
+2020-11-05,Florida,Polk,Lakeland,Southeastern University,44,no,816376
+2020-11-05,Florida,Putnam,Palatka,St. Johns River State College,17,no,816376
+2020-11-05,Florida,Pinellas,St. Petersburg,St. Petersburg College,51,no,816376
+2020-11-05,Florida,Miami-Dade,Miami Gardens,St. Thomas University,5,no,816376
+2020-11-05,Florida,Manatee,Bradenton,"State College of Florida, Manatee-Sarasota",60,no,816376
+2020-11-05,Florida,Volusia,DeLand,Stetson University,149,no,816376
+2020-11-05,Florida,Broward,Fort Lauderdale,Strayer University at Fort Lauderdale,,no,816376
+2020-11-05,Florida,Leon,Tallahassee,Tallahassee Community College,109,no,816376
+2020-11-05,Florida,Monroe,Key West,The College of the Florida Keys,6,no,816376
+2020-11-05,Florida,Orange,Orlando,University of Central Florida,1834,no,816376
+2020-11-05,Florida,Alachua,Gainesville,University of Florida,4461,no,816376
+2020-11-05,Florida,Broward,Lauderhill,University of Fort Lauderdale,1,no,816376
+2020-11-05,Florida,Miami-Dade,Miami,University of Miami,746,no,816376
+2020-11-05,Florida,Duval,Jacksonville,University of North Florida,227,no,816376
+2020-11-05,Florida,Hillsborough,Tampa,University of South Florida,770,no,816376
+2020-11-05,Florida,Sarasota,Sarasota,University of South Florida Sarasota-Manatee,11,no,816376
+2020-11-05,Florida,Pinellas,St. Petersburg,"University of South Florida, St. Petersburg",22,no,816376
+2020-11-05,Florida,Hillsborough,Tampa,University of Tampa,704,no,816376
+2020-11-05,Florida,Escambia,Pensacola,University of West Florida,147,no,816376
+2020-11-05,Florida,Orange,Orlando,Valencia College,41,no,816376
+2020-11-05,Florida,Polk,Babson Park,Webber International University,10,no,816376
+2020-11-05,Georgia,Tift,Tifton,Abraham Baldwin Agricultural College,130,no,368368
+2020-11-05,Georgia,DeKalb,Decatur,Agnes Scott College,1,no,368368
+2020-11-05,Georgia,Dougherty,Albany,Albany State University,110,no,368368
+2020-11-05,Georgia,Fulton,Atlanta,Atlanta Metropolitan State College,0,no,368368
+2020-11-05,Georgia,Richmond,Augusta,Augusta University,278,no,368368
+2020-11-05,Georgia,Floyd,Mount Berry,Berry College,214,no,368368
+2020-11-05,Georgia,Hall,Gainesville,Brenau University,55,no,368368
+2020-11-05,Georgia,DeKalb,Atlanta,Clark Atlanta University,0,no,368368
+2020-11-05,Georgia,Clayton,Morrow,Clayton State University,82,no,368368
+2020-11-05,Georgia,Glynn,Brunswick,College of Coastal Georgia,68,no,368368
+2020-11-05,Georgia,Muscogee,Columbus,Columbus State University,72,no,368368
+2020-11-05,Georgia,Walker,Lookout Mountain,Covenant College,16,no,368368
+2020-11-05,Georgia,Whitfield,Dalton,Dalton State College,54,no,368368
+2020-11-05,Georgia,Emanuel,Swainsboro,East Georgia State College,53,no,368368
+2020-11-05,Georgia,Franklin,Franklin Springs,Emmanuel College,43,no,368368
+2020-11-05,Georgia,Fulton,Atlanta,Emory University,234,no,368368
+2020-11-05,Georgia,Peach,Fort Valley,Fort Valley State University,52,no,368368
+2020-11-05,Georgia,Baldwin,Milledgeville,Georgia College & State University,747,no,368368
+2020-11-05,Georgia,Gwinnett,Lawrenceville,Georgia Gwinnett College,130,no,368368
+2020-11-05,Georgia,Floyd,Rome,Georgia Highlands College,65,no,368368
+2020-11-05,Georgia,Fulton,Atlanta,Georgia Institute of Technology,1102,no,368368
+2020-11-05,Georgia,Baldwin,Milledgeville,Georgia Military College,1,no,368368
+2020-11-05,Georgia,Bulloch,Statesboro,Georgia Southern University,1243,no,368368
+2020-11-05,Georgia,Sumter,Americus,Georgia Southwestern State University,49,no,368368
+2020-11-05,Georgia,Fulton,Atlanta,Georgia State University,278,no,368368
+2020-11-05,Georgia,Lamar,Barnesville,Gordon State College,22,no,368368
+2020-11-05,Georgia,Cobb,Kennesaw,Kennesaw State University,572,no,368368
+2020-11-05,Georgia,Troup,LaGrange,LaGrange College,24,no,368368
+2020-11-05,Georgia,Bibb,Macon,Mercer University,303,no,368368
+2020-11-05,Georgia,Bibb,Macon,Middle Georgia State University,219,no,368368
+2020-11-05,Georgia,DeKalb,Atlanta,Morehouse College,,no,368368
+2020-11-05,Georgia,DeKalb,Atlanta,Oglethorpe University,3,no,368368
+2020-11-05,Georgia,Habersham,Demorest,Piedmont College,,no,368368
+2020-11-05,Georgia,Chatham,Savannah,Savannah State University,42,no,368368
+2020-11-05,Georgia,Floyd,Rome,Shorter University,,no,368368
+2020-11-05,Georgia,Coffee,Douglas,South Georgia State College,38,no,368368
+2020-11-05,Georgia,Clarke,Athens,University of Georgia,4198,no,368368
+2020-11-05,Georgia,Lumpkin,Dahlonega,University of North Georgia,464,no,368368
+2020-11-05,Georgia,Carroll,Carrollton,University of West Georgia,205,no,368368
+2020-11-05,Georgia,Lowndes,Valdosta,Valdosta State University,177,no,368368
+2020-11-05,Georgia,Bibb,Macon,Wesleyan College,25,no,368368
+2020-11-05,Georgia,Towns,Young Harris,Young Harris College,37,no,368368
+2020-11-05,Hawaii,Honolulu,Laie,Brigham Young University-Hawaii,5,yes,15686
+2020-11-05,Hawaii,Honolulu,Honolulu,Chaminade University of Honolulu,,yes,15686
+2020-11-05,Hawaii,Honolulu,Honolulu,Hawaii Pacific University,1,yes,15686
+2020-11-05,Hawaii,Honolulu,Honolulu,Kapiolani Community College,3,yes,15686
+2020-11-05,Hawaii,Honolulu,Pearl City,Leeward Community College,3,yes,15686
+2020-11-05,Hawaii,Maui,Kahului,University of Hawaii Maui College,1,yes,15686
+2020-11-05,Hawaii,Hawaii,Hilo,University of Hawaii at Hilo,3,yes,15686
+2020-11-05,Hawaii,Honolulu,Honolulu,University of Hawaii at Manoa,24,yes,15686
+2020-11-05,Hawaii,Honolulu,Kapolei,University of Hawaii-West Oahu,1,yes,15686
+2020-11-05,Idaho,Ada,Boise,Boise State University,605,no,68314
+2020-11-05,Idaho,Madison,Rexburg,Brigham Young University-Idaho,119,no,68314
+2020-11-05,Idaho,Canyon,Caldwell,College of Idaho,52,no,68314
+2020-11-05,Idaho,Twin Falls,Twin Falls,College of Southern Idaho,156,no,68314
+2020-11-05,Idaho,Bannock,Pocatello,Idaho State University,398,no,68314
+2020-11-05,Idaho,Nez Perce,Lewiston,Lewis-Clark State College,64,no,68314
+2020-11-05,Idaho,Kootenai,Coeur d'Alene,North Idaho College,70,no,68314
+2020-11-05,Idaho,Canyon,Nampa,Northwest Nazarene University,59,no,68314
+2020-11-05,Idaho,Latah,Moscow,University of Idaho,452,no,68314
+2020-11-05,Illinois,Rock Island,Rock Island,Augustana College,53,yes,453750
+2020-11-05,Illinois,Kane,Aurora,Aurora University,61,yes,453750
+2020-11-05,Illinois,DuPage,Lisle,Benedictine University,19,yes,453750
+2020-11-05,Illinois,Macoupin,Carlinville,Blackburn College,,yes,453750
+2020-11-05,Illinois,Peoria,Peoria,Bradley University,365,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Chicago State University,18,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Columbia College Chicago,22,yes,453750
+2020-11-05,Illinois,Cook,River Forest,Concordia University Chicago,10,yes,453750
+2020-11-05,Illinois,Cook,Chicago,DePaul University,22,yes,453750
+2020-11-05,Illinois,Cook,River Forest,Dominican University,54,yes,453750
+2020-11-05,Illinois,Coles,Charleston,Eastern Illinois University,382,yes,453750
+2020-11-05,Illinois,DuPage,Elmhurst,Elmhurst University,41,yes,453750
+2020-11-05,Illinois,Woodford,Eureka,Eureka College,25,yes,453750
+2020-11-05,Illinois,Cook,University Park,Governors State University,22,yes,453750
+2020-11-05,Illinois,Bond,Greenville,Greenville University,36,yes,453750
+2020-11-05,Illinois,Morgan,Jacksonville,Illinois College,12,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Illinois Institute of Technology,69,yes,453750
+2020-11-05,Illinois,McLean,Normal,Illinois State University,1528,yes,453750
+2020-11-05,Illinois,McLean,Bloomington,Illinois Wesleyan University,149,yes,453750
+2020-11-05,Illinois,Clinton,Centralia,Kaskaskia College,58,yes,453750
+2020-11-05,Illinois,Knox,Galesburg,Knox College,25,yes,453750
+2020-11-05,Illinois,Lake,Lake Forest,Lake Forest College,7,yes,453750
+2020-11-05,Illinois,Coles,Mattoon,Lake Land College,53,yes,453750
+2020-11-05,Illinois,Will,Romeoville,Lewis University,101,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Loyola University Chicago,47,yes,453750
+2020-11-05,Illinois,St. Clair,Lebanon,McKendree University,135,yes,453750
+2020-11-05,Illinois,DuPage,Downers Grove,Midwestern University at Downers Grove,66,yes,453750
+2020-11-05,Illinois,Macon,Decatur,Millikin University,70,yes,453750
+2020-11-05,Illinois,Warren,Monmouth,Monmouth College,44,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Moody Bible Institute,16,yes,453750
+2020-11-05,Illinois,DuPage,Naperville,North Central College,82,yes,453750
+2020-11-05,Illinois,Cook,Chicago,North Park University,91,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Northeastern Illinois University,87,yes,453750
+2020-11-05,Illinois,Dekalb,Dekalb,Northern Illinois University,424,yes,453750
+2020-11-05,Illinois,Cook,Evanston,Northwestern University,157,yes,453750
+2020-11-05,Illinois,Kankakee,Bourbonnais,Olivet Nazarene University,23,yes,453750
+2020-11-05,Illinois,Champaign,Champaign,Parkland College,100,yes,453750
+2020-11-05,Illinois,Jersey,Elsah,Principia College,2,yes,453750
+2020-11-05,Illinois,Adams,Quincy,Quincy University,186,yes,453750
+2020-11-05,Illinois,Winnebago,Rockford,Rockford University,67,yes,453750
+2020-11-05,Illinois,Cook,Chicago,Saint Xavier University,79,yes,453750
+2020-11-05,Illinois,Cook,Chicago,School of the Art Institute of Chicago,12,yes,453750
+2020-11-05,Illinois,Saline,Harrisburg,Southeastern Illinois College,16,yes,453750
+2020-11-05,Illinois,Jackson,Carbondale,Southern Illinois University Carbondale,126,yes,453750
+2020-11-05,Illinois,Madison,Edwardsville,Southern Illinois University Edwardsville,161,yes,453750
+2020-11-05,Illinois,St. Clair,Belleville,Southwestern Illinois College,,yes,453750
+2020-11-05,Illinois,Cook,Chicago,University of Chicago,224,yes,453750
+2020-11-05,Illinois,Sangamon,Springfield,University of Illinois Springfield,77,yes,453750
+2020-11-05,Illinois,Champaign,Champaign,University of Illinois Urbana-Champaign,3241,yes,453750
+2020-11-05,Illinois,Cook,Chicago,University of Illinois at Chicago,399,yes,453750
+2020-11-05,Illinois,McDonough,Macomb,Western Illinois University,193,yes,453750
+2020-11-05,Illinois,DuPage,Wheaton,Wheaton College,6,yes,453750
+2020-11-05,Indiana,Madison,Anderson,Anderson University,8,yes,196176
+2020-11-05,Indiana,Delaware,Muncie,Ball State University,1155,yes,196176
+2020-11-05,Indiana,Marion,Indianapolis,Butler University,179,yes,196176
+2020-11-05,Indiana,Putnam,Greencastle,DePauw University,27,yes,196176
+2020-11-05,Indiana,Wayne,Richmond,Earlham College,22,yes,196176
+2020-11-05,Indiana,Johnson,Franklin,Franklin College,55,yes,196176
+2020-11-05,Indiana,Elkhart,Goshen,Goshen College,79,yes,196176
+2020-11-05,Indiana,Kosciusko,Winona Lake,Grace College and Theological Seminary,89,yes,196176
+2020-11-05,Indiana,Jefferson,Hanover,Hanover College,,yes,196176
+2020-11-05,Indiana,Vigo,Terre Haute,Indiana State University,99,yes,196176
+2020-11-05,Indiana,Monroe,Bloomington,Indiana University Bloomington,3369,yes,196176
+2020-11-05,Indiana,Wayne,Richmond,Indiana University East,27,yes,196176
+2020-11-05,Indiana,Howard,Kokomo,Indiana University Kokomo,21,yes,196176
+2020-11-05,Indiana,Lake,Gary,Indiana University Northwest,11,yes,196176
+2020-11-05,Indiana,St. Joseph,South Bend,Indiana University South Bend,21,yes,196176
+2020-11-05,Indiana,Floyd,New Albany,Indiana University Southeast,11,yes,196176
+2020-11-05,Indiana,Marion,Indianapolis,Indiana University-Purdue University Indianapolis,141,yes,196176
+2020-11-05,Indiana,Wabash,North Manchester,Manchester University,25,yes,196176
+2020-11-05,Indiana,Marion,Indianapolis,Marian University,64,yes,196176
+2020-11-05,Indiana,Gibson,Oakland City,Oakland City University,2,yes,196176
+2020-11-05,Indiana,Tippecanoe,West Lafayette,Purdue University,1853,yes,196176
+2020-11-05,Indiana,Madison,Anderson,Purdue University - Purdue Polytechnic Anderson,,yes,196176
+2020-11-05,Indiana,Bartholomew,Columbus,Purdue University - Purdue Polytechnic Columbus,,yes,196176
+2020-11-05,Indiana,Marion,Indianapolis,Purdue University - Purdue Polytechnic Indianapolis,,yes,196176
+2020-11-05,Indiana,Howard,Kokomo,Purdue University - Purdue Polytechnic Kokomo,,yes,196176
+2020-11-05,Indiana,Tippecanoe,Lafayette,Purdue University - Purdue Polytechnic Lafayette,,yes,196176
+2020-11-05,Indiana,Floyd,New Albany,Purdue University - Purdue Polytechnic New Albany,,yes,196176
+2020-11-05,Indiana,Wayne,Richmond,Purdue University - Purdue Polytechnic Richmond,,yes,196176
+2020-11-05,Indiana,St. Joseph,South Bend,Purdue University - Purdue Polytechnic South Bend,,yes,196176
+2020-11-05,Indiana,Knox,Vincennes,Purdue University - Purdue Polytechnic Vincennes,,yes,196176
+2020-11-05,Indiana,Allen,Fort Wayne,Purdue University Fort Wayne,110,yes,196176
+2020-11-05,Indiana,Lake,Hammond,Purdue University Northwest,78,yes,196176
+2020-11-05,Indiana,Vigo,Terre Haute,Rose-Hulman Institute of Technology,62,yes,196176
+2020-11-05,Indiana,St. Joseph,Notre Dame,Saint Mary's College,95,yes,196176
+2020-11-05,Indiana,Grant,Upland,Taylor University,29,yes,196176
+2020-11-05,Indiana,Steuben,Angola,Trine University,128,yes,196176
+2020-11-05,Indiana,Vanderburgh,Evansville,University of Evansville,110,yes,196176
+2020-11-05,Indiana,Marion,Indianapolis,University of Indianapolis,175,yes,196176
+2020-11-05,Indiana,St. Joseph,Notre Dame,University of Notre Dame,1208,yes,196176
+2020-11-05,Indiana,Vanderburgh,Evansville,University of Southern Indiana,392,yes,196176
+2020-11-05,Indiana,Porter,Valparaiso,Valparaiso University,50,yes,196176
+2020-11-05,Indiana,Knox,Vincennes,Vincennes University,12,yes,196176
+2020-11-05,Indiana,Montgomery,Crawfordsville,Wabash College,29,yes,196176
+2020-11-05,Iowa,Buena Vista,Storm Lake,Buena Vista University,43,no,130732
+2020-11-05,Iowa,Marion,Pella,Central College,41,no,130732
+2020-11-05,Iowa,Dubuque,Dubuque,Clarke University,79,no,130732
+2020-11-05,Iowa,Linn,Cedar Rapids,Coe College,36,no,130732
+2020-11-05,Iowa,Linn,Mount Vernon,Cornell College,16,no,130732
+2020-11-05,Iowa,Sioux,Sioux Center,Dordt University,28,no,130732
+2020-11-05,Iowa,Polk,Des Moines,Drake University,42,no,130732
+2020-11-05,Iowa,Scott,Davenport,Eastern Iowa Community College District,77,no,130732
+2020-11-05,Iowa,Hardin,Iowa Falls,Ellsworth Community College,59,no,130732
+2020-11-05,Iowa,Decatur,Lamoni,Graceland University,61,no,130732
+2020-11-05,Iowa,Polk,Des Moines,Grand View University,88,no,130732
+2020-11-05,Iowa,Poweshiek,Grinnell,Grinnell College,11,no,130732
+2020-11-05,Iowa,Black Hawk,Waterloo,Hawkeye Community College,148,no,130732
+2020-11-05,Iowa,Story,Ames,Iowa State University,1518,no,130732
+2020-11-05,Iowa,Henry,Mount Pleasant,Iowa Wesleyan University,133,no,130732
+2020-11-05,Iowa,Dubuque,Dubuque,Loras College,,no,130732
+2020-11-05,Iowa,Winneshiek,Decorah,Luther College,7,no,130732
+2020-11-05,Iowa,Marshall,Marshalltown,Marshalltown Community College,11,no,130732
+2020-11-05,Iowa,Woodbury,Sioux City,Morningside College,149,no,130732
+2020-11-05,Iowa,Sioux,Orange City,Northwestern College,78,no,130732
+2020-11-05,Iowa,Scott,Davenport,Saint Ambrose University,31,no,130732
+2020-11-05,Iowa,Warren,Indianola,Simpson College,53,no,130732
+2020-11-05,Iowa,Dubuque,Dubuque,University of Dubuque,50,no,130732
+2020-11-05,Iowa,Johnson,Iowa City,University of Iowa,2330,no,130732
+2020-11-05,Iowa,Black Hawk,Cedar Falls,University of Northern Iowa,261,no,130732
+2020-11-05,Iowa,Fayette,Fayette,Upper Iowa University,73,no,130732
+2020-11-05,Iowa,Bremer,Waverly,Wartburg College,69,no,130732
+2020-11-05,Iowa,Mahaska,Oskaloosa,William Penn University,30,no,130732
+2020-11-05,Kansas,Allen,Iola,Allen County Community College,16,yes,92215
+2020-11-05,Kansas,Douglas,Baldwin City,Baker University,80,yes,92215
+2020-11-05,Kansas,Atchison,Atchison,Benedictine College,125,yes,92215
+2020-11-05,Kansas,Harvey,North Newton,Bethel College,132,yes,92215
+2020-11-05,Kansas,Butler,El Dorado,Butler Community College,108,yes,92215
+2020-11-05,Kansas,McPherson,McPherson,Central Christian College,11,yes,92215
+2020-11-05,Kansas,Ford,Dodge City,Dodge City Community College,13,yes,92215
+2020-11-05,Kansas,Lyon,Emporia,Emporia State University,82,yes,92215
+2020-11-05,Kansas,Ellis,Hays,Fort Hays State University,296,yes,92215
+2020-11-05,Kansas,Douglas,Lawrence,Haskell Indian Nations University,,yes,92215
+2020-11-05,Kansas,Harvey,Hesston,Hesston College,7,yes,92215
+2020-11-05,Kansas,Reno,Hutchinson,Hutchinson Community College,32,yes,92215
+2020-11-05,Kansas,Johnson,Overland Park,Johnson County Community College,103,yes,92215
+2020-11-05,Kansas,Riley,Manhattan,Kansas State University,945,yes,92215
+2020-11-05,Kansas,Saline,Salina,Kansas Wesleyan University,27,yes,92215
+2020-11-05,Kansas,Labette,Parsons,Labette Community College,5,yes,92215
+2020-11-05,Kansas,Sedgwick,Whichita,Newman University,39,yes,92215
+2020-11-05,Kansas,Crawford,Pittsburg,Pittsburg State University,190,yes,92215
+2020-11-05,Kansas,Cowley,Winfield,Southwestern College,59,yes,92215
+2020-11-05,Kansas,Rice,Sterling,Sterling College,9,yes,92215
+2020-11-05,Kansas,Douglas,Lawrence,University of Kansas,1121,yes,92215
+2020-11-05,Kansas,Leavenworth,Leavenworth,University of Saint Mary,4,yes,92215
+2020-11-05,Kansas,Shawnee,Topeka,Washburn University,105,yes,92215
+2020-11-05,Kansas,Sedgwick,Wichita,Wichita State University,87,yes,92215
+2020-11-05,Kentucky,Knott,Pippa Passes,Alice Lloyd College,76,yes,115277
+2020-11-05,Kentucky,Jessamine,Wilmore,Asbury Theological Seminary,5,yes,115277
+2020-11-05,Kentucky,Jessamine,Wilmore,Asbury University,9,yes,115277
+2020-11-05,Kentucky,Boyd,Ashland,Ashland Community and Technical College,5,yes,115277
+2020-11-05,Kentucky,Boone,Florence,Beckfield College,1,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,Bellarmine University,156,yes,115277
+2020-11-05,Kentucky,Madison,Berea,Berea College,7,yes,115277
+2020-11-05,Kentucky,Floyd,Prestonsburg,Big Sandy Community and Technical College,9,yes,115277
+2020-11-05,Kentucky,Fayette,Lexington,Bluegrass Community and Technical College,136,yes,115277
+2020-11-05,Kentucky,Taylor,Campbellsville,Campbellsville University,67,yes,115277
+2020-11-05,Kentucky,Boyle,Danville,Centre College,38,yes,115277
+2020-11-05,Kentucky,Bell,Pineville,Clear Creek Baptist Bible College,3,yes,115277
+2020-11-05,Kentucky,Madison,Richmond,Eastern Kentucky University,281,yes,115277
+2020-11-05,Kentucky,Hardin,Elizabethtown,Elizabethtown Community and Technical College,27,yes,115277
+2020-11-05,Kentucky,Leslie,Hyden,Frontier Nursing University,1,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,Galen College of Nursing-Louisville,8,yes,115277
+2020-11-05,Kentucky,Boone,Florence,Gateway Community and Technical College,10,yes,115277
+2020-11-05,Kentucky,Scott,Georgetown,Georgetown College,150,yes,115277
+2020-11-05,Kentucky,Perry,Hazard,Hazard Community and Technical College,11,yes,115277
+2020-11-05,Kentucky,Henderson,Henderson,Henderson Community College,29,yes,115277
+2020-11-05,Kentucky,Christian,Hopkinsville,Hopkinsville Community College,17,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,Jefferson Community and Technical College,75,yes,115277
+2020-11-05,Kentucky,Carter,Grayson,Kentucky Christian University,1,yes,115277
+2020-11-05,Kentucky,Franklin,Frankfort,Kentucky State University,116,yes,115277
+2020-11-05,Kentucky,Daviess,Owensboro,Kentucky Wesleyan College,25,yes,115277
+2020-11-05,Kentucky,Fayette,Lexington,Lexington Healing Arts Academy,1,yes,115277
+2020-11-05,Kentucky,Fayette,Lexington,Lexington Theological Seminary,1,yes,115277
+2020-11-05,Kentucky,Adair,Columbia,Lindsey Wilson College,58,yes,115277
+2020-11-05,Kentucky,Hopkins,Madisonville,Madisonville Community College,22,yes,115277
+2020-11-05,Kentucky,Mason,Maysville,Maysville Community and Technical College,6,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,MedQuest College,5,yes,115277
+2020-11-05,Kentucky,Woodford,Midway,Midway University,40,yes,115277
+2020-11-05,Kentucky,Rowan,Morehead,Morehead State University,115,yes,115277
+2020-11-05,Kentucky,Calloway,Murray,Murray State University,346,yes,115277
+2020-11-05,Kentucky,Campbell,Highland Heights,Northern Kentucky University,57,yes,115277
+2020-11-05,Kentucky,Daviess,Owensboro,Owensboro Community and Technical College,14,yes,115277
+2020-11-05,Kentucky,Fayette,Lexington,Paul Mitchell the School-Lexington,3,yes,115277
+2020-11-05,Kentucky,Pulaski,Somerset,Somerset Community College,28,yes,115277
+2020-11-05,Kentucky,Warren,Bowling Green,Southcentral Kentucky Community and Technical College,62,yes,115277
+2020-11-05,Kentucky,Harlan,Cumberland,Southeast Kentucky Community and Technical College,9,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,Spalding University,10,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,Sullivan University,8,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,The Southern Baptist Theological Seminary,1,yes,115277
+2020-11-05,Kentucky,Kenton,Crestview Hills,Thomas More University,79,yes,115277
+2020-11-05,Kentucky,Fayette,Lexington,Transylvania University,87,yes,115277
+2020-11-05,Kentucky,Knox,Barbourville,Union College,47,yes,115277
+2020-11-05,Kentucky,Fayette,Lexington,University of Kentucky,2475,yes,115277
+2020-11-05,Kentucky,Jefferson,Louisville,University of Louisville,878,yes,115277
+2020-11-05,Kentucky,Pike,Pikeville,University of Pikeville,115,yes,115277
+2020-11-05,Kentucky,Whitley,Williamsburg,University of the Cumberlands,92,yes,115277
+2020-11-05,Kentucky,McCracken,Paducah,West Kentucky Community and Technical College,27,yes,115277
+2020-11-05,Kentucky,Warren,Bowling Green,Western Kentucky University,836,yes,115277
+2020-11-05,Louisiana,Caddo,Shreveport,Centenary College of Louisiana,41,yes,190845
+2020-11-05,Louisiana,Lincoln,Grambling,Grambling State University,40,yes,190845
+2020-11-05,Louisiana,Rapides,Pineville,Louisiana College,,yes,190845
+2020-11-05,Louisiana,East Baton Rouge,Baton Rouge,Louisiana State University,1248,yes,190845
+2020-11-05,Louisiana,Rapides,Alexandria,Louisiana State University Alexandria,55,yes,190845
+2020-11-05,Louisiana,Orleans,New Orleans,"Louisiana State University Health Sciences Center, New Orleans",283,yes,190845
+2020-11-05,Louisiana,Caddo,Shreveport,"Louisiana State University Health Sciences Center, Shreveport",1,yes,190845
+2020-11-05,Louisiana,Caddo,Shreveport,"Louisiana State University, Shreveport",39,yes,190845
+2020-11-05,Louisiana,Lincoln,Ruston,Louisiana Tech University,434,yes,190845
+2020-11-05,Louisiana,Orleans,New Orleans,Loyola University New Orleans,90,yes,190845
+2020-11-05,Louisiana,Calcasieu,Lake Charles,McNeese State University,,yes,190845
+2020-11-05,Louisiana,Lafourche,Thibodaux,Nicholls State University,149,yes,190845
+2020-11-05,Louisiana,Natchitoches,Natchitoches,Northwestern State University of Louisiana,310,yes,190845
+2020-11-05,Louisiana,Tangipahoa,Hammond,Southeastern Louisiana University,176,yes,190845
+2020-11-05,Louisiana,East Baton Rouge,Baton Rouge,Southern University Law Center,8,yes,190845
+2020-11-05,Louisiana,East Baton Rouge,Baton Rouge,Southern University and A&M College,148,yes,190845
+2020-11-05,Louisiana,Orleans,New Orleans,Southern University at New Orleans,15,yes,190845
+2020-11-05,Louisiana,Orleans,New Orleans,Tulane University of Louisiana,887,yes,190845
+2020-11-05,Louisiana,Ouachita,Monroe,University of Louisiana Monroe,212,yes,190845
+2020-11-05,Louisiana,Lafayette,Lafeyette,University of Louisiana at Lafayette,308,yes,190845
+2020-11-05,Louisiana,Orleans,New Orleans,University of New Orleans,49,yes,190845
+2020-11-05,Maine,Androscoggin,Lewiston,Bates College,7,yes,7260
+2020-11-05,Maine,Cumberland,Brunswick,Bowdoin College,3,yes,7260
+2020-11-05,Maine,Kennebec,Waterville,Colby College,14,yes,7260
+2020-11-05,Maine,Penobscot,Bangor,Husson University,3,yes,7260
+2020-11-05,Maine,Hancock,Castine,Maine Maritime Academy,4,yes,7260
+2020-11-05,Maine,Cumberland,Standish,Saint Joseph's College of Maine,11,yes,7260
+2020-11-05,Maine,Kennebec,Waterville,Thomas College,0,yes,7260
+2020-11-05,Maine,Penobscot,Orono,University of Maine,26,yes,7260
+2020-11-05,Maine,Franklin,Farmington,University of Maine Farmington,6,yes,7260
+2020-11-05,Maine,Kennebec,Augusta,University of Maine at Augusta,7,yes,7260
+2020-11-05,Maine,Aroostook,Fort Kent,University of Maine at Fort Kent,2,yes,7260
+2020-11-05,Maine,Washington,Machias,University of Maine at Machias,0,yes,7260
+2020-11-05,Maine,Aroostook,Presque Isle,University of Maine at Presque Isle,0,yes,7260
+2020-11-05,Maine,York,Biddeford,University of New England,23,yes,7260
+2020-11-05,Maine,Cumberland,Portland,University of Southern Maine,14,yes,7260
+2020-11-05,Maryland,Prince George's,Bowie,Bowie State University,47,yes,149964
+2020-11-05,Maryland,Baltimore city,Baltimore,Coppin State University,8,yes,149964
+2020-11-05,Maryland,Allegany,Frostburg,Frostburg State University,98,yes,149964
+2020-11-05,Maryland,Baltimore City,Baltimore,Goucher College,0,yes,149964
+2020-11-05,Maryland,Frederick,Frederick,Hood College,22,yes,149964
+2020-11-05,Maryland,Baltimore City,Baltimore,Johns Hopkins University,477,yes,149964
+2020-11-05,Maryland,Baltimore,Baltimore,Loyola University Maryland,,yes,149964
+2020-11-05,Maryland,Carroll,Westminster,McDaniel College,18,yes,149964
+2020-11-05,Maryland,Baltimore city,Baltimore,Morgan State University,17,yes,149964
+2020-11-05,Maryland,Frederick,Emmitsburg,Mount St. Mary's University,24,yes,149964
+2020-11-05,Maryland,Baltimore City,Baltimore,Notre Dame of Maryland University,9,yes,149964
+2020-11-05,Maryland,Wicomico,Salisbury,Salisbury University,454,yes,149964
+2020-11-05,Maryland,St. Mary's,St. Mary's City,St. Mary's College of Maryland,24,yes,149964
+2020-11-05,Maryland,Baltimore,Stevenson,Stevenson University,53,yes,149964
+2020-11-05,Maryland,Baltimore,Towson,Towson University,491,yes,149964
+2020-11-05,Maryland,Anne Arundel,Annapolis,United States Naval Academy,8,yes,149964
+2020-11-05,Maryland,Baltimore,Baltimore,University of Baltimore,1,yes,149964
+2020-11-05,Maryland,Somerset,Princess Anne,University of Maryland Eastern Shore,37,yes,149964
+2020-11-05,Maryland,Baltimore,Baltimore,"University of Maryland, Baltimore",1,yes,149964
+2020-11-05,Maryland,Baltimore,Catonsville,"University of Maryland, Baltimore County",41,yes,149964
+2020-11-05,Maryland,Prince George's,College Park,"University of Maryland, College Park",826,yes,149964
+2020-11-05,Maryland,Kent,Chestertown,Washington College,15,yes,149964
+2020-11-05,Massachusetts,Hampden,Springfield,American International College,9,yes,165161
+2020-11-05,Massachusetts,Hampshire,Amherst,Amherst College,5,yes,165161
+2020-11-05,Massachusetts,Worcester,Paxton,Anna Maria College,15,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,Assumption College,22,yes,165161
+2020-11-05,Massachusetts,Norfolk,Wellesley,Babson College,16,yes,165161
+2020-11-05,Massachusetts,Hampden,Longmeadow,Bay Path University,3,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,Becker College,0,yes,165161
+2020-11-05,Massachusetts,Middlesex,Waltham,Bentley University,64,yes,165161
+2020-11-05,Massachusetts,Middlesex,Chestnut Hill,Boston College,255,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Boston University,252,yes,165161
+2020-11-05,Massachusetts,Middlesex,Waltham,Brandeis University,21,yes,165161
+2020-11-05,Massachusetts,Plymouth,Bridgewater,Bridgewater State University,18,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,Clark University,13,yes,165161
+2020-11-05,Massachusetts,Hampden,Chicopee,College of Our Lady of the Elms,3,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,College of the Holy Cross,21,yes,165161
+2020-11-05,Massachusetts,Norfolk,Milton,Curry College,46,yes,165161
+2020-11-05,Massachusetts,Norfolk,Franklin,Dean College,,yes,165161
+2020-11-05,Massachusetts,Norfolk,Quincy,Eastern Nazarene College,9,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Emerson College,31,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Emmanuel College,4,yes,165161
+2020-11-05,Massachusetts,Essex,Beverly,Endicott College,17,yes,165161
+2020-11-05,Massachusetts,Worcester,Fitchburg,Fitchburg State University,15,yes,165161
+2020-11-05,Massachusetts,Middlesex,Framingham,Framingham State University,22,yes,165161
+2020-11-05,Massachusetts,Norfolk,Needham,Franklin W Olin College of Engineering,2,yes,165161
+2020-11-05,Massachusetts,Essex,Wenham,Gordon College,6,yes,165161
+2020-11-05,Massachusetts,Hampshire,Amherst,Hampshire College,0,yes,165161
+2020-11-05,Massachusetts,Middlesex,Cambridge,Harvard University,105,yes,165161
+2020-11-05,Massachusetts,Middlesex,Newton Centre,Hebrew College,1,yes,165161
+2020-11-05,Massachusetts,Middlesex,Newton,Lasell University,7,yes,165161
+2020-11-05,Massachusetts,Middlesex,Cambridge,Lesley University,0,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Massachusetts College of Art and Design,0,yes,165161
+2020-11-05,Massachusetts,Berkshire,North Adams,Massachusetts College of Liberal Arts,4,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Massachusetts College of Pharmacy and Health Sciences,25,yes,165161
+2020-11-05,Massachusetts,Middlesex,Cambridge,Massachusetts Institute of Technology,58,yes,165161
+2020-11-05,Massachusetts,Barnstable,Buzzards Bay,Massachusetts Maritime Academy,1,yes,165161
+2020-11-05,Massachusetts,Essex,North Andover,Merrimack College,141,yes,165161
+2020-11-05,Massachusetts,Hampshire,South Hadley,Mount Holyoke College,3,yes,165161
+2020-11-05,Massachusetts,Worcester,Dudley,Nichols College,9,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Northeastern University,172,yes,165161
+2020-11-05,Massachusetts,Suffolk,Chestnut Hill,Pine Manor College,,yes,165161
+2020-11-05,Massachusetts,Middlesex,Weston,Regis College,2,yes,165161
+2020-11-05,Massachusetts,Essex,Salem,Salem State University,5,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Simmons University,3,yes,165161
+2020-11-05,Massachusetts,Hampshire,Northampton,Smith College,2,yes,165161
+2020-11-05,Massachusetts,Hampden,Springfield,Springfield College,15,yes,165161
+2020-11-05,Massachusetts,Bristol,Easton,Stonehill College,17,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Suffolk University,38,yes,165161
+2020-11-05,Massachusetts,Middlesex,Medford,Tufts University,50,yes,165161
+2020-11-05,Massachusetts,Hampshire,Amherst,University of Massachusetts Amherst,180,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,University of Massachusetts Boston,27,yes,165161
+2020-11-05,Massachusetts,Bristol,Dartmouth,University of Massachusetts Dartmouth,47,yes,165161
+2020-11-05,Massachusetts,Middlesex,Lowell,University of Massachusetts Lowell,2,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,University of Massachusetts Medical School,16,yes,165161
+2020-11-05,Massachusetts,Norfolk,Wellesley,Wellesley College,4,yes,165161
+2020-11-05,Massachusetts,Suffolk,Boston,Wentworth Institute of Technology,24,yes,165161
+2020-11-05,Massachusetts,Hampden,Springfield,Western New England University,13,yes,165161
+2020-11-05,Massachusetts,Hampden,Westfield,Westfield State University,5,yes,165161
+2020-11-05,Massachusetts,Bristol,Norton,Wheaton College,4,yes,165161
+2020-11-05,Massachusetts,Berkshire,Williamstown,Williams College,6,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,Worcester Polytechnic Institute,19,yes,165161
+2020-11-05,Massachusetts,Worcester,Worcester,Worcester State University,27,yes,165161
+2020-11-05,Michigan,Lenawee,Adrian,Adrian College,288,yes,218263
+2020-11-05,Michigan,Calhoun,Albion,Albion College,41,yes,218263
+2020-11-05,Michigan,Gratiot,Alma,Alma College,66,yes,218263
+2020-11-05,Michigan,Alpena,Alpena,Alpena Community College,4,yes,218263
+2020-11-05,Michigan,Berrien,Berrien Springs,Andrews University,31,yes,218263
+2020-11-05,Michigan,Kent,Grand Rapids,Aquinas College,33,yes,218263
+2020-11-05,Michigan,Delta,Escanaba,Bay College,14,yes,218263
+2020-11-05,Michigan,Chippewa,Brimley,Bay Mills Community College,1,yes,218263
+2020-11-05,Michigan,Kent,Grand Rapids,Calvin University,72,yes,218263
+2020-11-05,Michigan,Isabella,Mount Pleasant,Central Michigan University,405,yes,218263
+2020-11-05,Michigan,Livingston,Howell,Cleary University,4,yes,218263
+2020-11-05,Michigan,Washtenaw,Ann Arbor,Concordia University Ann Arbor,4,yes,218263
+2020-11-05,Michigan,Kent,Grand Rapids,Cornerstone University,8,yes,218263
+2020-11-05,Michigan,Kent,Grand Rapids,Davenport University,7,yes,218263
+2020-11-05,Michigan,Washtenaw,Ypsilanti,Eastern Michigan University,169,yes,218263
+2020-11-05,Michigan,Mecosta,Big Rapids,Ferris State University,352,yes,218263
+2020-11-05,Michigan,Houghton,Hancock,Finlandia University,31,yes,218263
+2020-11-05,Michigan,Kent,Grand Rapids,Grand Rapids Community College,59,yes,218263
+2020-11-05,Michigan,Ottawa,Allendale,Grand Valley State University,1153,yes,218263
+2020-11-05,Michigan,Wayne,Dearborn,Henry Ford College,6,yes,218263
+2020-11-05,Michigan,Hillsdale,Hillsdale,Hillsdale College,,yes,218263
+2020-11-05,Michigan,Ottawa,Holland,Hope College,59,yes,218263
+2020-11-05,Michigan,Jackson,Jackson,Jackson College,1,yes,218263
+2020-11-05,Michigan,Kalamazoo,Kalamazoo,Kalamazoo College,40,yes,218263
+2020-11-05,Michigan,Genesee,Flint,Kettering University,4,yes,218263
+2020-11-05,Michigan,Kent,Grand Rapids,Kuyper College,6,yes,218263
+2020-11-05,Michigan,Berrien,Benton Harbor,Lake Michigan College,3,yes,218263
+2020-11-05,Michigan,Chippewa,Sault Ste. Marie,Lake Superior State University,15,yes,218263
+2020-11-05,Michigan,Oakland,Southfield,Lawrence Technological University,33,yes,218263
+2020-11-05,Michigan,Wayne,Livonia,Madonna University,14,yes,218263
+2020-11-05,Michigan,Ingham,East Lansing,Michigan State University,1813,yes,218263
+2020-11-05,Michigan,Houghton,Houghton,Michigan Technological University,225,yes,218263
+2020-11-05,Michigan,Genesee,Flint,Mott Community College,3,yes,218263
+2020-11-05,Michigan,Marquette,Marquette,Northern Michigan University,135,yes,218263
+2020-11-05,Michigan,Grand Traverse,Traverse City,Northwestern Michigan College,6,yes,218263
+2020-11-05,Michigan,Midland,Midland,Northwood University,87,yes,218263
+2020-11-05,Michigan,Oakland,Rochester,Oakland University,112,yes,218263
+2020-11-05,Michigan,Eaton,Olivet,Olivet College,63,yes,218263
+2020-11-05,Michigan,Bay,University Center,Saginaw Valley State University,141,yes,218263
+2020-11-05,Michigan,Wayne,Livonia,Schoolcraft College,13,yes,218263
+2020-11-05,Michigan,Lenawee,Adrian,Siena Heights University,17,yes,218263
+2020-11-05,Michigan,Jackson,Spring Arbor,Spring Arbor University,59,yes,218263
+2020-11-05,Michigan,Wayne,Detroit,University of Detroit Mercy,69,yes,218263
+2020-11-05,Michigan,Washtenaw,Ann Arbor,University of Michigan,2058,yes,218263
+2020-11-05,Michigan,Wayne,Dearborn,University of Michigan-Dearborn,10,yes,218263
+2020-11-05,Michigan,Genesee,Flint,University of Michigan-Flint,13,yes,218263
+2020-11-05,Michigan,Washtenaw,Ann Arbor,Washtenaw Community College,2,yes,218263
+2020-11-05,Michigan,Wayne,Detroit,Wayne State University,147,yes,218263
+2020-11-05,Michigan,Kalamazoo,Kalamazoo,Western Michigan University,837,yes,218263
+2020-11-05,Minnesota,Douglas,Alexandria,Alexandria Technical & Community College,22,yes,164865
+2020-11-05,Minnesota,Anoka,Anoka,Anoka Technical College,12,yes,164865
+2020-11-05,Minnesota,Anoka,Coon Rapids,Anoka-Ramsey Community College,31,yes,164865
+2020-11-05,Minnesota,Hennepin,Minneapolis,Augsburg University,50,yes,164865
+2020-11-05,Minnesota,Beltrami,Bemidji,Bemidji State University,139,yes,164865
+2020-11-05,Minnesota,Blue Earth,Mankato,Bethany Lutheran College,27,yes,164865
+2020-11-05,Minnesota,Ramsey,Saint Paul,Bethel University,118,yes,164865
+2020-11-05,Minnesota,Rice,Northfield,Carleton College,16,yes,164865
+2020-11-05,Minnesota,Crow Wing,Brainerd,Central Lakes College-Brainerd,14,yes,164865
+2020-11-05,Minnesota,Wadena,Staples,Central Lakes College-Staples,3,yes,164865
+2020-11-05,Minnesota,Ramsey,White Bear Lake,Century College,39,yes,164865
+2020-11-05,Minnesota,Stearns,St. Joseph,College of Saint Benedict,,yes,164865
+2020-11-05,Minnesota,Clay,Moorhead,Concordia College at Moorhead,185,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,"Concordia University, St. Paul",31,yes,164865
+2020-11-05,Minnesota,Hennepin,Saint Bonifacius,Crown College,7,yes,164865
+2020-11-05,Minnesota,Dakota,Rosemount,Dakota County Technical College,13,yes,164865
+2020-11-05,Minnesota,Carlton,Cloquet,Fond du Lac Tribal and Community College,3,yes,164865
+2020-11-05,Minnesota,Nicollet,Saint Peter,Gustavus Adolphus College,42,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,Hamline University,33,yes,164865
+2020-11-05,Minnesota,Hennepin,Brooklyn Park,Hennepin Technical College,27,yes,164865
+2020-11-05,Minnesota,St. Louis,Hibbing,Hibbing Community College,12,yes,164865
+2020-11-05,Minnesota,Dakota,Inver Grove Heights,Inver Hills Community College,12,yes,164865
+2020-11-05,Minnesota,Itasca,Grand Rapids,Itasca Community College,10,yes,164865
+2020-11-05,Minnesota,St. Louis,Duluth,Lake Superior College,46,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,Macalester College,14,yes,164865
+2020-11-05,Minnesota,Brown,New Ulm,Martin Luther College,34,yes,164865
+2020-11-05,Minnesota,St. Louis,Eveleth,Mesabi Range College,11,yes,164865
+2020-11-05,Minnesota,St. Louis,Virginia,Mesabi Range College,0,yes,164865
+2020-11-05,Minnesota,Ramsey,Saint Paul,Metropolitan State University,44,yes,164865
+2020-11-05,Minnesota,Hennepin,Minneapolis,Minneapolis Community and Technical College,30,yes,164865
+2020-11-05,Minnesota,Winona,Winona,Minnesota State College Southeast,18,yes,164865
+2020-11-05,Minnesota,Otter Tail,Fergus Falls,Minnesota State Community and Technical College,90,yes,164865
+2020-11-05,Minnesota,Clay,Moorhead,Minnesota State University Moorhead,167,yes,164865
+2020-11-05,Minnesota,Blue Earth,Mankato,"Minnesota State University, Mankato",302,yes,164865
+2020-11-05,Minnesota,Yellow Medicine,Granite Falls,Minnesota West Community and Technical College,30,yes,164865
+2020-11-05,Minnesota,Hennepin,Bloomington,Normandale Community College,19,yes,164865
+2020-11-05,Minnesota,Hennepin,Minneapolis,North Central University,,yes,164865
+2020-11-05,Minnesota,Hennepin,Brooklyn Park,North Hennepin Community College,18,yes,164865
+2020-11-05,Minnesota,Pennington,Thief River Falls,Northland Community and Technical College,28,yes,164865
+2020-11-05,Minnesota,Beltrami,Bemidji,Northwest Technical College,7,yes,164865
+2020-11-05,Minnesota,Pine,Pine City,Pine Technical & Community College,7,yes,164865
+2020-11-05,Minnesota,Kandiyohi,Willmar,Ridgewater College,27,yes,164865
+2020-11-05,Minnesota,Mower,Austin,Riverland Community College,24,yes,164865
+2020-11-05,Minnesota,Olmsted,Rochester,Rochester Community and Technical College,62,yes,164865
+2020-11-05,Minnesota,Stearns,Collegeville,Saint John's University,,yes,164865
+2020-11-05,Minnesota,Winona,Winona,Saint Mary's University of Minnesota,36,yes,164865
+2020-11-05,Minnesota,Nicollet,North Mankato,South Central College,5,yes,164865
+2020-11-05,Minnesota,Lyon,Marshall,Southwest Minnesota State University,83,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,St. Catherine University,71,yes,164865
+2020-11-05,Minnesota,Stearns,St. Cloud,St. Cloud State University,162,yes,164865
+2020-11-05,Minnesota,Stearns,St. Cloud,St. Cloud Technical and Community College,23,yes,164865
+2020-11-05,Minnesota,Rice,Northfield,St. Olaf College,45,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,St. Paul College,17,yes,164865
+2020-11-05,Minnesota,St. Louis,Duluth,The College of Saint Scholastica,,yes,164865
+2020-11-05,Minnesota,Polk,Crookston,University of Minnesota Crookston,2,yes,164865
+2020-11-05,Minnesota,St. Louis,Duluth,University of Minnesota Duluth,310,yes,164865
+2020-11-05,Minnesota,Stevens,Morris,University of Minnesota Morris,12,yes,164865
+2020-11-05,Minnesota,Olmsted,Rochester,University of Minnesota Rochester,5,yes,164865
+2020-11-05,Minnesota,Hennepin,Minneapolis,University of Minnesota Twin Cities,416,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,"University of Northwestern, St. Paul",20,yes,164865
+2020-11-05,Minnesota,Ramsey,St. Paul,University of St. Thomas,288,yes,164865
+2020-11-05,Minnesota,St. Louis,Ely,Vermilion Community College,0,yes,164865
+2020-11-05,Minnesota,Winona,Winona,Winona State University,474,yes,164865
+2020-11-05,Mississippi,Jefferson,Lorman,Alcorn State University,112,yes,123887
+2020-11-05,Mississippi,Hinds,Jackson,Belhaven University,33,yes,123887
+2020-11-05,Mississippi,Bolivar,Cleveland,Delta State University,141,yes,123887
+2020-11-05,Mississippi,Hinds,Jackson,Jackson State University,24,yes,123887
+2020-11-05,Mississippi,Hinds,Jackson,Millsaps College,47,yes,123887
+2020-11-05,Mississippi,Hinds,Clinton,Mississippi College,43,yes,123887
+2020-11-05,Mississippi,Sunflower,Moorhead,Mississippi Delta Community College,52,yes,123887
+2020-11-05,Mississippi,Oktibbeha,Mississippi State,Mississippi State University,607,yes,123887
+2020-11-05,Mississippi,Lowndes,Columbus,Mississippi University for Women,35,yes,123887
+2020-11-05,Mississippi,Leflore,Itta Bena,Mississippi Valley State University,113,yes,123887
+2020-11-05,Mississippi,Prentiss,Booneville,Northeast Mississippi Community College,60,yes,123887
+2020-11-05,Mississippi,Marshall,Holly Springs,Rust College,1,yes,123887
+2020-11-05,Mississippi,Lafayette,Oxford,University of Mississippi,781,yes,123887
+2020-11-05,Mississippi,Hinds,Jackson,University of Mississippi Medical Center,539,yes,123887
+2020-11-05,Mississippi,Forrest,Hattiesburg,University of Southern Mississippi,387,yes,123887
+2020-11-05,Missouri,Howard,Fayette,Central Methodist University,259,no,196576
+2020-11-05,Missouri,Taney,Point Lookout,College of the Ozarks,2,no,196576
+2020-11-05,Missouri,Newton,Neosho,Crowder College,100,no,196576
+2020-11-05,Missouri,Greene,Springfield,Drury University,163,no,196576
+2020-11-05,Missouri,Greene,Springfield,Evangel University,153,no,196576
+2020-11-05,Missouri,City of St. Louis,Saint Louis,Fontbonne University,17,no,196576
+2020-11-05,Missouri,Jackson,Independence,Graceland University at Independence,3,no,196576
+2020-11-05,Missouri,City of St. Louis,St. Louis,Harris-Stowe State University,29,no,196576
+2020-11-05,Missouri,Kansas City,Kansas City,Kansas City Art Institute,6,no,196576
+2020-11-05,Missouri,Cole,Jefferson City,Lincoln University of Missouri,8,no,196576
+2020-11-05,Missouri,St. Charles,St. Charles,Lindenwood University,156,no,196576
+2020-11-05,Missouri,St. Louis,St. Louis,Maryville University Saint Louis,108,no,196576
+2020-11-05,Missouri,St. Louis,St. Louis,Missouri Baptist University,65,no,196576
+2020-11-05,Missouri,Joplin,Joplin,Missouri Southern State University,211,no,196576
+2020-11-05,Missouri,Greene,Springfield,Missouri State University,1305,no,196576
+2020-11-05,Missouri,Phelps,Rolla,Missouri University of Science and Technology,185,no,196576
+2020-11-05,Missouri,Buchanan,St. Joseph,Missouri Western State University,24,no,196576
+2020-11-05,Missouri,Nodaway,Maryville,Northwest Missouri State University,567,no,196576
+2020-11-05,Missouri,Greene,Springfield,Ozarks Technical Community College,379,no,196576
+2020-11-05,Missouri,Kansas City,Kansas City,Rockhurst University,30,no,196576
+2020-11-05,Missouri,City of St. Louis,St. Louis,Saint Louis University,266,no,196576
+2020-11-05,Missouri,Cape Girardeau,Cape Girardeau,Southeast Missouri State University,405,no,196576
+2020-11-05,Missouri,Polk,Bolivar,Southwest Baptist University,148,no,196576
+2020-11-05,Missouri,City of St. Louis,St. Louis,St. Louis College of Pharmacy,23,no,196576
+2020-11-05,Missouri,St. Louis,St. Louis,St. Louis Community College,47,no,196576
+2020-11-05,Missouri,Pettis,Sedalia,State Fair Community College,111,no,196576
+2020-11-05,Missouri,Boone,Columbia,Stephens College,20,no,196576
+2020-11-05,Missouri,Adair,Kirksville,Truman State University,171,no,196576
+2020-11-05,Missouri,Johnson,Warrensburg,University of Central Missouri,619,no,196576
+2020-11-05,Missouri,Boone,Columbia,University of Missouri,2101,no,196576
+2020-11-05,Missouri,Kansas City,Kansas City,University of Missouri-Kansas City,215,no,196576
+2020-11-05,Missouri,St. Louis County,Bellerive Acres,University of Missouri-St. Louis,158,no,196576
+2020-11-05,Missouri,St. Louis County,St. Louis,Washington University in St. Louis,109,no,196576
+2020-11-05,Missouri,City of St. Louis,Saint Louis,Webster University,19,no,196576
+2020-11-05,Missouri,Callaway,Fulton,Westminster College,75,no,196576
+2020-11-05,Missouri,Clay,Liberty,William Jewell College,25,no,196576
+2020-11-05,Missouri,Callaway,Fulton,William Woods University,37,no,196576
+2020-11-05,Montana,Lewis and Clark,Helena,Carroll College,47,yes,36968
+2020-11-05,Montana,Flathead,Kalispell,Flathead Valley Community College,2,yes,36968
+2020-11-05,Montana,Cascade,Great Falls,Great Falls College Montana State University,3,yes,36968
+2020-11-05,Montana,Lewis and Clark,Helena,Helena College,2,yes,36968
+2020-11-05,Montana,Gallatin,Bozeman,Montana State University,513,yes,36968
+2020-11-05,Montana,Yellowstone,Billings,Montana State University Billings,38,yes,36968
+2020-11-05,Montana,Hill,Havre,Montana State University Northern,29,yes,36968
+2020-11-05,Montana,Silver Bow,Butte,Montana Technological University,99,yes,36968
+2020-11-05,Montana,Yellowstone,Billings,Rocky Mountain College,15,yes,36968
+2020-11-05,Montana,Lake,Pablo,Salish Kootenai College,,yes,36968
+2020-11-05,Montana,Hill,Box Elder,Stone Child College,,yes,36968
+2020-11-05,Montana,Missoula,Missoula,University of Montana,332,yes,36968
+2020-11-05,Montana,Beaverhead,Dillon,University of Montana Western,75,yes,36968
+2020-11-05,Nebraska,Dawes,Chadron,Chadron State College,73,no,75888
+2020-11-05,Nebraska,Seward,Seward,"Concordia University, Nebraska",108,no,75888
+2020-11-05,Nebraska,Douglas,Omaha,Creighton University,481,no,75888
+2020-11-05,Nebraska,Saline,Crete,Doane University,119,no,75888
+2020-11-05,Nebraska,Adams,Hastings,Hastings College,45,no,75888
+2020-11-05,Nebraska,Dodge,Fremont,Midland University,139,no,75888
+2020-11-05,Nebraska,Lancaster,Lincoln,Nebraska Wesleyan University,258,no,75888
+2020-11-05,Nebraska,Nemaha,Peru,Peru State College,111,no,75888
+2020-11-05,Nebraska,Douglas,Omaha,University of Nebraska Medical Center,20,no,75888
+2020-11-05,Nebraska,Buffalo,Kearney,University of Nebraska at Kearney,224,no,75888
+2020-11-05,Nebraska,Douglas,Omaha,University of Nebraska at Omaha,270,no,75888
+2020-11-05,Nebraska,Lancaster,Lincoln,University of Nebraska-Lincoln,1203,no,75888
+2020-11-05,Nebraska,Wayne,Wayne,Wayne State College,185,no,75888
+2020-11-05,Nevada,Clark,Las Vegas,College of Southern Nevada,97,yes,105360
+2020-11-05,Nevada,Elko,Elko,Great Basin College,3,yes,105360
+2020-11-05,Nevada,Clark,Henderson,Nevada State College,16,yes,105360
+2020-11-05,Nevada,Washoe,Reno,Truckee Meadows Community College,25,yes,105360
+2020-11-05,Nevada,Clark,Las Vegas,"University of Nevada, Las Vegas",325,yes,105360
+2020-11-05,Nevada,Washoe,Reno,"University of Nevada, Reno",800,yes,105360
+2020-11-05,Nevada,Carson City,Carson City,Western Nevada College,14,yes,105360
+2020-11-05,New Hampshire,Merrimack,New London,Colby-Sawyer College,2,yes,11808
+2020-11-05,New Hampshire,Grafton,Hanover,Dartmouth College,23,yes,11808
+2020-11-05,New Hampshire,Cheshire,Rindge,Franklin Pierce University,22,yes,11808
+2020-11-05,New Hampshire,Merrimack,Concord,Granite State College,0,yes,11808
+2020-11-05,New Hampshire,Rockingham,Portsmouth,Great Bay Community College,1,yes,11808
+2020-11-05,New Hampshire,Cheshire,Keene,Keene State College,13,yes,11808
+2020-11-05,New Hampshire,Belknap,Laconia,Lakes Region Community College,2,yes,11808
+2020-11-05,New Hampshire,Merrimack,Concord,NHTI-Concord's Community College,1,yes,11808
+2020-11-05,New Hampshire,Hillsborough,Nashua,Nashua Community College,2,yes,11808
+2020-11-05,New Hampshire,Merrimack,Henniker,New England College,19,yes,11808
+2020-11-05,New Hampshire,Grafton,Plymouth,Plymouth State University,26,yes,11808
+2020-11-05,New Hampshire,Hillsborough,Nashua,Rivier University,8,yes,11808
+2020-11-05,New Hampshire,Hillsborough,Manchester,Saint Anselm College,24,yes,11808
+2020-11-05,New Hampshire,Hillsborough,Manchester,Southern New Hampshire University,0,yes,11808
+2020-11-05,New Hampshire,Strafford,Durham,University of New Hampshire,275,yes,11808
+2020-11-05,New Jersey,Essex,Bloomfield,Bloomfield College,15,yes,247219
+2020-11-05,New Jersey,Essex,Caldwell,Caldwell University,1,yes,247219
+2020-11-05,New Jersey,Warren,Hackettstown,Centenary University,1,yes,247219
+2020-11-05,New Jersey,Morris,Morristown,College of Saint Elizabeth,5,yes,247219
+2020-11-05,New Jersey,Morris,Madison,Drew University,1,yes,247219
+2020-11-05,New Jersey,Bergen,Teaneck,Fairleigh Dickinson University,9,yes,247219
+2020-11-05,New Jersey,Morris,Madison,Fairleigh Dickinson University Florham,7,yes,247219
+2020-11-05,New Jersey,Bergen,Lodi,Felician University,1,yes,247219
+2020-11-05,New Jersey,Ocean,Lakewood,Georgian Court University,25,yes,247219
+2020-11-05,New Jersey,Union,Union,Kean University,28,yes,247219
+2020-11-05,New Jersey,Monmouth,West Long Branch,Monmouth University,390,yes,247219
+2020-11-05,New Jersey,Essex,Montclair,Montclair State University,83,yes,247219
+2020-11-05,New Jersey,Hudson,Jersey City,New Jersey City University,2,yes,247219
+2020-11-05,New Jersey,Essex,Newark,New Jersey Institute of Technology,18,yes,247219
+2020-11-05,New Jersey,Mercer,Princeton,Princeton University,88,yes,247219
+2020-11-05,New Jersey,Bergen,Mahwah,Ramapo College of New Jersey,21,yes,247219
+2020-11-05,New Jersey,Mercer,Lawrenceville,Rider University,19,yes,247219
+2020-11-05,New Jersey,Gloucester,Glassboro,Rowan University,673,yes,247219
+2020-11-05,New Jersey,Middlesex,New Brunswick,Rutgers University,396,yes,247219
+2020-11-05,New Jersey,Hudson,Jersey City,Saint Peter's University,6,yes,247219
+2020-11-05,New Jersey,Essex,South Orange,Seton Hall University,48,yes,247219
+2020-11-05,New Jersey,Hudson,Hoboken,Stevens Institute of Technology,36,yes,247219
+2020-11-05,New Jersey,Atlantic,Galloway,Stockton University,143,yes,247219
+2020-11-05,New Jersey,Mercer,Ewing,The College of New Jersey,3,yes,247219
+2020-11-05,New Jersey,Mercer,Trenton,Thomas Edison State University,,yes,247219
+2020-11-05,New Jersey,Passaic,Wayne,William Paterson University,23,yes,247219
+2020-11-05,New Mexico,Roosevelt,Portales,Eastern New Mexico University,24,yes,50251
+2020-11-05,New Mexico,Santa Fe,Santa Fe,Institute of American Indian Arts,0,yes,50251
+2020-11-05,New Mexico,McKinley,Crownpoint,Navajo Technical University,1,yes,50251
+2020-11-05,New Mexico,San Miguel,Las Vegas,New Mexico Highlands University,10,yes,50251
+2020-11-05,New Mexico,Socorro,Socorro,New Mexico Institute of Mining and Technology,6,yes,50251
+2020-11-05,New Mexico,Chaves,Roswell,New Mexico Military Institute,8,yes,50251
+2020-11-05,New Mexico,Doña Ana,Las Cruces,New Mexico State University,226,yes,50251
+2020-11-05,New Mexico,Rio Arriba,Española,Northern New Mexico College,0,yes,50251
+2020-11-05,New Mexico,San Juan,Farmington,San Juan College,10,yes,50251
+2020-11-05,New Mexico,Santa Fe,Santa Fe,Santa Fe Community College,7,yes,50251
+2020-11-05,New Mexico,Bernalillo,Albuquerque,University of New Mexico,136,yes,50251
+2020-11-05,New Mexico,Grant,Silver City,Western New Mexico University,37,yes,50251
+2020-11-05,New York,Nassau,Garden City,Adelphi University,31,yes,518812
+2020-11-05,New York,Warren,Queensbury,Adirondack Community College,3,yes,518812
+2020-11-05,New York,Albany,Albany,Albany College of Pharmacy and Health Sciences,1,yes,518812
+2020-11-05,New York,Albany,Albany,Albany Medical College,1,yes,518812
+2020-11-05,New York,Allegany,Alfred,Alfred University,18,yes,518812
+2020-11-05,New York,Dutchess,Annadale-on-Hudson,Bard College,1,yes,518812
+2020-11-05,New York,New York City,New York City,Barnard College,2,yes,518812
+2020-11-05,New York,Onondaga,Syracuse,Bryant & Stratton College,3,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Baruch College,32,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Borough of Manhattan Community College,22,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Bronx Community College,12,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Brooklyn College,25,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY City College of New York,24,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY College of Staten Island,7,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Guttman Community College,1,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Hostos Community College,1,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Hunter College,58,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY John Jay College of Criminal Justice,6,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Kingsborough Community College,8,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY LaGuardia Community College,37,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Lehman College,8,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Medgar Evers College,2,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY New York City College of Technology,10,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Queens College,19,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY Queensborough Community College,6,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY School of Law,0,yes,518812
+2020-11-05,New York,New York City,New York City,CUNY York College,35,yes,518812
+2020-11-05,New York,Erie,Buffalo,Canisius College,50,yes,518812
+2020-11-05,New York,Madison,Cazenovia,Cazenovia College,4,yes,518812
+2020-11-05,New York,St. Lawrence,Potsdam,Clarkson University,8,yes,518812
+2020-11-05,New York,Clinton,Plattsburgh,Clinton Community College,1,yes,518812
+2020-11-05,New York,Madison,Hamilton,Colgate University,51,yes,518812
+2020-11-05,New York,New York City,New York City,College of Mount Saint Vincent,8,yes,518812
+2020-11-05,New York,New York City,New York City,Columbia University,98,yes,518812
+2020-11-05,New York,Columbia,Hudson,Columbia-Greene Community College,3,yes,518812
+2020-11-05,New York,Westchester,Bronxville,Concordia College New York,11,yes,518812
+2020-11-05,New York,Tompkins,Ithaca,Cornell University,185,yes,518812
+2020-11-05,New York,Erie,Buffalo,D'Youville College,20,yes,518812
+2020-11-05,New York,Erie,Amherst,Daemen College,15,yes,518812
+2020-11-05,New York,Rockland,Orangeburg,Dominican College,2,yes,518812
+2020-11-05,New York,Dutchess,Poughkeepsie,Dutchess Community College,8,yes,518812
+2020-11-05,New York,Chemung,Elmira,Elmira College,167,yes,518812
+2020-11-05,New York,Erie,Buffalo,Erie Community College,19,yes,518812
+2020-11-05,New York,Nassau,Farmingdale,Farmingdale State College,45,yes,518812
+2020-11-05,New York,New York City,New York City,Fashion Institute of Technology,14,yes,518812
+2020-11-05,New York,Ontario,Canandaigua,Finger Lakes Community College,9,yes,518812
+2020-11-05,New York,New York City,New York City,Fordham University,57,yes,518812
+2020-11-05,New York,Fulton,Johnstown,Fulton-Montgomery Community College,3,yes,518812
+2020-11-05,New York,Genesee,Batavia,Genesee Community College,9,yes,518812
+2020-11-05,New York,Oneida,Clinton,Hamilton College,7,yes,518812
+2020-11-05,New York,Otsego,Oneonta,Hartwick College,31,yes,518812
+2020-11-05,New York,Herkimer,Herkimer,Herkimer County Community College,6,yes,518812
+2020-11-05,New York,Erie,Hamburg,Hilbert College,1,yes,518812
+2020-11-05,New York,Ontario,Geneva,Hobart William Smith Colleges,39,yes,518812
+2020-11-05,New York,Nassau,Hempstead,Hofstra University,121,yes,518812
+2020-11-05,New York,Allegany,Houghton,Houghton College,1,yes,518812
+2020-11-05,New York,Rensselaer,Troy,Hudson Valley Community College,22,yes,518812
+2020-11-05,New York,Westchester,New Rochelle,Iona College,102,yes,518812
+2020-11-05,New York,Tompkins,Ithaca,Ithaca College,36,yes,518812
+2020-11-05,New York,Chautauqua,Jamestown,Jamestown Community College,14,yes,518812
+2020-11-05,New York,Yates,Keuka Park,Keuka College,119,yes,518812
+2020-11-05,New York,Onondaga,Syracuse,Le Moyne College,34,yes,518812
+2020-11-05,New York,Nassau,Brookville,Long Island University,106,yes,518812
+2020-11-05,New York,New York City,New York City,Manhattan College,31,yes,518812
+2020-11-05,New York,Westchester,Purchase,Manhattanville College,4,yes,518812
+2020-11-05,New York,Dutchess,Poughkeepsie,Marist College,54,yes,518812
+2020-11-05,New York,New York City,New York City,Marymount Manhattan College,2,yes,518812
+2020-11-05,New York,Erie,Buffalo,Medaille College,43,yes,518812
+2020-11-05,New York,Westchester,Dobbs Ferry,Mercy College,32,yes,518812
+2020-11-05,New York,Oneida,Utica,Mohawk Valley Community College,4,yes,518812
+2020-11-05,New York,Nassau,Rockville Centre,Molloy College,29,yes,518812
+2020-11-05,New York,New York City,New York City,Monroe College,18,yes,518812
+2020-11-05,New York,Monroe,Rochester,Monroe Community College,66,yes,518812
+2020-11-05,New York,Orange,Newburgh,Mount Saint Mary College,20,yes,518812
+2020-11-05,New York,Nassau,Garden City,Nassau Community College,40,yes,518812
+2020-11-05,New York,Monroe,Rochester,Nazareth College,58,yes,518812
+2020-11-05,New York,Seneca,Seneca Falls,New York Chiropractic College,4,yes,518812
+2020-11-05,New York,Nassau,Old Westbury,New York Institute of Technology,5,yes,518812
+2020-11-05,New York,Westchester,Valhalla,New York Medical College,7,yes,518812
+2020-11-05,New York,New York City,New York City,New York University,455,yes,518812
+2020-11-05,New York,Niagara,Sanborn,Niagara County Community College,26,yes,518812
+2020-11-05,New York,Niagara,Niagara,Niagara University,35,yes,518812
+2020-11-05,New York,New York City,New York,Nyack College,3,yes,518812
+2020-11-05,New York,Onondaga,Syracuse,Onondaga Community College,28,yes,518812
+2020-11-05,New York,Orange,Middletown,Orange County Community College,10,yes,518812
+2020-11-05,New York,New York City,New York,Pace University,84,yes,518812
+2020-11-05,New York,Franklin,Paul Smiths,Paul Smiths College,0,yes,518812
+2020-11-05,New York,New York City,New York City,Pratt Institute,4,yes,518812
+2020-11-05,New York,Rensselaer,Troy,Rensselaer Polytechnic Institute,9,yes,518812
+2020-11-05,New York,Monroe,Rochester,Roberts Wesleyan College,9,yes,518812
+2020-11-05,New York,Monroe,Rochester,Rochester Institute of Technology,31,yes,518812
+2020-11-05,New York,Rockland,Suffern,Rockland Community College,7,yes,518812
+2020-11-05,New York,Rensselaer,Troy,Russell Sage College,2,yes,518812
+2020-11-05,New York,Albany,Albany,SUNY Albany,191,yes,518812
+2020-11-05,New York,Allegany,Alfred,SUNY Alfred State College of Technology,42,yes,518812
+2020-11-05,New York,Broome,Vestal,SUNY Binghamton,266,yes,518812
+2020-11-05,New York,Monroe,Brockport,SUNY Brockport,29,yes,518812
+2020-11-05,New York,Broome,Binghamton,SUNY Broome Community College,28,yes,518812
+2020-11-05,New York,Erie,Buffalo,SUNY Buffalo State,64,yes,518812
+2020-11-05,New York,St. Lawrence,Canton,SUNY Canton,5,yes,518812
+2020-11-05,New York,Schoharie,Cobleskill,SUNY Cobleskill,15,yes,518812
+2020-11-05,New York,St. Lawrence,Potsdam,SUNY College at Potsdam,17,yes,518812
+2020-11-05,New York,Onondaga,Syracuse,SUNY College of Environmental Science and Forestry,4,yes,518812
+2020-11-05,New York,New York City,New York City,SUNY College of Optometry,17,yes,518812
+2020-11-05,New York,Steuben,Corning,SUNY Corning Community College,21,yes,518812
+2020-11-05,New York,Cortland,Cortland,SUNY Cortland,598,yes,518812
+2020-11-05,New York,Delaware,Delhi,SUNY Delhi,16,yes,518812
+2020-11-05,New York,New York City,New York City,SUNY Downstate Health Sciences University,81,yes,518812
+2020-11-05,New York,Saratoga,Saratoga Springs,SUNY Empire State College,27,yes,518812
+2020-11-05,New York,Livingston,Geneseo,SUNY Geneseo,56,yes,518812
+2020-11-05,New York,New York City,New York City,SUNY Maritime College,35,yes,518812
+2020-11-05,New York,Madison,Morrisville,SUNY Morrisville,33,yes,518812
+2020-11-05,New York,Ulster,New Paltz,SUNY New Paltz,52,yes,518812
+2020-11-05,New York,Nassau,Old Westbury,SUNY Old Westbury,25,yes,518812
+2020-11-05,New York,Otsego,Oneonta,SUNY Oneonta,730,yes,518812
+2020-11-05,New York,Oswego,Oswego,SUNY Oswego,295,yes,518812
+2020-11-05,New York,Clinton,Plattsburgh,SUNY Plattsburgh,42,yes,518812
+2020-11-05,New York,Oneida,Utica,SUNY Polytechnic Institute,4,yes,518812
+2020-11-05,New York,Westchester,Purchase,SUNY Purchase College,30,yes,518812
+2020-11-05,New York,Erie,Buffalo,SUNY University at Buffalo,249,yes,518812
+2020-11-05,New York,Westchester,Valhalla,SUNY Westchester Community College,66,yes,518812
+2020-11-05,New York,Chautauqua,Fredonia,SUNY at Fredonia,151,yes,518812
+2020-11-05,New York,Westchester,Bronxville,Sarah Lawrence College,5,yes,518812
+2020-11-05,New York,Schenectady,Schenectady,Schenectady County Community College,5,yes,518812
+2020-11-05,New York,Albany,Loudonville,Siena College,84,yes,518812
+2020-11-05,New York,Saratoga,Saratoga Springs,Skidmore College,7,yes,518812
+2020-11-05,New York,Cattaraugus,St. Bonaventure,St. Bonaventure University,17,yes,518812
+2020-11-05,New York,New York City,New York City,St. Francis College,3,yes,518812
+2020-11-05,New York,Monroe,Rocheser,St. John Fisher College,101,yes,518812
+2020-11-05,New York,New York City,New York City,St. John's University,36,yes,518812
+2020-11-05,New York,Suffolk,Patchogue,St. Joseph's College Long Island,6,yes,518812
+2020-11-05,New York,New York City,New York City,St. Joseph's College New York,5,yes,518812
+2020-11-05,New York,St. Lawrence,Canton,St. Lawrence University,3,yes,518812
+2020-11-05,New York,Rockland,Sparkill,St. Thomas Aquinas College,18,yes,518812
+2020-11-05,New York,Suffolk,Stony Brook,Stony Brook University,524,yes,518812
+2020-11-05,New York,Suffolk,Selden,Suffolk County Community College,135,yes,518812
+2020-11-05,New York,Onondaga,Syracuse,Syracuse University,257,yes,518812
+2020-11-05,New York,Albany,Albany,The College of Saint Rose,4,yes,518812
+2020-11-05,New York,New York City,New York City,"The Graduate Center, CUNY",2,yes,518812
+2020-11-05,New York,New York City,New York City,The New School,3,yes,518812
+2020-11-05,New York,Tompkins,Dryden,Tompkins Cortland Community College,18,yes,518812
+2020-11-05,New York,New York City,New York City,Touro College,17,yes,518812
+2020-11-05,New York,Erie,Buffalo,Trocaire College,6,yes,518812
+2020-11-05,New York,Ulster,Stone Ridge,Ulster County Community College,2,yes,518812
+2020-11-05,New York,Schenectady,Schenectady,Union College,12,yes,518812
+2020-11-05,New York,Nassau,Kings Point,United States Merchant Marine Academy,3,yes,518812
+2020-11-05,New York,Orange,West Point,United States Military Academy West Point,109,yes,518812
+2020-11-05,New York,Monroe,Rochester,University of Rochester,37,yes,518812
+2020-11-05,New York,Onondaga,Syracuse,Upstate Medical University,83,yes,518812
+2020-11-05,New York,Oneida,Utica,Utica College,21,yes,518812
+2020-11-05,New York,Dutchess,Poughkeepsie,Vassar College,38,yes,518812
+2020-11-05,New York,New York City,New York City,Wagner College,17,yes,518812
+2020-11-05,New York,New York City,New York City,Weill Cornell Medical College,4,yes,518812
+2020-11-05,New York,Cayuga,Aurora,Wells College,0,yes,518812
+2020-11-05,New York,New York City,New York City,Yeshiva University,5,yes,518812
+2020-11-05,North Carolina,Watauga,Boone,Appalachian State University,1115,yes,285661
+2020-11-05,North Carolina,Wilson,Wilson,Barton College,108,yes,285661
+2020-11-05,North Carolina,Gaston,Belmont,Belmont Abbey College,63,yes,285661
+2020-11-05,North Carolina,Transylvania,Brevard,Brevard College,15,yes,285661
+2020-11-05,North Carolina,Harnett,Bules Creek,Campbell University,102,yes,285661
+2020-11-05,North Carolina,Mecklenburg,Charlotte,Carolinas College of Health Sciences,4,yes,285661
+2020-11-05,North Carolina,Rowan,Salisbury,Catawba College,24,yes,285661
+2020-11-05,North Carolina,Hertford,Murfreesboro,Chowan University,5,yes,285661
+2020-11-05,North Carolina,Mecklenburg,Davidson,Davidson College,29,yes,285661
+2020-11-05,North Carolina,Durham,Durham,Duke University,191,yes,285661
+2020-11-05,North Carolina,Durham,Durham,Durham Technical Community College,4,yes,285661
+2020-11-05,North Carolina,Pitt,Greenville,East Carolina University,1434,yes,285661
+2020-11-05,North Carolina,Pasquotank,Elizabeth City,Elizabeth City State University,58,yes,285661
+2020-11-05,North Carolina,Alamance,Elon,Elon University,701,yes,285661
+2020-11-05,North Carolina,Cumberland,Fayetteville,Fayetteville State University,129,yes,285661
+2020-11-05,North Carolina,Cleveland,Boiling Springs,Gardner-Webb University,124,yes,285661
+2020-11-05,North Carolina,Guilford,Greensboro,Greensboro College,28,yes,285661
+2020-11-05,North Carolina,Guilford,Greensboro,Guilford College,28,yes,285661
+2020-11-05,North Carolina,Guilford,High Point,High Point University,153,yes,285661
+2020-11-05,North Carolina,Mecklenburg,Charlotte,Johnson & Wales University-Charlotte,5,yes,285661
+2020-11-05,North Carolina,Mecklenburg,Charlotte,Johnson C Smith University,1,yes,285661
+2020-11-05,North Carolina,Avery,Banner Elk,Lees-McRae College,22,yes,285661
+2020-11-05,North Carolina,Catawba,Hickory,Lenoir-Rhyne University,36,yes,285661
+2020-11-05,North Carolina,Rowan,Salisbury,Livingstone College,,yes,285661
+2020-11-05,North Carolina,Madison,Mars Hill,Mars Hill University,21,yes,285661
+2020-11-05,North Carolina,Wake,Raleigh,Meredith College,53,yes,285661
+2020-11-05,North Carolina,Cumberland,Fayetteville,Methodist University,37,yes,285661
+2020-11-05,North Carolina,Buncombe,Montreat,Montreat College,27,yes,285661
+2020-11-05,North Carolina,Guilford,Greensboro,North Carolina A&T State University,253,yes,285661
+2020-11-05,North Carolina,Durham,Durham,North Carolina Central University,88,yes,285661
+2020-11-05,North Carolina,Wake,Raleigh,North Carolina State University,1227,yes,285661
+2020-11-05,North Carolina,Nash,Rocky Mount,North Carolina Wesleyan College,41,yes,285661
+2020-11-05,North Carolina,Stanly,Misenheimer,Pfeiffer University,43,yes,285661
+2020-11-05,North Carolina,Mecklenburg,Charlotte,Queens University of Charlotte,0,yes,285661
+2020-11-05,North Carolina,Wake,Raleigh,Saint Augustine's University,,yes,285661
+2020-11-05,North Carolina,Forsyth,Winston-Salem,Salem College,0,yes,285661
+2020-11-05,North Carolina,Wake,Raleigh,Shaw University,20,yes,285661
+2020-11-05,North Carolina,Wayne,Mount Olive,University of Mount Olive,44,yes,285661
+2020-11-05,North Carolina,Buncombe,Asheville,University of North Carolina Asheville,23,yes,285661
+2020-11-05,North Carolina,Forsyth,Winston Salem,University of North Carolina School of the Arts,15,yes,285661
+2020-11-05,North Carolina,New Hanover,Wilmington,University of North Carolina Wilmington,675,yes,285661
+2020-11-05,North Carolina,Orange,Chapel Hill,University of North Carolina at Chapel Hill,1309,yes,285661
+2020-11-05,North Carolina,Mecklenburg,Charlotte,University of North Carolina at Charlotte,526,yes,285661
+2020-11-05,North Carolina,Guilford,Greensboro,University of North Carolina at Greensboro,200,yes,285661
+2020-11-05,North Carolina,Robeson,Pembroke,University of North Carolina at Pembroke,398,yes,285661
+2020-11-05,North Carolina,Forsyth,Winston-Salem,Wake Forest University,378,yes,285661
+2020-11-05,North Carolina,Wake,Raleigh,Wake Technical Community College,39,yes,285661
+2020-11-05,North Carolina,Buncombe,Swannanoa,Warren Wilson College,1,yes,285661
+2020-11-05,North Carolina,Jackson,Cullowhee,Western Carolina University,337,yes,285661
+2020-11-05,North Carolina,Wake,Raleigh,William Peace University,23,yes,285661
+2020-11-05,North Carolina,Union,Wingate,Wingate University,82,yes,285661
+2020-11-05,North Carolina,Forsyth,Winston-Salem,Winston-Salem State University,57,yes,285661
+2020-11-05,North Dakota,Burleigh,Bismarck,Bismarck State College,161,no,49837
+2020-11-05,North Dakota,Bottineau,Bottineau,Dakota College at Bottineau,46,no,49837
+2020-11-05,North Dakota,Stark,Dickinson,Dickinson State University,96,no,49837
+2020-11-05,North Dakota,Ramsey,Devils Lake,Lake Region State College,42,no,49837
+2020-11-05,North Dakota,Traill,Mayville,Mayville State University,28,no,49837
+2020-11-05,North Dakota,Ward,Minot,Minot State University,369,no,49837
+2020-11-05,North Dakota,Richland,Wahpeton,North Dakota State College of Science,122,no,49837
+2020-11-05,North Dakota,Cass,Fargo,North Dakota State University,504,no,49837
+2020-11-05,North Dakota,Mountrail,New Town,Nueta Hidatsa Sahnish College,,no,49837
+2020-11-05,North Dakota,Sioux,Fort Yates,Sitting Bull College,12,no,49837
+2020-11-05,North Dakota,Burleigh,Bismarck,University of Mary,,no,49837
+2020-11-05,North Dakota,Grand Forks,Grand Forks,University of North Dakota,1356,no,49837
+2020-11-05,North Dakota,Barnes,Valley City,Valley City State University,49,no,49837
+2020-11-05,North Dakota,Williams,Williston,Williston State College,104,no,49837
+2020-11-05,Ohio,Montgomery,Dayton,Air Force Institute of Technology-Graduate School of Engineering & Management,,yes,235170
+2020-11-05,Ohio,Ashland,Ashland,Ashland University,40,yes,235170
+2020-11-05,Ohio,Cuyahoga,Berea,Baldwin Wallace University,53,yes,235170
+2020-11-05,Ohio,Allen,Bluffton,Bluffton University,2,yes,235170
+2020-11-05,Ohio,Wood,Bowling Green,Bowling Green State University,555,yes,235170
+2020-11-05,Ohio,Erie,Huron,Bowling Green State University Firelands,4,yes,235170
+2020-11-05,Ohio,Franklin,Columbus,Capital University,6,yes,235170
+2020-11-05,Ohio,Cuyahoga,Cleveland,Case Western Reserve University,62,yes,235170
+2020-11-05,Ohio,Greene,Cedarville,Cedarville University,28,yes,235170
+2020-11-05,Ohio,Greene,Wilberforce,Central State University,23,yes,235170
+2020-11-05,Ohio,Clark,Springfield,Clark State Community College,,yes,235170
+2020-11-05,Ohio,Cuyahoga,Cleveland,Cleveland State University,8,yes,235170
+2020-11-05,Ohio,Franklin,Columbus,Columbus College of Art and Design,1,yes,235170
+2020-11-05,Ohio,Cuyahoga,Cleveland,Cuyahoga Community College District,19,yes,235170
+2020-11-05,Ohio,Defiance,Defiance,Defiance College,69,yes,235170
+2020-11-05,Ohio,Licking,Granville,Denison University,10,yes,235170
+2020-11-05,Ohio,Jefferson,Steubenville,Franciscan University of Steubenville,27,yes,235170
+2020-11-05,Ohio,Seneca,Tiffin,Heidelberg University,65,yes,235170
+2020-11-05,Ohio,Portage,Hiram,Hiram College,13,yes,235170
+2020-11-05,Ohio,Cuyahoga,University Heights,John Carroll University,122,yes,235170
+2020-11-05,Ohio,Portage,Kent,Kent State University,404,yes,235170
+2020-11-05,Ohio,Geauga,Burton,Kent State University Geauga Campus,0,yes,235170
+2020-11-05,Ohio,Ashtabula,Ashtabula,Kent State University at Ashtabula,0,yes,235170
+2020-11-05,Ohio,Columbiana,East Liverpool,Kent State University at East Liverpool,0,yes,235170
+2020-11-05,Ohio,Columbiana,Salem,Kent State University at Salem,0,yes,235170
+2020-11-05,Ohio,Stark,North Canton,Kent State University at Stark,0,yes,235170
+2020-11-05,Ohio,Trumbull,Warren,Kent State University at Trumbull,0,yes,235170
+2020-11-05,Ohio,Tuscarawas,New Philadelphia,Kent State University at Tuscarawas,0,yes,235170
+2020-11-05,Ohio,Knox,Gambier,Kenyon College,1,yes,235170
+2020-11-05,Ohio,Lake,Painesville,Lake Erie College,15,yes,235170
+2020-11-05,Ohio,Lorain,Elyria,Lorain County Community College,0,yes,235170
+2020-11-05,Ohio,Stark,Canton,Malone University,33,yes,235170
+2020-11-05,Ohio,Washington,Marietta,Marietta College,53,yes,235170
+2020-11-05,Ohio,Butler,Oxford,Miami University (Ohio),2248,yes,235170
+2020-11-05,Ohio,Hamilton,Cincinnati,Mount Saint Joseph University,12,yes,235170
+2020-11-05,Ohio,Muskingum,New Concord,Muskingum University,5,yes,235170
+2020-11-05,Ohio,Richland,Mansfield,North Central State College,,yes,235170
+2020-11-05,Ohio,Portage,Rootstown,Northeast Ohio Medical University,12,yes,235170
+2020-11-05,Ohio,Cuyahoga,Cleveland,Notre Dame College,23,yes,235170
+2020-11-05,Ohio,Lorain,Oberlin,Oberlin College,19,yes,235170
+2020-11-05,Ohio,Franklin,Columbus,Ohio Dominican University,81,yes,235170
+2020-11-05,Ohio,Hardin,Ada,Ohio Northern University,51,yes,235170
+2020-11-05,Ohio,Franklin,Columbus,Ohio State University,3711,yes,235170
+2020-11-05,Ohio,Athens,Athens,Ohio University,604,yes,235170
+2020-11-05,Ohio,Ross,Chillicothe,Ohio University-Chillicothe,1,yes,235170
+2020-11-05,Ohio,Belmont,St. Clairesville,Ohio University-Eastern,1,yes,235170
+2020-11-05,Ohio,Fairfield,Lancaster,Ohio University-Lancaster,1,yes,235170
+2020-11-05,Ohio,Lawrence,Irontown,Ohio University-Southern,5,yes,235170
+2020-11-05,Ohio,Muskingum,Zanesville,Ohio University-Zanesville,4,yes,235170
+2020-11-05,Ohio,Delaware,Delaware,Ohio Wesleyan University,125,yes,235170
+2020-11-05,Ohio,Franklin,Westerville,Otterbein University,73,yes,235170
+2020-11-05,Ohio,Scioto,Portsmouth,Shawnee State University,47,yes,235170
+2020-11-05,Ohio,Montgomery,Dayton,Sinclair Community College,24,yes,235170
+2020-11-05,Ohio,Sandusky,Fremont,Terra State Community College,12,yes,235170
+2020-11-05,Ohio,Wayne,Wooster,The College of Wooster,24,yes,235170
+2020-11-05,Ohio,Hancock,Findlay,The University of Findlay,81,yes,235170
+2020-11-05,Ohio,Seneca,Tiffin,Tiffin University,54,yes,235170
+2020-11-05,Ohio,Summit,Akron,University of Akron,119,yes,235170
+2020-11-05,Ohio,Hamilton,Cincinnati,University of Cincinnati,854,yes,235170
+2020-11-05,Ohio,Hamilton,Blue Ash,University of Cincinnati-Blue Ash College,,yes,235170
+2020-11-05,Ohio,Montgomery,Dayton,University of Dayton,1455,yes,235170
+2020-11-05,Ohio,Stark,Alliance,University of Mount Union,79,yes,235170
+2020-11-05,Ohio,Lucas,Toledo,University of Toledo,421,yes,235170
+2020-11-05,Ohio,Cuyahoga,Pepper Pike,Ursuline College,7,yes,235170
+2020-11-05,Ohio,Stark,North Canton,Walsh University,44,yes,235170
+2020-11-05,Ohio,Clinton,Wilmington,Wilmington College,10,yes,235170
+2020-11-05,Ohio,Clark,Springfield,Wittenberg University,186,yes,235170
+2020-11-05,Ohio,Montgomery,Dayton,Wright State University,76,yes,235170
+2020-11-05,Ohio,Mercer,Celina,Wright State University-Lake Campus,1,yes,235170
+2020-11-05,Ohio,Hamilton,Cincinnati,Xavier University,45,yes,235170
+2020-11-05,Ohio,Mahoning,Youngstown,Youngstown State University,43,yes,235170
+2020-11-05,Oklahoma,Comanche,Lawton,Cameron University,92,no,129873
+2020-11-05,Oklahoma,Pontotoc,Ada,East Central University,10,no,129873
+2020-11-05,Oklahoma,Logan,Langston,Langston University,36,no,129873
+2020-11-05,Oklahoma,Cherokee,Tahlequah,Northeastern State University,110,no,129873
+2020-11-05,Oklahoma,Kay,Tonkawa,Northern Oklahoma College,118,no,129873
+2020-11-05,Oklahoma,Woods,Alva,Northwestern Oklahoma State University,19,no,129873
+2020-11-05,Oklahoma,Pottawatomie,Shawnee,Oklahoma Baptist University,,no,129873
+2020-11-05,Oklahoma,Oklahoma,Edmond,Oklahoma Christian University,137,no,129873
+2020-11-05,Oklahoma,Oklahoma,Oklahoma City,Oklahoma City University,36,no,129873
+2020-11-05,Oklahoma,Texas,Goodwell,Oklahoma Panhandle State University,71,no,129873
+2020-11-05,Oklahoma,Payne,Stillwater,Oklahoma State University,1658,no,129873
+2020-11-05,Oklahoma,Tulsa,Tulsa,Oklahoma State University Center for Health Sciences,40,no,129873
+2020-11-05,Oklahoma,Okmulgee,Okmulgee,Oklahoma State University Institute of Technology,35,no,129873
+2020-11-05,Oklahoma,Oklahoma,Oklahoma City,Oklahoma State University-Oklahoma City,6,no,129873
+2020-11-05,Oklahoma,Tulsa,Tulsa,Oral Roberts University,1,no,129873
+2020-11-05,Oklahoma,Rogers,Claremore,Rogers State University,,no,129873
+2020-11-05,Oklahoma,Oklahoma,Midwest City,Rose State College,68,no,129873
+2020-11-05,Oklahoma,Bryan,Durant,Southeastern Oklahoma State University,114,no,129873
+2020-11-05,Oklahoma,Oklahoma,Bethany,Southern Nazarene University,,no,129873
+2020-11-05,Oklahoma,Custer,Weatherford,Southwestern Oklahoma State University,261,no,129873
+2020-11-05,Oklahoma,Oklahoma,Edmond,University of Central Oklahoma,449,no,129873
+2020-11-05,Oklahoma,Cleveland,Norman,University of Oklahoma,574,no,129873
+2020-11-05,Oklahoma,Grady,Chickasha,University of Science and Arts of Oklahoma,12,no,129873
+2020-11-05,Oklahoma,Tulsa,Tulsa,University of Tulsa,128,no,129873
+2020-11-05,Oregon,Union,La Grande,Eastern Oregon University,17,yes,47839
+2020-11-05,Oregon,Yamhill,Newberg,George Fox University,7,yes,47839
+2020-11-05,Oregon,Lane,Eugene,Lane Community College,26,yes,47839
+2020-11-05,Oregon,Multnomah,Portland,Lewis & Clark College,3,yes,47839
+2020-11-05,Oregon,Yamhill,McMinnville,Linfield University,9,yes,47839
+2020-11-05,Oregon,Multnomah,Portland,Linfield University-School of Nursing,1,yes,47839
+2020-11-05,Oregon,Multnomah,Portland,Oregon Health & Science University,158,yes,47839
+2020-11-05,Oregon,Klamath,Klamath Falls,Oregon Institute of Technology,11,yes,47839
+2020-11-05,Oregon,Benton,Corvallis,Oregon State University,146,yes,47839
+2020-11-05,Oregon,Deschutes,Bend,Oregon State University-Cascades,,yes,47839
+2020-11-05,Oregon,Washington,Forest Grove,Pacific University,10,yes,47839
+2020-11-05,Oregon,Multnomah,Portland,Portland State University,5,yes,47839
+2020-11-05,Oregon,Multnomah,Portland,Reed College,14,yes,47839
+2020-11-05,Oregon,Jackson,Ashland,Southern Oregon University,10,yes,47839
+2020-11-05,Oregon,Lane,Eugene,University of Oregon,539,yes,47839
+2020-11-05,Oregon,Multnomah,Portland,University of Portland,,yes,47839
+2020-11-05,Oregon,Polk,Mounmouth,Western Oregon University,5,yes,47839
+2020-11-05,Oregon,Marion,Salem,Willamette University,10,yes,47839
+2020-11-05,Pennsylvania,Berks,Reading,Albright College,7,yes,220566
+2020-11-05,Pennsylvania,Crawford,Meadville,Allegheny College,29,yes,220566
+2020-11-05,Pennsylvania,Berks,Reading,Alvernia University,2,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Glenslide,Arcadia University,1,yes,220566
+2020-11-05,Pennsylvania,Columbia,Bloomsburg,Bloomsburg University of Pennsylvania,369,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Bryn Athyn,Bryn Athyn College,1,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Bryn Mawr,Bryn Mawr College,8,yes,220566
+2020-11-05,Pennsylvania,Union,Lewisburg,Bucknell University,29,yes,220566
+2020-11-05,Pennsylvania,Delaware,Radnor,Cabrini University,14,yes,220566
+2020-11-05,Pennsylvania,Bucks,Langhorne,Cairn University,,yes,220566
+2020-11-05,Pennsylvania,Washington,California,California University of Pennsylvania,7,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,Carnegie Mellon University,67,yes,220566
+2020-11-05,Pennsylvania,Lehigh,Allentown,Cedar Crest College,1,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,Chatham University,47,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,Chestnut Hill College,0,yes,220566
+2020-11-05,Pennsylvania,Delaware,Cheyney,Cheyney University of Pennsylvania,0,yes,220566
+2020-11-05,Pennsylvania,Clarion,Clarion,Clarion University of Pennsylvania,2,yes,220566
+2020-11-05,Pennsylvania,Lackawanna,South Abington Township,Clarks Summit University,1,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,Community College of Allegheny County,31,yes,220566
+2020-11-05,Pennsylvania,Lehigh,Center Valley,DeSales University,8,yes,220566
+2020-11-05,Pennsylvania,Bucks,Doylestown,Delaware Valley University,18,yes,220566
+2020-11-05,Pennsylvania,Cumberland,Carlisle,Dickinson College,0,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,Drexel University,36,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,Duquesne University,167,yes,220566
+2020-11-05,Pennsylvania,Monroe,East Stroudsburg,East Stroudsburg University,9,yes,220566
+2020-11-05,Pennsylvania,Delaware,St. Davids,Eastern University,21,yes,220566
+2020-11-05,Pennsylvania,Erie,Edinboro,Edinboro University,6,yes,220566
+2020-11-05,Pennsylvania,Lancaster,Elizabethtown,Elizabethtown College,15,yes,220566
+2020-11-05,Pennsylvania,Lancaster,Lancaster,Franklin and Marshall College,17,yes,220566
+2020-11-05,Pennsylvania,Erie,Erie,Gannon University,79,yes,220566
+2020-11-05,Pennsylvania,Beaver,Beaver Falls,Geneva College,6,yes,220566
+2020-11-05,Pennsylvania,Adams,Gettysburg,Gettysburg College,99,yes,220566
+2020-11-05,Pennsylvania,Mercer,Grove City,Grove City College,33,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Gwynedd Valley,Gwynedd Mercy University,,yes,220566
+2020-11-05,Pennsylvania,Delaware,Haverford,Haverford College,5,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,Holy Family University,4,yes,220566
+2020-11-05,Pennsylvania,Chester,Immaculata,Immaculata University,1,yes,220566
+2020-11-05,Pennsylvania,Indiana,Indiana,Indiana University of Pennsylvania,312,yes,220566
+2020-11-05,Pennsylvania,Huntingdon,Huntingdom,Juniata College,32,yes,220566
+2020-11-05,Pennsylvania,Lackawanna,La Plume,Keystone College,0,yes,220566
+2020-11-05,Pennsylvania,Luzerne,Wilkes-Barre,King's College,16,yes,220566
+2020-11-05,Pennsylvania,Berks,Kutztown,Kutztown University,346,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,La Roche University,2,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,La Salle University,18,yes,220566
+2020-11-05,Pennsylvania,Northampton,Easton,Lafayette College,26,yes,220566
+2020-11-05,Pennsylvania,Lancaster,Lancaster,Lancaster Bible College,3,yes,220566
+2020-11-05,Pennsylvania,Lebanon,Annville,Lebanon Valley College,1,yes,220566
+2020-11-05,Pennsylvania,Northampton,Bethlehem,Lehigh University,262,yes,220566
+2020-11-05,Pennsylvania,Chester,Lincoln University,Lincoln University,,yes,220566
+2020-11-05,Pennsylvania,Clinton,Lock Haven,Lock Haven University,90,yes,220566
+2020-11-05,Pennsylvania,Lycoming,Williamsport,Lycoming College,11,yes,220566
+2020-11-05,Pennsylvania,Tioga,Mansfield,Mansfield University of Pennsylvania,14,yes,220566
+2020-11-05,Pennsylvania,Lackawanna,Scranton,Marywood University,31,yes,220566
+2020-11-05,Pennsylvania,Erie,Erie,Mercyhurst University,20,yes,220566
+2020-11-05,Pennsylvania,Cumberland,Mechanicsburg,Messiah University,43,yes,220566
+2020-11-05,Pennsylvania,Lancaster,Millersville,Millersville University of Pennsylvania,75,yes,220566
+2020-11-05,Pennsylvania,Luzerne,Dallas,Misericordia University,35,yes,220566
+2020-11-05,Pennsylvania,Northampton,Bethlehem,Moravian College,28,yes,220566
+2020-11-05,Pennsylvania,Cambria,Cresson,Mount Aloysius College,41,yes,220566
+2020-11-05,Pennsylvania,Lehigh,Allentown,Muhlenberg College,4,yes,220566
+2020-11-05,Pennsylvania,Delaware,Aston,Neumann University,4,yes,220566
+2020-11-05,Pennsylvania,Centre,State College,Penn State University,3883,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Abington,Penn State University Abington,5,yes,220566
+2020-11-05,Pennsylvania,Blair,Altoona,Penn State University Altoona,224,yes,220566
+2020-11-05,Pennsylvania,Beaver,Monaca,Penn State University Beaver,2,yes,220566
+2020-11-05,Pennsylvania,Erie,Erie,Penn State University Behrend,29,yes,220566
+2020-11-05,Pennsylvania,Berks,Reading,Penn State University Berks,11,yes,220566
+2020-11-05,Pennsylvania,Delaware,Media,Penn State University Brandywine,3,yes,220566
+2020-11-05,Pennsylvania,Dauphin,Hershey,Penn State University College of Medicine,19,yes,220566
+2020-11-05,Pennsylvania,Cumberland,Carlisle,Penn State University Dickinson Law,0,yes,220566
+2020-11-05,Pennsylvania,Clearfield,Dubois,Penn State University DuBois,1,yes,220566
+2020-11-05,Pennsylvania,Fayette,Lemont Furnace,Penn State University Fayette,3,yes,220566
+2020-11-05,Pennsylvania,Chester,Malvern,Penn State University Great Valley,0,yes,220566
+2020-11-05,Pennsylvania,Allegheny,McKeesport,Penn State University Greater Allegheny,0,yes,220566
+2020-11-05,Pennsylvania,Dauphin,Middletown,Penn State University Harrisburg,21,yes,220566
+2020-11-05,Pennsylvania,Luzerne,Hazleton,Penn State University Hazleton,2,yes,220566
+2020-11-05,Pennsylvania,Lehigh,Center Valley,Penn State University Lehigh Valley,1,yes,220566
+2020-11-05,Pennsylvania,Franklin,Mont Alto,Penn State University Mont Alto,4,yes,220566
+2020-11-05,Pennsylvania,Westmoreland,New Kensington,Penn State University New Kensington,3,yes,220566
+2020-11-05,Pennsylvania,Schuylkill,Schuylkill Haven,Penn State University Schuylkill,3,yes,220566
+2020-11-05,Pennsylvania,Lackawanna,Dunmore,Penn State University Scranton,14,yes,220566
+2020-11-05,Pennsylvania,Mercer,Sharon,Penn State University Shenango,0,yes,220566
+2020-11-05,Pennsylvania,Luzerne,Lehman,Penn State University Wilkes-Barre,0,yes,220566
+2020-11-05,Pennsylvania,York,York,Penn State University York,0,yes,220566
+2020-11-05,Pennsylvania,Lycoming,Williamsport,Pennsylvania College of Technology,70,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,Point Park University,26,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Moon Township,Robert Morris University,24,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Rosemont,Rosemont College,7,yes,220566
+2020-11-05,Pennsylvania,Cambria,Loretto,Saint Francis University,30,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,Saint Joseph's University,278,yes,220566
+2020-11-05,Pennsylvania,Westmoreland,Latrobe,Saint Vincent College,10,yes,220566
+2020-11-05,Pennsylvania,Westmoreland,Greensburg,Seton Hill University,59,yes,220566
+2020-11-05,Pennsylvania,Franklin,Shippensburg,Shippensburg University of Pennsylvania,82,yes,220566
+2020-11-05,Pennsylvania,Butler,Slippery Rock,Slippery Rock University of Pennsylvania,206,yes,220566
+2020-11-05,Pennsylvania,Snyder,Selinsgrove,Susquehanna University,14,yes,220566
+2020-11-05,Pennsylvania,Delaware,Swarthmore,Swarthmore College,24,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,Temple University,711,yes,220566
+2020-11-05,Pennsylvania,Mercer,Greenville,Thiel College,39,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,Thomas Jefferson University,140,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,University of Pennsylvania,660,yes,220566
+2020-11-05,Pennsylvania,Allegheny,Pittsburgh,University of Pittsburgh,398,yes,220566
+2020-11-05,Pennsylvania,Cambria,Johnstown,University of Pittsburgh Johnstown,52,yes,220566
+2020-11-05,Pennsylvania,McKean,Bradford,University of Pittsburgh at Bradford,25,yes,220566
+2020-11-05,Pennsylvania,Westmoreland,Greensburg,University of Pittsburgh at Greensburg,7,yes,220566
+2020-11-05,Pennsylvania,Lackawanna,Scranton,University of Scranton,620,yes,220566
+2020-11-05,Pennsylvania,Chester,Phoenixville,University of Valley Forge,2,yes,220566
+2020-11-05,Pennsylvania,Philadelphia,Philadelphia,University of the Sciences,24,yes,220566
+2020-11-05,Pennsylvania,Montgomery,Collegeville,Ursinus College,21,yes,220566
+2020-11-05,Pennsylvania,Delaware,Villanova,Villanova University,252,yes,220566
+2020-11-05,Pennsylvania,Washington,Washington,Washington & Jefferson College,3,yes,220566
+2020-11-05,Pennsylvania,Greene,Waynesburg,Waynesburg University,18,yes,220566
+2020-11-05,Pennsylvania,Chester,West Chester,West Chester University,100,yes,220566
+2020-11-05,Pennsylvania,Lawrence,New Wilmington,Westminster College,16,yes,220566
+2020-11-05,Pennsylvania,Delaware,Chester,Widener University,36,yes,220566
+2020-11-05,Pennsylvania,Luzerne,Wilkes-Barre,Wilkes University,41,yes,220566
+2020-11-05,Pennsylvania,Franklin,Chambersburg,Wilson College,,yes,220566
+2020-11-05,Pennsylvania,York,York,York College of Pennsylvania,40,yes,220566
+2020-11-05,Rhode Island,Providence,Providence,Brown University,43,yes,35750
+2020-11-05,Rhode Island,Providence,Smithfield,Bryant University,32,yes,35750
+2020-11-05,Rhode Island,Providence,Providence,Johnson & Wales University,73,yes,35750
+2020-11-05,Rhode Island,Providence,Providence,Providence College,268,yes,35750
+2020-11-05,Rhode Island,Providence,Providence,Rhode Island College,33,yes,35750
+2020-11-05,Rhode Island,Providence,Providence,Rhode Island School of Design,9,yes,35750
+2020-11-05,Rhode Island,Bristol,Bristol,Roger Williams University,72,yes,35750
+2020-11-05,Rhode Island,Newport,Newport,Salve Regina University,8,yes,35750
+2020-11-05,Rhode Island,Washington,Kingston,University of Rhode Island,462,yes,35750
+2020-11-05,South Carolina,Anderson,Anderson,Anderson University,38,yes,181639
+2020-11-05,South Carolina,Richland,Columbia,Benedict College,6,yes,181639
+2020-11-05,South Carolina,Greenville,Greenville,Bob Jones University,34,yes,181639
+2020-11-05,South Carolina,Charleston,North Charleston,Charleston Southern University,23,yes,181639
+2020-11-05,South Carolina,Orangeburg,Orangeburg,Claflin University,8,yes,181639
+2020-11-05,South Carolina,Pickens,Clemson,Clemson University,4831,yes,181639
+2020-11-05,South Carolina,Horry,Conway,Coastal Carolina University,327,yes,181639
+2020-11-05,South Carolina,Darlington,Hartsville,Coker University,18,yes,181639
+2020-11-05,South Carolina,Charleston,Charleston,College of Charleston,451,yes,181639
+2020-11-05,South Carolina,Spartanburg,Spartanburg,Converse College,5,yes,181639
+2020-11-05,South Carolina,Abbeville,Due West,Erskine College,,yes,181639
+2020-11-05,South Carolina,Florence,Florence,Francis Marion University,56,yes,181639
+2020-11-05,South Carolina,Greenville,Greenville,Furman University,100,yes,181639
+2020-11-05,South Carolina,Greenville,Greenville,Greenville Technical College,211,yes,181639
+2020-11-05,South Carolina,Greenwood,Greenwood,Lander University,128,yes,181639
+2020-11-05,South Carolina,Cherokee,Gaffney,Limestone College,16,yes,181639
+2020-11-05,South Carolina,Charleston,Charleston,Medical University of South Carolina,249,yes,181639
+2020-11-05,South Carolina,Newberry,Newberry,Newberry College,23,yes,181639
+2020-11-05,South Carolina,Greenville,Tigerville,North Greenville University,136,yes,181639
+2020-11-05,South Carolina,Laurens,Clinton,Presbyterian College,97,yes,181639
+2020-11-05,South Carolina,Orangeburg,Orangeburg,South Carolina State University,13,yes,181639
+2020-11-05,South Carolina,Pickens,Central,Southern Wesleyan University,6,yes,181639
+2020-11-05,South Carolina,Charleston,Charleston,The Citadel,133,yes,181639
+2020-11-05,South Carolina,Richland,Columbia,University of South Carolina,2675,yes,181639
+2020-11-05,South Carolina,Aiken,Aiken,University of South Carolina Aiken,18,yes,181639
+2020-11-05,South Carolina,Beaufort,Blufton,University of South Carolina Beaufort,69,yes,181639
+2020-11-05,South Carolina,Spartanburg,Spartanburg,University of South Carolina Upstate,138,yes,181639
+2020-11-05,South Carolina,York,Rock Hill,Winthrop University,40,yes,181639
+2020-11-05,South Carolina,Spartanburg,Spartanburg,Wofford College,125,yes,181639
+2020-11-05,South Dakota,Minnehaha,Sioux Falls,Augustana University,187,no,51151
+2020-11-05,South Dakota,Lawrence,Spearfish,Black Hills State University,72,no,51151
+2020-11-05,South Dakota,Lake,Madison,Dakota State University,25,no,51151
+2020-11-05,South Dakota,Yankton,Yankton,Mount Marty College,21,no,51151
+2020-11-05,South Dakota,Brown,Aberdeen,Northern State University,45,no,51151
+2020-11-05,South Dakota,Oglala Lakota,Kyle,Oglala Lakota College,0,no,51151
+2020-11-05,South Dakota,Todd,Mission,Sinte Gleska University,,no,51151
+2020-11-05,South Dakota,Pennington,Rapid City,South Dakota School of Mines and Technology,41,no,51151
+2020-11-05,South Dakota,Brookings,Brookings,South Dakota State University,91,no,51151
+2020-11-05,South Dakota,Minnehaha,Sioux Falls,University of Sioux Falls,31,no,51151
+2020-11-05,South Dakota,Clay,Vermillion,University of South Dakota,249,no,51151
+2020-11-05,Tennessee,Montgomery,Clarksville,Austin Peay State University,205,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Belmont University,112,no,271771
+2020-11-05,Tennessee,Carroll,McKenzie,Bethel University,118,no,271771
+2020-11-05,Tennessee,Jefferson,Jefferson City,Carson-Newman University,167,no,271771
+2020-11-05,Tennessee,Hamilton,Chattanooga,Chattanooga State Community College,76,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,Christian Brothers University,81,no,271771
+2020-11-05,Tennessee,Bradley,Cleveland,Cleveland State Community College,58,no,271771
+2020-11-05,Tennessee,Maury,Columbia,Columbia State Community College,75,no,271771
+2020-11-05,Tennessee,Wilson,Lebanon,Cumberland University,134,no,271771
+2020-11-05,Tennessee,Dyer,Dyersburg,Dyersburg State Community College,53,no,271771
+2020-11-05,Tennessee,Washington,Johnson City,East Tennessee State University,331,no,271771
+2020-11-05,Tennessee,Madison,Jackson,Jackson State Community College,57,no,271771
+2020-11-05,Tennessee,Sullivan,Bristol,King University,87,no,271771
+2020-11-05,Tennessee,Madison,Jackson,Lane College,,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,LeMoyne-Owen College,,no,271771
+2020-11-05,Tennessee,Bradley,Cleveland,Lee University,,no,271771
+2020-11-05,Tennessee,Claiborne,Harrogate,Lincoln Memorial University,98,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Lipscomb University,119,no,271771
+2020-11-05,Tennessee,Blount,Maryville,Maryville College,2,no,271771
+2020-11-05,Tennessee,Rutherford,Murfreesboro,Middle Tennessee State University,344,no,271771
+2020-11-05,Tennessee,Carter,Milligan College,Milligan University,58,no,271771
+2020-11-05,Tennessee,Moore,Tullahoma,Motlow State Community College,40,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Nashville State Community College,57,no,271771
+2020-11-05,Tennessee,Sullivan,Blountville,Northeast State Community College,82,no,271771
+2020-11-05,Tennessee,Knox,Knoxville,Pellissippi State Community College,30,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,Rhodes College,7,no,271771
+2020-11-05,Tennessee,Roane,Harriman,Roane State Community College,76,no,271771
+2020-11-05,Tennessee,Hamilton,Collegedale,Southern Adventist University,29,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,Southwest Tennessee Community College,92,no,271771
+2020-11-05,Tennessee,McMinn,Athens,Tennessee College of Applied Technology-Athens,7,no,271771
+2020-11-05,Tennessee,Tipton,Covington,Tennessee College of Applied Technology-Covington,9,no,271771
+2020-11-05,Tennessee,Cumberland,Crossville,Tennessee College of Applied Technology-Crossville,21,no,271771
+2020-11-05,Tennessee,Hardin,Crump,Tennessee College of Applied Technology-Crump,21,no,271771
+2020-11-05,Tennessee,Dickson,Dickson,Tennessee College of Applied Technology-Dickson,44,no,271771
+2020-11-05,Tennessee,Carter,Elizabethton,Tennessee College of Applied Technology-Elizabethton,4,no,271771
+2020-11-05,Tennessee,Roane,Harriman,Tennessee College of Applied Technology-Harriman,13,no,271771
+2020-11-05,Tennessee,Trousdale,Hartsville,Tennessee College of Applied Technology-Hartsville,4,no,271771
+2020-11-05,Tennessee,Lewis,Hohenwald,Tennessee College of Applied Technology-Hohenwald,3,no,271771
+2020-11-05,Tennessee,Campbell,Jacksboro,Tennessee College of Applied Technology-Jacksboro,10,no,271771
+2020-11-05,Tennessee,Madison,Jackson,Tennessee College of Applied Technology-Jackson,15,no,271771
+2020-11-05,Tennessee,Knox,Knoxville,Tennessee College of Applied Technology-Knoxville,11,no,271771
+2020-11-05,Tennessee,Overton,Livingston,Tennessee College of Applied Technology-Livingston,18,no,271771
+2020-11-05,Tennessee,Weakley,McKenzie,Tennessee College of Applied Technology-McKenzie,11,no,271771
+2020-11-05,Tennessee,Warren,McMinnville,Tennessee College of Applied Technology-McMinnville,10,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,Tennessee College of Applied Technology-Memphis,3,no,271771
+2020-11-05,Tennessee,Hamblen,Morristown,Tennessee College of Applied Technology-Morristown,17,no,271771
+2020-11-05,Tennessee,Rutherford,Murfreesboro,Tennessee College of Applied Technology-Murfreesboro,24,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Tennessee College of Applied Technology-Nashville,21,no,271771
+2020-11-05,Tennessee,Dyer,Newbern,Tennessee College of Applied Technology-Newbern,18,no,271771
+2020-11-05,Tennessee,Scott,Huntsville,Tennessee College of Applied Technology-Oneida/Huntsville,7,no,271771
+2020-11-05,Tennessee,Henry,Paris,Tennessee College of Applied Technology-Paris,11,no,271771
+2020-11-05,Tennessee,Giles,Pulaski,Tennessee College of Applied Technology-Pulaski,8,no,271771
+2020-11-05,Tennessee,Lauderdale,Ripley,Tennessee College of Applied Technology-Ripley,18,no,271771
+2020-11-05,Tennessee,Bedford,Shelbyville,Tennessee College of Applied Technology-Shelbyville,6,no,271771
+2020-11-05,Tennessee,Hardeman,Whiteville,Tennessee College of Applied Technology-Whiteville,16,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Tennessee State University,55,no,271771
+2020-11-05,Tennessee,Putnam,Cookeville,Tennessee Technological University,605,no,271771
+2020-11-05,Tennessee,Franklin,Sewanee,The University of the South,36,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Trevecca Nazarene University,12,no,271771
+2020-11-05,Tennessee,Greene,Greenville,Tusculum University,5,no,271771
+2020-11-05,Tennessee,Madison,Jackson,Union University,62,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,University of Memphis,353,no,271771
+2020-11-05,Tennessee,Shelby,Memphis,University of Tennessee Health Science Center,212,no,271771
+2020-11-05,Tennessee,Hamilton,Chattanooga,University of Tennessee at Chattanooga,682,no,271771
+2020-11-05,Tennessee,Weakley,Martin,University of Tennessee at Martin,361,no,271771
+2020-11-05,Tennessee,Knox,Knoxville,"University of Tennessee, Knoxville",1820,no,271771
+2020-11-05,Tennessee,Davidson,Nashville,Vanderbilt University,568,no,271771
+2020-11-05,Tennessee,Sumner,Gallatin,Volunteer State Community College,109,no,271771
+2020-11-05,Tennessee,Hamblen,Morristown,Walters State Community College,44,no,271771
+2020-11-05,Texas,Taylor,Abilene,Abilene Christian University,297,yes,934994
+2020-11-05,Texas,Tom Green,San Angelo,Angelo State University,178,yes,934994
+2020-11-05,Texas,Grayson,Sherman,Austin College,87,yes,934994
+2020-11-05,Texas,Travis,Austin,Austin Community College District,22,yes,934994
+2020-11-05,Texas,McLennan,Waco,Baylor University,1181,yes,934994
+2020-11-05,Texas,Washington,Brenham,Blinn College,243,yes,934994
+2020-11-05,Texas,Brazoria,Richwood,Brazosport College,1,yes,934994
+2020-11-05,Texas,Collin,McKinney,Collin College McKinney,89,yes,934994
+2020-11-05,Texas,Travis,Austin,Concordia University Texas,6,yes,934994
+2020-11-05,Texas,Dallas,Dallas,Dallas Baptist University,46,yes,934994
+2020-11-05,Texas,Harrison,Marshall,East Texas Baptist University,1,yes,934994
+2020-11-05,Texas,Galveston,Galveston,Galveston College,3,yes,934994
+2020-11-05,Texas,Grayson,Dension,Grayson College,32,yes,934994
+2020-11-05,Texas,Taylor,Abilene,Hardin-Simmons University,37,yes,934994
+2020-11-05,Texas,Hill,Hillsboro,Hill College,20,yes,934994
+2020-11-05,Texas,Harris,Houston,Houston Baptist University,2,yes,934994
+2020-11-05,Texas,Brown,Brownwood,Howard Payne University,,yes,934994
+2020-11-05,Texas,Jefferson,Beaumont,Lamar University,217,yes,934994
+2020-11-05,Texas,Webb,Laredo,Laredo College,,yes,934994
+2020-11-05,Texas,Gregg,Longview,LeTourneau University,71,yes,934994
+2020-11-05,Texas,Lubbock,Lubbock,Lubbock Christian University,25,yes,934994
+2020-11-05,Texas,McLennan,Waco,McLennan Community College,129,yes,934994
+2020-11-05,Texas,Taylor,Abilene,McMurry University,66,yes,934994
+2020-11-05,Texas,Midland,Midland,Midland College,22,yes,934994
+2020-11-05,Texas,Wichita,Wichita Falls,Midwestern State University,133,yes,934994
+2020-11-05,Texas,Ector,Odessa,Odessa College,75,yes,934994
+2020-11-05,Texas,Waller,Prairie View,Prairie View A&M University,392,yes,934994
+2020-11-05,Texas,Harris,Houston,Rice University,147,yes,934994
+2020-11-05,Texas,Travis,Austin,Saint Edward's University,16,yes,934994
+2020-11-05,Texas,Walker,Huntsville,Sam Houston State University,652,yes,934994
+2020-11-05,Texas,Kerr,Kerriville,Schreiner University,9,yes,934994
+2020-11-05,Texas,Hidalgo,McAllen,South Texas College,154,yes,934994
+2020-11-05,Texas,Dallas,Dallas,Southern Methodist University,757,yes,934994
+2020-11-05,Texas,Williamson,Georgetown,Southwestern University,31,yes,934994
+2020-11-05,Texas,Bexar,San Antonio,St. Mary's University,37,yes,934994
+2020-11-05,Texas,Nacogdoches,Nacogdoches,Stephen F. Austin State University,433,yes,934994
+2020-11-05,Texas,Brewster,Alpine,Sul Ross State University,125,yes,934994
+2020-11-05,Texas,Erath,Stephenville,Tarleton State University,347,yes,934994
+2020-11-05,Texas,Webb,Laredo,Texas A&M International University,85,yes,934994
+2020-11-05,Texas,Brazos,College Station,Texas A&M University,2037,yes,934994
+2020-11-05,Texas,Bell,Kileen,Texas A&M University-Central Texas,12,yes,934994
+2020-11-05,Texas,Hunt,Commerce,Texas A&M University-Commerce,241,yes,934994
+2020-11-05,Texas,Nueces,Corpus Christi,Texas A&M University-Corpus Christi,129,yes,934994
+2020-11-05,Texas,Kleberg,Kingsville,Texas A&M University-Kingsville,122,yes,934994
+2020-11-05,Texas,Bexar,San Antonio,Texas A&M University-San Antonio,71,yes,934994
+2020-11-05,Texas,Bowie,Texarkana,Texas A&M University-Texarkana,38,yes,934994
+2020-11-05,Texas,Tarrant,Fort Worth,Texas Christian University,1292,yes,934994
+2020-11-05,Texas,Smith,Tyler,Texas College,1,yes,934994
+2020-11-05,Texas,Guadalupe,Seguin,Texas Lutheran University,23,yes,934994
+2020-11-05,Texas,Harris,Houston,Texas Southern University,41,yes,934994
+2020-11-05,Texas,Hays,San Marcos,Texas State University,797,yes,934994
+2020-11-05,Texas,Lubbock,Lubbock,Texas Tech University,2259,yes,934994
+2020-11-05,Texas,Lubbock,Lubbock,Texas Tech University Health Sciences Center,428,yes,934994
+2020-11-05,Texas,El Paso,El Paso,Texas Tech University Health Sciences Center El Paso,128,yes,934994
+2020-11-05,Texas,Tarrant,Fort Worth,Texas Wesleyan University,64,yes,934994
+2020-11-05,Texas,Denton,Denton,Texas Woman’s University,60,yes,934994
+2020-11-05,Texas,Bexar,San Antonia,Trinity University,20,yes,934994
+2020-11-05,Texas,Smith,Tyler,Tyler Junior College,132,yes,934994
+2020-11-05,Texas,Dallas,Irving,University of Dallas,26,yes,934994
+2020-11-05,Texas,Harris,Houston,University of Houston,341,yes,934994
+2020-11-05,Texas,Harris,Houston,University of Houston-Clear Lake,55,yes,934994
+2020-11-05,Texas,Harris,Houston,University of Houston-Downtown,21,yes,934994
+2020-11-05,Texas,Victoria,Victoria,University of Houston-Victoria,32,yes,934994
+2020-11-05,Texas,Bell,Belton,University of Mary Hardin at Baylor,149,yes,934994
+2020-11-05,Texas,Denton,Denton,University of North Texas,474,yes,934994
+2020-11-05,Texas,Tarrant,Fort Worth,University of North Texas Health Science Center,55,yes,934994
+2020-11-05,Texas,Dallas,Dallas,University of North Texas at Dallas,20,yes,934994
+2020-11-05,Texas,Harris,Houston,University of St. Thomas,2,yes,934994
+2020-11-05,Texas,Harris,Houston,University of Texas Health Science Center at Houston,301,yes,934994
+2020-11-05,Texas,Bexar,San Antonio,University of Texas Health Science Center at San Antonio,251,yes,934994
+2020-11-05,Texas,Smith,Tyler,University of Texas Health Science Center at Tyler,46,yes,934994
+2020-11-05,Texas,Harris,Houston,University of Texas MD Anderson Cancer Center,11,yes,934994
+2020-11-05,Texas,Galveston,Galveston,University of Texas Medical Branch at Galveston,52,yes,934994
+2020-11-05,Texas,Ector,Odessa,University of Texas Permian Basin,32,yes,934994
+2020-11-05,Texas,Hidalgo,Edinburg,University of Texas Rio Grande Valley,180,yes,934994
+2020-11-05,Texas,Dallas,Dallas,University of Texas Southwestern Medical Center,392,yes,934994
+2020-11-05,Texas,Tarrant,Arlington,University of Texas at Arlington,184,yes,934994
+2020-11-05,Texas,Travis,Austin,University of Texas at Austin,1581,yes,934994
+2020-11-05,Texas,Dallas,Dallas,University of Texas at Dallas,80,yes,934994
+2020-11-05,Texas,El Paso,El Paso,University of Texas at El Paso,835,yes,934994
+2020-11-05,Texas,Bexar,San Antonio,University of Texas at San Antonio,41,yes,934994
+2020-11-05,Texas,Smith,Tyler,University of Texas at Tyler,170,yes,934994
+2020-11-05,Texas,Bexar,San Antonio,University of the Incarnate Word,55,yes,934994
+2020-11-05,Texas,Hale,Plainview,Wayland Baptist University,179,yes,934994
+2020-11-05,Texas,Randall,Canyon,West Texas A&M University,408,yes,934994
+2020-11-05,Utah,Utah,Provo,Brigham Young University,2472,yes,124292
+2020-11-05,Utah,Washington,St. George,Dixie State University,237,yes,124292
+2020-11-05,Utah,Salt Lake,Salt Lake City,Salt Lake Community College,267,yes,124292
+2020-11-05,Utah,Sanpete,Ephraim,Snow College,16,yes,124292
+2020-11-05,Utah,Iron,Cedar City,Southern Utah University,74,yes,124292
+2020-11-05,Utah,Salt Lake,Salt Lake City,University of Utah,1322,yes,124292
+2020-11-05,Utah,Cache,Logan,Utah State University,1042,yes,124292
+2020-11-05,Utah,Utah,Orem,Utah Valley University,551,yes,124292
+2020-11-05,Utah,Weber,Ogden,Weber State University,207,yes,124292
+2020-11-05,Utah,Salt Lake,Salt Lake City,Westminster College,51,yes,124292
+2020-11-05,Vermont,Bennington,Bennington,Bennington College,3,yes,2303
+2020-11-05,Vermont,Rutland,Castleton,Castleton University,2,yes,2303
+2020-11-05,Vermont,Chittenden,Burlington,Champlain College,5,yes,2303
+2020-11-05,Vermont,Windham,Putney,Landmark College,3,yes,2303
+2020-11-05,Vermont,Addison,Middlebury,Middlebury College,4,yes,2303
+2020-11-05,Vermont,Lamoille,Johnson,Northern Vermont University-Johnson,0,yes,2303
+2020-11-05,Vermont,Caledonia,Lyndonville,Northern Vermont University-Lyndon,1,yes,2303
+2020-11-05,Vermont,Washington,Northfield,Norwich University,7,yes,2303
+2020-11-05,Vermont,Chittenden,Colchester,Saint Michael's College,44,yes,2303
+2020-11-05,Vermont,Chittenden,Burlington,University of Vermont,19,yes,2303
+2020-11-05,Vermont,Orange,Randolph,Vermont Technical College,3,yes,2303
+2020-11-05,Virginia,Danville,Danville,Averett University,54,yes,187202
+2020-11-05,Virginia,Tazewell,Bluefield,Bluefield College,82,yes,187202
+2020-11-05,Virginia,Rockingham,Bridgewater,Bridgewater College,42,yes,187202
+2020-11-05,Virginia,Newport News,Newport News,Christopher Newport University,146,yes,187202
+2020-11-05,Virginia,Danville,Danville,Danville Community College,8,yes,187202
+2020-11-05,Virginia,Charlotte,Harrisonburg,Eastern Mennonite University,21,yes,187202
+2020-11-05,Virginia,Norfolk,Norfolk,Eastern Virginia Medical School,51,yes,187202
+2020-11-05,Virginia,Washington,Emory,Emory & Henry College,59,yes,187202
+2020-11-05,Virginia,Franklin,Ferrum,Ferrum College,46,yes,187202
+2020-11-05,Virginia,Fairfax,Fairfax,George Mason University,127,yes,187202
+2020-11-05,Virginia,Prince Edward,Hampden-Sydney,Hampden-Sydney College,97,yes,187202
+2020-11-05,Virginia,Hampton,Hampton,Hampton University,9,yes,187202
+2020-11-05,Virginia,Roanoke,Roanoke,Hollins University,7,yes,187202
+2020-11-05,Virginia,Rockingham,Harrisonburg,James Madison University,1621,yes,187202
+2020-11-05,Virginia,Campbell,Lynchburg,Liberty University,658,yes,187202
+2020-11-05,Virginia,Prince Edward,Farmville,Longwood University,110,yes,187202
+2020-11-05,Virginia,Staunton,Staunton,Mary Baldwin University,8,yes,187202
+2020-11-05,Virginia,Arlington,Arlington,Marymount University,50,yes,187202
+2020-11-05,Virginia,Norfolk,Norfolk,Norfolk State University,22,yes,187202
+2020-11-05,Virginia,Norfolk,Norfolk,Old Dominion University,153,yes,187202
+2020-11-05,Virginia,Radford,Radford,Radford University,524,yes,187202
+2020-11-05,Virginia,Campbell,Lynchburg,Randolph College,1,yes,187202
+2020-11-05,Virginia,Hanover,Ashland,Randolph-Macon College,37,yes,187202
+2020-11-05,Virginia,Roanoke,Salem,Roanoke College,74,yes,187202
+2020-11-05,Virginia,Frederick,Winchester,Shenandoah University,94,yes,187202
+2020-11-05,Virginia,Buena Vista,Buena Vista,Southern Virginia University,5,yes,187202
+2020-11-05,Virginia,Amherst,Sweet Briar,Sweet Briar College,10,yes,187202
+2020-11-05,Virginia,Lynchburg,Lynchburg,University of Lynchburg,463,yes,187202
+2020-11-05,Virginia,Fredericksburg,Fredericksburg,University of Mary Washington,25,yes,187202
+2020-11-05,Virginia,Henrico,Richmond,University of Richmond,35,yes,187202
+2020-11-05,Virginia,Charlottesville,Charlottesville,University of Virginia,1119,yes,187202
+2020-11-05,Virginia,Wise,Wise,University of Virginia's College at Wise,20,yes,187202
+2020-11-05,Virginia,Richmond,Richmond,Virginia Commonwealth University,384,yes,187202
+2020-11-05,Virginia,Washington,Abingdon,Virginia Highlands Community College,4,yes,187202
+2020-11-05,Virginia,Lexington,Lexington,Virginia Military Institute,113,yes,187202
+2020-11-05,Virginia,Petersburg,Petersburg,Virginia State University,4,yes,187202
+2020-11-05,Virginia,Montgomery,Blacksburg,Virginia Tech,1347,yes,187202
+2020-11-05,Virginia,Richmond,Richmond,Virginia Union University,6,yes,187202
+2020-11-05,Virginia,Virginia Beach,Virginia Beach,Virginia Wesleyan University,21,yes,187202
+2020-11-05,Virginia,Rockbridge,Lexington,Washington and Lee University,125,yes,187202
+2020-11-05,Virginia,Williamsburg City,Williamsburg,William & Mary,48,yes,187202
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,American University,30,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,Catholic University of America,214,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,Gallaudet University,1,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,George Washington University,67,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,Georgetown University,193,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,Howard University,21,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,Trinity Washington University,0,yes,17682
+2020-11-05,"Washington, D.C.","Washington, D.C.",Washington,University of the District of Columbia,3,yes,17682
+2020-11-05,Washington,King,Bellevue,Bellevue College,0,yes,111480
+2020-11-05,Washington,Whatcom,Bellingham,Bellingham Technical College,0,yes,111480
+2020-11-05,Washington,Snohomish,Bothell,Cascadia College,0,yes,111480
+2020-11-05,Washington,Kittitas,Ellensburg,Central Washington University,173,yes,111480
+2020-11-05,Washington,Lewis,Centralia,Centralia College,7,yes,111480
+2020-11-05,Washington,Clark,Vancouver,Clark College,1,yes,111480
+2020-11-05,Washington,Pierce,Lakewood,Clover Park Technical College,7,yes,111480
+2020-11-05,Washington,Franklin,Pasco,Columbia Basin College,7,yes,111480
+2020-11-05,Washington,Spokane,Cheney,Eastern Washington University,184,yes,111480
+2020-11-05,Washington,Snohomish,Lynnwood,Edmonds College,10,yes,111480
+2020-11-05,Washington,Snohomish,Everett,Everett Community College,9,yes,111480
+2020-11-05,Washington,Thurston,Olympia,Evergreen State College,0,yes,111480
+2020-11-05,Washington,Spokane,Spokane,Gonzaga University,115,yes,111480
+2020-11-05,Washington,Grays Harbor,Aberdeen,Grays Harbor College,0,yes,111480
+2020-11-05,Washington,King,Auburn,Green River College,3,yes,111480
+2020-11-05,Washington,King,Des Moines,Highline College,2,yes,111480
+2020-11-05,Washington,King,Kirkland,Lake Washington Institute of Technology,5,yes,111480
+2020-11-05,Washington,Cowlitz,Longview,Lower Columbia College,1,yes,111480
+2020-11-05,Washington,King,Seattle,North Seattle College,2,yes,111480
+2020-11-05,Washington,Whatcom,Bellingham,Northwest Indian College,2,yes,111480
+2020-11-05,Washington,Kitsap,Bremerton,Olympic College,1,yes,111480
+2020-11-05,Washington,Pierce,Tacoma,Pacific Lutheran University,13,yes,111480
+2020-11-05,Washington,Clallam,Port Angeles,Peninsula College,0,yes,111480
+2020-11-05,Washington,Pierce,Lakewood,Pierce College Fort Steilacoom,2,yes,111480
+2020-11-05,Washington,King,Renton,Renton Technical College,3,yes,111480
+2020-11-05,Washington,Thurston,Lacey,Saint Martin's University,1,yes,111480
+2020-11-05,Washington,King,Seattle,Seattle Central College,3,yes,111480
+2020-11-05,Washington,King,Seattle,Seattle Pacific University,7,yes,111480
+2020-11-05,Washington,King,Seattle,Seattle University,31,yes,111480
+2020-11-05,Washington,Skagit,Mount Vernon,Skagit Valley College,1,yes,111480
+2020-11-05,Washington,King,Seattle,South Seattle College,2,yes,111480
+2020-11-05,Washington,Spokane,Spokane,Spokane Community College,22,yes,111480
+2020-11-05,Washington,Spokane,Spokane,Spokane Falls Community College,9,yes,111480
+2020-11-05,Washington,Pierce,Tacoma,Tacoma Community College,10,yes,111480
+2020-11-05,Washington,Pierce,Tacoma,University of Puget Sound,21,yes,111480
+2020-11-05,Washington,King,Seattle,University of Washington,726,yes,111480
+2020-11-05,Washington,King,Bothell,University of Washington Bothell,9,yes,111480
+2020-11-05,Washington,Pierce,Tacoma,University of Washington Tacoma,17,yes,111480
+2020-11-05,Washington,Walla Walla,Walla Walla,Walla Walla Community College,2,yes,111480
+2020-11-05,Washington,Whitman,Pullman,Washington State University,1399,yes,111480
+2020-11-05,Washington,Chelan,Wenatchee,Wenatchee Valley College,2,yes,111480
+2020-11-05,Washington,Whatcom,Bellingham,Western Washington University,7,yes,111480
+2020-11-05,Washington,Whatcom,Bellingham,Whatcom Community College,7,yes,111480
+2020-11-05,Washington,Walla Walla,Walla Walla,Whitman College,2,yes,111480
+2020-11-05,Washington,Spokane,Spokane,Whitworth University,56,yes,111480
+2020-11-05,Washington,Yakima,Yakima,Yakima Valley College,15,yes,111480
+2020-11-05,West Virginia,Barbour,Philippi,Alderson Broaddus University,48,yes,26547
+2020-11-05,West Virginia,Brooke,Bethany,Bethany College,5,yes,26547
+2020-11-05,West Virginia,Mercer,Bluefield,Bluefield State College,14,yes,26547
+2020-11-05,West Virginia,Mercer,Athens,Concord University,51,yes,26547
+2020-11-05,West Virginia,Randolph,Elkins,Davis & Elkins College,7,yes,26547
+2020-11-05,West Virginia,Marion,Fairmont,Fairmont State University,43,yes,26547
+2020-11-05,West Virginia,Gilmer,Glenville,Glenville State College,31,yes,26547
+2020-11-05,West Virginia,Cabell,Huntington,Marshall University,162,yes,26547
+2020-11-05,West Virginia,Wood,Vienna,Ohio Valley University,,yes,26547
+2020-11-05,West Virginia,Mineral,Keyser,Potomac State College of West Virginia University,2,yes,26547
+2020-11-05,West Virginia,Harrison,Salem,Salem University,6,yes,26547
+2020-11-05,West Virginia,Jefferson,Shepherdstown,Shepherd University,33,yes,26547
+2020-11-05,West Virginia,Kanawha,Charleston,University of Charleston,39,yes,26547
+2020-11-05,West Virginia,Ohio,West Liberty,West Liberty University,40,yes,26547
+2020-11-05,West Virginia,Greenbrier,Lewisburg,West Virginia School of Osteopathic Medicine,0,yes,26547
+2020-11-05,West Virginia,Kanawha,Institute,West Virginia State University,45,yes,26547
+2020-11-05,West Virginia,Monongalia,Morgantown,West Virginia University,705,yes,26547
+2020-11-05,West Virginia,Fayette,Montgomery,West Virginia University Institute of Technology,3,yes,26547
+2020-11-05,West Virginia,Wood,Parkersburg,West Virginia University at Parkersburg,9,yes,26547
+2020-11-05,West Virginia,Upshur,Buckhannon,West Virginia Wesleyan College,1,yes,26547
+2020-11-05,West Virginia,Ohio,Wheeling,Wheeling University,3,yes,26547
+2020-11-05,Wisconsin,Milwaukee,Milwaukee,Alverno College,42,yes,263571
+2020-11-05,Wisconsin,Rock,Beloit,Beloit College,27,yes,263571
+2020-11-05,Wisconsin,Waukesha,Waukesha,Carroll University,117,yes,263571
+2020-11-05,Wisconsin,Kenosha,Kenosha,Carthage College,79,yes,263571
+2020-11-05,Wisconsin,Ozaukee,Mequon,Concordia University Wisconsin,25,yes,263571
+2020-11-05,Wisconsin,Dane,Madison,Edgewood College,87,yes,263571
+2020-11-05,Wisconsin,Sheboygan,Plymouth,Lakeland University,37,yes,263571
+2020-11-05,Wisconsin,Outagamie,Appleton,Lawrence University,45,yes,263571
+2020-11-05,Wisconsin,Dane,Madison,Madison Area Technical College,0,yes,263571
+2020-11-05,Wisconsin,Jefferson,Watertown,Maranatha Baptist University,2,yes,263571
+2020-11-05,Wisconsin,Fond Du Lac,Fond Du Lac,Marian University,89,yes,263571
+2020-11-05,Wisconsin,Milwaukee,Milwaukee,Marquette University,605,yes,263571
+2020-11-05,Wisconsin,Milwaukee,Milwaukee,Milwaukee School of Engineering,71,yes,263571
+2020-11-05,Wisconsin,Milwaukee,Milwaukee,Mount Mary University,22,yes,263571
+2020-11-05,Wisconsin,Ashland,Ashland,Northland College,5,yes,263571
+2020-11-05,Wisconsin,Fond Du Lac,Ripon,Ripon College,24,yes,263571
+2020-11-05,Wisconsin,Brown,De Pere,Saint Norbert College,188,yes,263571
+2020-11-05,Wisconsin,Eau Claire,Eau Claire,University of Wisconsin-Eau Claire,590,yes,263571
+2020-11-05,Wisconsin,Brown,Green Bay,University of Wisconsin-Green Bay,164,yes,263571
+2020-11-05,Wisconsin,La Crosse,La Crosse,University of Wisconsin-La Crosse,430,yes,263571
+2020-11-05,Wisconsin,Dane,Madison,University of Wisconsin-Madison,3626,yes,263571
+2020-11-05,Wisconsin,Milwaukee,Milwaukee,University of Wisconsin-Milwaukee,785,yes,263571
+2020-11-05,Wisconsin,Winnebago,Oshkosh,University of Wisconsin-Oshkosh,1033,yes,263571
+2020-11-05,Wisconsin,Kenosha,Somers,University of Wisconsin-Parkside,95,yes,263571
+2020-11-05,Wisconsin,Grant,Platteville,University of Wisconsin-Platteville,320,yes,263571
+2020-11-05,Wisconsin,Pierce,River Falls,University of Wisconsin-River Falls,239,yes,263571
+2020-11-05,Wisconsin,Portage,Stevens Point,University of Wisconsin-Stevens Point,396,yes,263571
+2020-11-05,Wisconsin,Dunn,Menomonie,University of Wisconsin-Stout,137,yes,263571
+2020-11-05,Wisconsin,Douglas,Superior,University of Wisconsin-Superior,11,yes,263571
+2020-11-05,Wisconsin,Walworth,Whitewater,University of Wisconsin-Whitewater,515,yes,263571
+2020-11-05,Wisconsin,La Crosse,La Crosse,Viterbo University,214,yes,263571
+2020-11-05,Wisconsin,Milwaukee,Milwaukee,Wisconsin Lutheran College,34,yes,263571
+2020-11-05,Wyoming,Natrona,Casper,Casper College,185,no,15409
+2020-11-05,Wyoming,Goshen,Torrington,Eastern Wyoming College,6,no,15409
+2020-11-05,Wyoming,Albany,Laramie,University of Wyoming,1012,no,15409
+2020-11-05,Wyoming,Sweetwater,Rock Springs,Western Wyoming Community College,10,no,15409
