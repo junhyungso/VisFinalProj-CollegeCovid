@@ -1,10 +1,10 @@
-Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, Hybrid)","closingStatus (Post Finals, Thanksgiving, Early (before thanksgiving), Fully Remote)"
+Rank,College,openStatus,closingStatus
 1,Princeton University,Completely Closed,Fully Remote
 2,Harvard University,Completely Closed,Fully Remote
 3,Columbia University,Completely Open,Post Finals
 4,Massachusetts Institute of Technology,Hybrid,Post Finals
 5,Yale University,Completely Open ,Post Finals
-6,Standford University,Completely Open ,Thanksgiving
+6,Stanford University,Completely Open ,Thanksgiving
 7,University of Chicago,Completely Open ,Thanksgiving
 8,University of Pennsylvania,Completely Closed,Fully Remote
 9,California Institute of Technology,Completely Closed,Fully Remote
@@ -13,7 +13,7 @@ Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, H
 12,Duke University,Completely Open,Post Finals
 13,Dartmouth College,Completely Open,Post Finals
 14,Brown University,Hybrid,Thanksgiving
-15,Vanderbuilt University,Completely Open,Thanksgiving
+15,Vanderbilt University,Completely Open,Thanksgiving
 16,Rice University,Completely Open,Thanksgiving
 17,Washington University in St. Louis,Completely Open,Thanksgiving
 18,Cornell University,Completely Open,Thanksgiving
@@ -22,7 +22,7 @@ Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, H
 21,Emory University,Hybrid,Post Finals
 22,"University of California, Berkeley",Completely Closed,Fully Remote
 23,Georgetown University,Completely Open,Post Finals
-24,University of Michigan - Ann Arbor,Completely Open,Post Finals
+24,University of Michigan,Completely Open,Post Finals
 25,University of Southern California,Completely Closed,Fully Remote
 26,Carnegie Mellon University,Completely Open,Fully Remote
 27,University of Virginia,Completely Open,Thanksgiving
@@ -34,12 +34,12 @@ Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, H
 33,University of Florida,Completely Open,Post Finals
 34,University of Rochester,Completely Open,Post Finals
 35,Boston College,Completely Open,Fully Remote
-36,Georgia Institute of Technlogy,Completely Open,Fully Remote
+36,Georgia Institute of Technology,Completely Open,Fully Remote
 37,"University of California, Irvine",Completely Open,Post Finals
 38,"University of California, San Diego",Completely Open,Post Finals
 39,"University of California, Davis",Completely Open,Post Finals
 40,William & Mary,Completely Open,Thanksgiving
-41,Tulane University,Completely Open,Fully Remote
+41,Tulane University of Louisiana,Completely Open,Fully Remote
 42,Boston University,Completely Open,Post Finals
 43,Brandeis University,Completely Open,Fully Remote
 44,Case Western Reserve University,Completely Open,Fully Remote
@@ -58,10 +58,10 @@ Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, H
 57,Villanova University,Completely Open,Thanksgiving
 58,Florida State University,Completely Open,Post Finals
 59,Syracuse University,Completely Open,Thanksgiving
-60,University of Maryland,Completely Open,Post Finals
+60,"University of Maryland, College Park",Completely Open,Post Finals
 61,University of Pittsburgh,Completely Open,Thanksgiving
 62,University of Washington,Completely Open,Post Finals
-63,Pennsylvania State University,Completely Open,Thanksgiving
+63,Penn State University,Completely Open,Thanksgiving
 64,Rutgers University,Completely Open,Post Finals
 65,University of Connecticut,Completely Open,Early
 66,Fordham University,Completely Open,Thanksgiving
@@ -73,7 +73,7 @@ Rank,College,"openStatus (Top 100 Colleges)(Completely Close, Completely Open, H
 72,University of Minnesota Twin Cities,Completely Open,Post Finals
 73,Worcester Polytechnic Institute,Completely Open,Post Finals
 74,Clemson University,Completely Open,Thanksgiving
-75,Virgina Tech,Completely Open,Thanksgiving
+75,Virginia Tech,Completely Open,Thanksgiving
 76,American University,Completely Open,Thanksgiving
 77,Baylor University,Completely Open,Thanksgiving
 78,Indiana University Bloomington,Completely Open,Thanksgiving
