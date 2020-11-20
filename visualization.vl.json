@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Cumulative Cases per State vs University/College as of November 5th, 2020 (red line = college, bar = state)",
+  "width": 800,
+  "height": 300,
+  "data": {
+    "values": [
+      {"current": 199158, "target": 9858, "state": "Alabama"},
+      {"current": 18174, "target": 105, "state": "Alaska"},
+      {"current": 252768, "target": 5690, "state": "Arizona"},
+      {"current": 117360, "target": 5236, "state": "Arkansas"},
+      {"current": 944576, "target": 5224, "state": "California"},
+      {"current": 117637, "target": 3937, "state": "Colorado"},
+      {"current": 77060, "target": 2171, "state": "Connecticut"},
+      {"current": 25753, "target": 646, "state": "Deleware"},
+      {"current": 816376, "target": 13650, "state": "Florida"},
+      {"current": 368368, "target": 11406, "state": "Georgia"},
+      {"current": 15686, "target": 41, "state": "Hawaii"},
+      {"current": 68314, "target": 1975, "state": "Idaho"},
+      {"current": 453750, "target": 9263, "state": "Illinois"},
+      {"current": 196176, "target": 9736, "state": "Indiana"},
+      {"current": 130732, "target": 5522, "state": "Iowa"},
+      {"current": 190845, "target": 4493, "state": "Louisiana"},
+      {"current": 7260, "target": 15, "state": "Maine"},
+      {"current": 149964, "target": 2671, "state": "Maryland"},
+      {"current": 165161, "target": 1901, "state": "Massachusetts"},
+      {"current": 218263, "target": 8733, "state": "Michigan"},
+      {"current": 164865, "target": 3793, "state": "Minnesota"},
+      {"current": 123887, "target": 2975, "state": "Mississippi"},
+      {"current": 196576, "target": 8319, "state": "Missouri"},
+      {"current": 36968, "target": 1155, "state": "Montana"},
+      {"current": 75888, "target": 3236, "state": "Nebraska"},
+      {"current": 105360, "target": 1280, "state": "Nevada"},
+      {"current": 11808, "target": 418, "state": "New Hampshire"},
+      {"current": 247219, "target": 2019, "state": "New Jersey"},
+      {"current": 518812, "target": 7695, "state": "New York"},
+      {"current": 285661, "target": 10296, "state": "North Carolina"},
+      {"current": 49837, "target": 2889, "state": "North Dakota"},
+      {"current": 235170, "target": 12171, "state": "Ohio"},
+      {"current": 129873, "target": 3975, "state": "Oklahoma"},
+      {"current": 47839, "target": 971, "state": "Oregon"},
+      {"current": 10777, "target": 971, "state": "Pennsylvania"},
+      {"current": 35750, "target": 1000, "state": "Rhode Island"},
+      {"current": 181639, "target": 9974, "state": "South Carolina"},
+      {"current": 51151, "target": 762, "state": "South Dakota"},
+      {"current": 271771, "target": 7862, "state": "Tennessee"},
+      {"current": 934994, "target": 20036, "state": "Texas"},
+      {"current": 124292, "target": 6239, "state": "Utah"},
+      {"current": 2303, "target": 91, "state": "Vermont"},
+      {"current": 187202, "target": 7830, "state": "Virginia"},
+      {"current": 17682, "target": 529, "state": "Washington, D.C."},
+      {"current": 111480, "target": 2896, "state": "Washington"},
+      {"current": 26547, "target": 1247, "state": "West Virginia"},
+      {"current": 263571, "target": 10054, "state": "Wisconsin"},
+      {"current": 15409, "target": 1213, "state": "Wyoming"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "fill": "#4292c6", "fillOpacity": 0.6},
+      "encoding": {
+        "x": {
+          "field": "state",
+          "type": "ordinal",
+          "scale": {"paddingInner": 0.4},
+          "axis": {"title": ""}
+        },
+        "y": {"field": "current", "type": "quantitative", "axis": {"title": ""}}
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "fill": "#de2d26",
+        "stroke": "#de2d26",
+        "shape": "stroke"
+      },
+      "encoding": {
+        "x": {"field": "state", "type": "ordinal"},
+        "y": {"field": "target", "type": "quantitative"},
+        "size": {"value": 250},
+        "opacity": {"value": 1}
+      }
+    },
+    {
+      "mark": {"type": "rect", "stroke": "#636363", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "date", "type": "nominal"},
+        "y": {"field": "limit", "type": "quantitative"},
+        "y2": {"field": "limit", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "axisY": {"ticks": false, "domain": false},
+    "view": {"strokeWidth": 0}
+  }
+}
