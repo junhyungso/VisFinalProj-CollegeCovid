@@ -30,7 +30,7 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
 
 
 
-  const svg = d3.select("body").append("svg")
+  const svg = d3.select(".mapchart").append("svg")
     .attr("viewBox", [0,0,width,height]);
   
   svg.selectAll("path")
@@ -67,5 +67,5 @@ svg.selectAll("circle")
         if (d.stateRestrictionsMasksRequired === "yes") return "green"
         else return "red"
   })
-		.style("opacity", 0.85)
+	.style("opacity", 0.75)
 })
