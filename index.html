@@ -3,20 +3,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Covid Cases</title>
-    
+    <!-- import the webpage's stylesheet -->
+   <link rel="stylesheet" href="style.css">
+
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/underscore@1.11.0/underscore-min.js"></script>
     <!-- import the webpage's javascript file -->
-    <script src="/Mapchart.js" defer type="module"></script>
+
+    <script src="Mapchart.js" defer type="module"></script>
+    <script  src="microbeEmoji.js" type="module" ></script>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
-<body>  
-    <h1>Was the Decision to Bring Students Back to Campus a Safe Idea?</h1> 
+<body>
+    <h1>Was the Decision to Bring Students Back to Campus a Safe Idea?</h1>
     <div class="mapchart"></div>
     <div id="vis"></div>
-    
+
     <script>
       const spec = "visualization.vl.json";
       vegaEmbed("#vis", spec)
@@ -24,10 +29,28 @@
         .then(result => console.log(result))
         .catch(console.warn);
     </script>
+
+    <h3>Top 100 Colleges Sized By Cases </h3>
+    <div id="bubble">
+      <h4>Choose a color coding method</h4>
+      <form>
+        <input type="radio" name="pick" value="cases"> Cases
+        <input type="radio" name="pick" value="opening"> Opening Decision
+        <input type="radio" name="pick" value="closing"> Closing Status
+      </form>
+    </div>
+
   </body>
+
+
+
   <div id="tooltip" class="hidden">
     <p><span id="value"></span></p>
   </div>
   <div id = "chart-area" > </div>
+
+  <div id="bubbletooltip" class="hidden">
+      <p><span id="value"></span></p>
+    </div>
 </body>
 </html>
