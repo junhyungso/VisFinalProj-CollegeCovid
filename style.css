@@ -3,6 +3,10 @@ h1 {
 }
 p {
   text-align: center;
+  font: 100;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
 }
 h3 {
   text-align: center;
