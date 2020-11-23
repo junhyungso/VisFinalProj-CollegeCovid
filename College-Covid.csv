@@ -135,7 +135,7 @@ date,state,county,city,college,cases,stateRestrictionsMasksRequired,cumulativeCa
 2020-11-05,California,Solano,Fairfield,Solano Community College,0,yes,944576,,,,
 2020-11-05,California,Sonoma,Ronhert Park,Sonoma State University,4,yes,944576,,,,
 2020-11-05,California,San Diego,Chula Vista,Southwestern College,10,yes,944576,,,,
-2020-11-05,California,Santa Clara,Stanford,Stanford University,165,yes,944576,Completely Open ,Thanksgiving,37.437516,-122.165747
+2020-11-05,California,Santa Clara,Stanford,Stanford University,165,yes,944576,Completely Open,Thanksgiving,37.437516,-122.165747
 2020-11-05,California,San Joaquin,Stockton,Teachers College of San Joaquin,,yes,944576,,,,
 2020-11-05,California,Alameda,Berkeley,"University of California, Berkeley",238,yes,944576,Completely Closed,Fully Remote,37.869058,-122.270455
 2020-11-05,California,Yolo,Davis,"University of California, Davis",96,yes,944576,Completely Open,Post Finals,38.546421,-121.745384
@@ -203,7 +203,7 @@ date,state,county,city,college,cases,stateRestrictionsMasksRequired,cumulativeCa
 2020-11-05,Connecticut,Hartford,West Hartford,University of Saint Joseph,3,yes,77060,,,,
 2020-11-05,Connecticut,Middlesex,Middletown,Wesleyan University,11,yes,77060,,,,
 2020-11-05,Connecticut,Fairfield,Danbury,Western Connecticut State University,30,yes,77060,,,,
-2020-11-05,Connecticut,New Haven,New Haven,Yale University,244,yes,77060,Completely Open ,Post Finals,41.308252,-72.924161
+2020-11-05,Connecticut,New Haven,New Haven,Yale University,244,yes,77060,Completely Open,Post Finals,41.308252,-72.924161
 2020-11-05,Delaware,Kent,Dover,Delaware State University,77,yes,25753,,,,
 2020-11-05,Delaware,Kent,Dover,Delaware Technical Community College Dover,7,yes,25753,,,,
 2020-11-05,Delaware,Sussex,Georgetown,Delaware Technical Community College Georgetown,45,yes,25753,,,,
@@ -402,7 +402,7 @@ date,state,county,city,college,cases,stateRestrictionsMasksRequired,cumulativeCa
 2020-11-05,Illinois,Cook,Chicago,North Park University,91,yes,453750,,,,
 2020-11-05,Illinois,Cook,Chicago,Northeastern Illinois University,87,yes,453750,,,,
 2020-11-05,Illinois,Dekalb,Dekalb,Northern Illinois University,424,yes,453750,,,,
-2020-11-05,Illinois,Cook,Evanston,Northwestern University,157,yes,453750,Completely Open ,Post Finals,42.052157,-87.687867
+2020-11-05,Illinois,Cook,Evanston,Northwestern University,157,yes,453750,Completely Open,Post Finals,42.052157,-87.687867
 2020-11-05,Illinois,Kankakee,Bourbonnais,Olivet Nazarene University,23,yes,453750,,,,
 2020-11-05,Illinois,Champaign,Champaign,Parkland College,100,yes,453750,,,,
 2020-11-05,Illinois,Jersey,Elsah,Principia College,2,yes,453750,Completely Closed,Fully Remote,38.954693,-90.36077
@@ -414,7 +414,7 @@ date,state,county,city,college,cases,stateRestrictionsMasksRequired,cumulativeCa
 2020-11-05,Illinois,Jackson,Carbondale,Southern Illinois University Carbondale,126,yes,453750,,,,
 2020-11-05,Illinois,Madison,Edwardsville,Southern Illinois University Edwardsville,161,yes,453750,,,,
 2020-11-05,Illinois,St. Clair,Belleville,Southwestern Illinois College,,yes,453750,,,,
-2020-11-05,Illinois,Cook,Chicago,University of Chicago,224,yes,453750,Completely Open ,Thanksgiving,41.883229,-87.632398
+2020-11-05,Illinois,Cook,Chicago,University of Chicago,224,yes,453750,Completely Open,Thanksgiving,41.883229,-87.632398
 2020-11-05,Illinois,Sangamon,Springfield,University of Illinois Springfield,77,yes,453750,,,,
 2020-11-05,Illinois,Champaign,Champaign,University of Illinois Urbana-Champaign,3241,yes,453750,Completely Open,Fully Remote,40.116328,-88.243522
 2020-11-05,Illinois,Cook,Chicago,University of Illinois at Chicago,399,yes,453750,,,,

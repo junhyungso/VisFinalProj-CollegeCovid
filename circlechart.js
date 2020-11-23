@@ -10,7 +10,7 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
     height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
+var svg = d3.select("#circle-chart")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -18,17 +18,12 @@ var svg = d3.select("#my_dataviz")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-//Read the data
-  // Now I can use this dataset:
-    // Add X axis --> it is a date format
-
-    const xScale = d3.scaleLinear()
+    const xScale = d3.scaleSqrt()
     .domain([0, d3.max(filteredCovid, d=>d.cases)])
-    .range([0, width])
-
-    const yScale = d3.scaleOrdinal()
-        .range([height/2, 0])
-        .domain(["yes", "no"])
+    .range([margin.left, width])
+    const yScale = d3.scaleBand()
+      .domain(d3.map(filteredCovid, d=>d.openStatus))
+      .range([height/2, 0])
 
     const xAxis = d3.axisBottom().scale(xScale)
         .ticks(10, "s");
@@ -39,15 +34,15 @@ var svg = d3.select("#my_dataviz")
     svg.append("g")
         .attr("class", "x-axis")
         .call(xAxis)
-        .attr("transform", `translate(0, ${height})`);
+        .attr("transform", `translate(0, ${height/2})`);
 
     svg.append("g")
         .attr("class", "y-axis")
         .call(yAxis)
-        .attr("transform", `translate(0 , 0)`);
+        .attr("transform", `translate(${margin.left} , 0)`);
       
 
-    svg.selectAll('.my_dataviz')
+    svg.selectAll('.circle-chart')
         .append("circle")
         .data(filteredCovid)
         .enter()
@@ -57,7 +52,24 @@ var svg = d3.select("#my_dataviz")
         .attr('opacity', 0.5)
       .attr('r', d=>5)
       .attr('cx', d=> xScale(d.cases))
-      .attr('cy', d=> yScale(d.stateRestrictionsMasksRequired))
+      .attr('cy', d=> yScale(d.openStatus)+40)
+      .on("mouseenter", (event, d) => {
+        const pos = d3.pointer(event, window);
+
+        d3.select("#statetooltip")
+        .style("left", pos[0] + "px")
+        .style("top", pos[1] + "px")
+        .select("#map")
+        .html(
+            d.college + " " +
+            "cases: " + d.cases
+        )
+        d3.select("#statetooltip").classed("hidden", false);
+      })
+      .on("mouseleave", (event, d) => {
+        d3.select("#statetooltip").classed("hidden", true);
+
+      })
 
 
 
