@@ -57,8 +57,8 @@
           "scale": {"type": "sqrt", "zero": false}
         },
         "tooltip": [
-          {"field": "college", "type": "nominal"},
-          {"field": "cases", "aggregate": "sum", "type": "quantitative"}
+          {"field": "college", "type": "nominal", "title": "School"},
+          {"field": "cases", "aggregate": "sum", "type": "quantitative", "title": "# of Cases"}
         ],
         "color": {
           "field": "college",
