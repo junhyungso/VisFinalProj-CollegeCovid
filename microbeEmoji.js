@@ -42,8 +42,8 @@ Promise.all([
 
 
     const closed=d3.scaleOrdinal()
-    .domain(d3.extent(topCovid,d=>d.closingStatus))
-    .range(["#72CBEB",  "#FFB270", "#B42D4D"]);
+      .domain(d3.extent(topCovid,d=>d.closingStatus))
+      .range(["#FBF4A0","#72CBEB", "#FFB270" ,"#B42D4D"]);
 
 
 
@@ -191,6 +191,9 @@ svg.append("circle")
         {
           return "#B42D4D";
         }
+        if(d.closingStatus=="Early"){
+         return "#FBF4A0";
+       }
 
       });
       d3.selectAll(".legend").remove();
