@@ -31,16 +31,18 @@
     <p>By: Grace Sacco, Shahzad Manji, Larissa Portillo, Junhyung So</p>
     <br>
     <h3>US Map of Covid-19 Cases by State and Top 100 Colleges</h3>
+    <form class="mapbutton">
+        <input id="map" type="radio" name="pick" value="States"> States
+        <input id="map" type="radio" name="pick" value="Colleges" checked> Top 100 Colleges
+    </form>  
+    <br />
     <div class="mapchart"></div>
-
     <div id="chart-area"></div>
     <div id="tooltip" class="hidden">
         <p><span id="value"></span></p>
     </div>
     <div id="circle-chart"></div>
-
-    <div id="vis"></div>
-    
+  
 
     <div id="statetooltip" class="hidden">
         <p><span id="map"></span></p>
@@ -49,11 +51,12 @@
     <div id="bubble">
       <h4>Choose a color coding method</h4>
       <form>
-        <input type="radio" name="pick" value="cases"> Cases
-        <input type="radio" name="pick" value="opening"> Opening Decision
-        <input type="radio" name="pick" value="closing"> Closing Status
+        <input id="emoji" type="radio" name="pick" value="cases"> Cases
+        <input id="emoji" type="radio" name="pick" value="opening"> Opening Decision
+        <input id="emoji" type="radio" name="pick" value="closing"> Closing Status
       </form>
     </div>
+    <div id="vis"></div>
 
   </body>
 

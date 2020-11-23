@@ -73,24 +73,53 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
     .attr("stroke-linejoin", "round")
     .attr("d", path);
 
-
-
-svg.selectAll("circle")
-	.data(filteredCovid)
-	.enter()
-	.append("circle")
-	.attr("cx", function(d) {
-		return projection([d.longitude , d.latitude])[0];
-	})
-	.attr("cy", function(d) {
+svg.selectAll(".circle")
+    .data(filteredCovid)
+    .enter()
+    .append("circle")
+    .attr("class", "circle")
+    .attr("cx", function(d) {
+        return projection([d.longitude , d.latitude])[0];
+    })
+    .attr("cy", function(d) {
         return projection([d.longitude , d.latitude])[1];
-    	})
-	.attr("r", function(d) {
-		return Math.sqrt(d.cases/10);
+        })
+    .attr("r", function(d) {
+        return Math.sqrt(d.cases/10);
     })
     .attr("fill", d=>{
         if (d.stateRestrictionsMasksRequired === "yes") return "green"
         else return "red"
-  })
-    .style("opacity", 0.75)
+    })
+    .style("opacity", 0.75);
+
+
+d3.selectAll("#map").on("change", event=>{
+    const visType = event.target.value;// selected button
+    if (visType === "States") {
+        d3.selectAll(".circle").remove();
+    }
+    else {
+        svg.selectAll(".circle")
+            .data(filteredCovid)
+            .enter()
+            .append("circle")
+            .attr("class", "circle")
+            .attr("cx", function(d) {
+                return projection([d.longitude , d.latitude])[0];
+            })
+            .attr("cy", function(d) {
+                return projection([d.longitude , d.latitude])[1];
+                })
+            .attr("r", function(d) {
+                return Math.sqrt(d.cases/10);
+            })
+            .attr("fill", d=>{
+                if (d.stateRestrictionsMasksRequired === "yes") return "green"
+                else return "red"
+            })
+            .style("opacity", 0.75);
+    } 
+});
+
 })

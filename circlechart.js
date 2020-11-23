@@ -26,7 +26,7 @@ var svg = d3.select("#circle-chart")
       .range([height/2, 0])
 
     const xAxis = d3.axisBottom().scale(xScale)
-        .ticks(10, "s");
+        // .ticks(10, "s");
     
 
     const yAxis = d3.axisLeft().scale(yScale)
@@ -43,23 +43,24 @@ var svg = d3.select("#circle-chart")
       
 
     svg.selectAll('.circle-chart')
-        .append("circle")
-        .data(filteredCovid)
-        .enter()
-        .append('circle')
-        // .attr('fill', d=>colorScale(d.Region))
-        .attr('stroke', 'blue')
-        .attr('opacity', 0.5)
-      .attr('r', d=>5)
-      .attr('cx', d=> xScale(d.cases))
-      .attr('cy', d=> yScale(d.openStatus)+40)
+      .data(filteredCovid)
+      .enter()
+      .append('rect')
+      // .attr('fill', d=>colorScale(d.Region))
+      .attr('stroke', 'blue')
+      .attr('fill', 'red')
+      .attr('opacity', 0.5)
+      // .attr('r', d=>5)
+      .attr('x', d=> xScale(d.cases))
+      .attr('y', d=> yScale(d.openStatus)+35)
+      .attr("width", "10")
+      .attr("height", "10")
       .on("mouseenter", (event, d) => {
         const pos = d3.pointer(event, window);
 
         d3.select("#statetooltip")
         .style("left", pos[0] + "px")
         .style("top", pos[1] + "px")
-        .select("#map")
         .html(
             d.college + " " +
             "cases: " + d.cases

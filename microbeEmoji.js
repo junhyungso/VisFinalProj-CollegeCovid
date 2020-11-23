@@ -267,7 +267,7 @@ svg.append("circle")
 
 }
 
- d3.selectAll("input").on("change", event=>{
+ d3.selectAll("#emoji").on("change", event=>{
   const visType = event.target.value;// selected button
   console.log("vis",visType);
 
