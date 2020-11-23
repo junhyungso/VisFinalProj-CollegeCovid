@@ -916,7 +916,7 @@ date,state,county,city,college,cases,stateRestrictionsMasksRequired,cumulativeCa
 2020-11-05,New Jersey,Bergen,Mahwah,Ramapo College of New Jersey,21,yes,247219,,,,
 2020-11-05,New Jersey,Mercer,Lawrenceville,Rider University,19,yes,247219,,,,
 2020-11-05,New Jersey,Gloucester,Glassboro,Rowan University,673,yes,247219,,,,
-2020-11-05,New Jersey,Middlesex,New Brunswick,Rutgers University,396,yes,247219,Completely Open,Post Finals,45.927335,-65.17121
+2020-11-05,New Jersey,Middlesex,New Brunswick,Rutgers University,396,yes,247219,Completely Open,Post Finals,40.59881,-74.28319
 2020-11-05,New Jersey,Hudson,Jersey City,Saint Peter's University,6,yes,247219,,,,
 2020-11-05,New Jersey,Essex,South Orange,Seton Hall University,48,yes,247219,,,,
 2020-11-05,New Jersey,Hudson,Hoboken,Stevens Institute of Technology,36,yes,247219,Hybrid,Thanksgiving,40.743464,-74.029065

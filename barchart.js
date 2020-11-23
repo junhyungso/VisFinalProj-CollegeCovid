@@ -1,15 +1,9 @@
-export default function BarChart(state){
-    Promise.all([ 
-      d3.csv('Top-100-Colleges.csv'),
-      d3.csv('College-Covid.csv')
-    ]).then(data=>{ 
-      let colleges = data[0];
-      let covid = data[1]; 
+export default function BarChart(data){
     let margin = {top: 20, right: 20, bottom: 70, left: 75},
       width = 1000 - margin.left - margin.right,
       height = 300 - margin.top - margin.bottom;
   
-    d3.select('#chart-area').remove(); 
+    d3.select('#chartAges').remove(); 
     let svg = d3
       .select("#chart-area")
       .append("svg")
@@ -27,10 +21,13 @@ export default function BarChart(state){
   
     let y = d3.scaleLinear().range([height, 0]);
   
+    let color = d3.scaleSequential(d3.interpolateBlues);
+
     let xAxis = d3
       .axisBottom()
       .ticks(5)
       .scale(x)
+
   
     let yAxis = d3.axisLeft().scale(y);
   
@@ -38,38 +35,25 @@ export default function BarChart(state){
   
     let yAxisGroup = svg.append("g").attr("class", "y-axis axis");
   
-  
-  filterData();
-  
-  function filterData() {
-    let filteredCovid = [];
-    for(let j =0; j<colleges.length; j++){
-      for (let i = 0; i<covid.length; i++){
-        if (covid[i].college === colleges[j].College){
-            filteredCovid.push(covid[i])
-                    }
-                }
-            }
-  console.log(filteredCovid)
-  filteredCovid.sort(function(a, b){return b.cases-a.cases});
-  var dataFilter = filteredCovid.filter(d=> d.state === state)
-  renderBarChart(dataFilter);
-  }
+    renderBarChart(data)
+    
   
   function renderBarChart(data) {
+    console.log(data)
     x.domain( data.map(function(d) { return d.college; }))
     y.domain([ 0, d3.max(data, function(d) { return d.cases;  })]);
+    color.domain([0, d3.max(data,d=>d.cases)]);
     let bars = svg
-      .selectAll(".bar")
-      .attr("class", "bar")
+      .selectAll(".stateBarChart")
+      .attr("class", "stateBarChart")
       .remove()
       .exit()
       .data(data);
   
     bars.enter()
       .append("rect")
-      .attr("class", "bar") 
-      .attr("x", function(d) { 
+      .attr("class", "stateBarChart") 
+      .attr("x", function(d) {
         return x(d.college);
       })
       .attr("y", function(d) {
@@ -79,14 +63,16 @@ export default function BarChart(state){
         return (height - y(d.cases));
       })
       .attr("width", x.bandwidth())
+      .attr("fill", d=>color(d.cases))
       .on("mouseover", function(event, d) {
-        
+        const pos = d3.pointer(event, window);
+
         let xPosition = margin.left + width / 2 + parseFloat(d3.select(this).attr("x")) + x.bandwidth() / 2;
         let yPosition = margin.top + parseFloat(d3.select(this).attr("y")) / 2 + height;
   
         d3.select("#tooltip")
-          .style("left", xPosition + -600 + "px")
-          .style("top", yPosition + 200 + "px")
+          .style("left", pos[0] + "px")
+          .style("top", pos[1] + "px")
           .select("#value")
           .text(d.college + " is located in " + d.city + ", " + d.state + ". " + "This College/University has" + " " + d.cases + " cases as of November 5th, 2020.")
   
@@ -120,8 +106,7 @@ export default function BarChart(state){
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Number of Cumulative Cases");   
-        
+     
   }
-  })}
+  }
   
-  BarChart("Massachusetts")

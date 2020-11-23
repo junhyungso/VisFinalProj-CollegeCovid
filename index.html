@@ -11,23 +11,32 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const spec = "visualization.vl.json";
+        vegaEmbed("#vis", spec)
+          // result.view provides access to the Vega View API
+          .then(result => console.log(result))
+          .catch(console.warn);
+      </script>
 </head>
 <body>  
     <h1>Was the Decision to Bring Students Back to Campus a Safe Idea?</h1> 
+    <p>By: Grace Sacco, Shahzad Manji, Larissa Portillo, Junhyung So</p>
+    <br>
+    <h3>US Map of Covid-19 Cases by State and Top 100 Colleges</h3>
     <div class="mapchart"></div>
+
+    <div id="chart-area"></div>
+    <div id="tooltip" class="hidden">
+        <p><span id="value"></span></p>
+    </div>
+
     <div id="vis"></div>
     
-    <script>
-      const spec = "visualization.vl.json";
-      vegaEmbed("#vis", spec)
-        // result.view provides access to the Vega View API
-        .then(result => console.log(result))
-        .catch(console.warn);
-    </script>
-  </body>
-  <div id="tooltip" class="hidden">
-    <p><span id="value"></span></p>
-  </div>
-  <div id = "chart-area" > </div>
+
+    <div id="statetooltip" class="hidden">
+        <p><span id="map"></span></p>
+    </div>
 </body>
 </html>

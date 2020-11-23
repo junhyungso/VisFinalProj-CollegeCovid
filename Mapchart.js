@@ -1,11 +1,13 @@
+import BarChart from './barchart.js';
 
 Promise.all([d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
 d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
+    
+    window.scrollTo(0, 0)
 
  const topology = topojson.feature(map, map.objects.states);
  const features = topojson.feature(map, map.objects.states).features;
  const filteredCovid = covid.filter(d=>d.openStatus!==null);
-
 
   for(let i =0; i<features.length; i++){
       for (let j = 0; j<covid.length; j++){
@@ -16,8 +18,8 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
     }
 
   const margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 700 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    width = 1150 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
 
     const projection = d3.geoAlbersUsa()
     .fitExtent([[0,0], [width, height]], topology);
@@ -39,12 +41,35 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
     .attr("d", path)
     .attr("fill", d=>{
         return color(d.properties.cumulativeCases)
-  });
+    })
+    .on("mouseenter", (event, d) => {
+        const pos = d3.pointer(event, window);
+
+        d3.select("#statetooltip")
+        .style("left", pos[0] + "px")
+        .style("top", pos[1] + "px")
+        .select("#map")
+        .html(
+            "Total State Cases: " + d.properties.cumulativeCases
+        )
+        d3.select("#statetooltip").classed("hidden", false);
+      })
+      .on("mouseleave", (event, d) => {
+        d3.select("#statetooltip").classed("hidden", true);
+
+      })
+    .on("click", (event,d )=> {
+        const state = d.properties.name;
+        const dataFilter = filteredCovid.filter(d=> d.state === state);
+        const sortedDataFilter = dataFilter.sort(function(a, b){return b.cases-a.cases});
+        if (sortedDataFilter.length !== 0)
+            BarChart(sortedDataFilter);
+    });
   
   svg.append("path")
     .datum(topojson.mesh(map, map.objects.states))
     .attr("fill", "none")
-    .attr("stroke", "white")
+    .attr("stroke", "black")
     .attr("stroke-linejoin", "round")
     .attr("d", path);
 
@@ -67,5 +92,5 @@ svg.selectAll("circle")
         if (d.stateRestrictionsMasksRequired === "yes") return "green"
         else return "red"
   })
-	.style("opacity", 0.75)
+    .style("opacity", 0.75)
 })

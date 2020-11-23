@@ -1,3 +1,13 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+
+}
 #tooltip {
     position: absolute;
     width: 200px;
@@ -11,11 +21,37 @@
     -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     pointer-events: none;
+    text-align: center;
   }
   #tooltip.hidden {
     display: none;
   }
   #tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #statetooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    text-align: center;
+  }
+  #statetooltip.hidden {
+    display: none;
+  }
+  #statetooltip p {
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;
