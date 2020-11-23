@@ -1,0 +1,72 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/junhyungso/VisFinalProj-CollegeCovid/master/College-Covid.csv"
+  },
+  "title": {
+    "text": "# of Cases at Colleges in the US",
+    "anchor": "middle",
+    "subtitle": "Drag to Zoom"
+  },
+  "vconcat": [
+    {
+      "width": 1000,
+      "height": 200,
+      "mark": "bar",
+      "selection": {"brush": {"type": "interval"}},
+      "encoding": {
+        "y": {
+          "title": "Cases",
+          "field": "cases",
+          "type": "quantitative",
+          "aggregate": "sum",
+          "scale": {"type": "sqrt", "zero": false}
+        },
+        "x": {
+          "title": "College",
+          "field": "college",
+          "type": "nominal",
+          "axis": {"labels": false},
+          "sort": "-y"
+        },
+        "color": {
+          "field": "college",
+          "scale": {"scheme": "category20b"},
+          "legend": null
+        }
+      }
+    },
+    {
+      "width": 1000,
+      "height": 200,
+      "mark": "bar",
+      "transform": [{"filter": {"selection": "brush"}}],
+      "encoding": {
+        "x": {
+          "title": "College",
+          "field": "college",
+          "type": "nominal",
+          "sort": "-y",
+          "axis": {"labels": false}
+        },
+        "y": {
+          "title": "Cases",
+          "field": "cases",
+          "type": "quantitative",
+          "aggregate": "sum",
+          "scale": {"type": "sqrt", "zero": false}
+        },
+        "tooltip": [
+          {"field": "college", "type": "nominal"},
+          {"field": "cases", "aggregate": "sum", "type": "quantitative"}
+        ],
+        "color": {
+          "field": "college",
+          "scale": {"scheme": "category20b"},
+          "legend": null
+        }
+      }
+    }
+  ],
+  "config": {}
+}
