@@ -24,7 +24,14 @@
           // result.view provides access to the Vega View API
           .then(result => console.log(result))
           .catch(console.warn);
-      </script>
+    </script>
+    <script>
+      const spec2 = "viscases.vl.json";
+      vegaEmbed("#vis2", spec2)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+  </script>
 </head>
 <body>  
     <h1>Was the Decision to Bring Students Back to Campus a Safe Idea?</h1> 
@@ -61,7 +68,8 @@
       </form>
     </div>
     <p>The visualization depicted above is our “petri dish” of cases in the top 100 ranked colleges. The virus icons each encode one of these colleges and their size is dependent on how many cumulative cases these schools had, as of November 5th. By pressing a button, the visualization changes its color-coding to be dependent on cases, opening decision, and closing status. Opening decision choices are completely open, completely closed, or hybrid. As described earlier, completely open colleges are those who have allowed all students to return to campus this semester, completely closed colleges are those who have allowed no students to return to campus this semester, and hybrid colleges are those who have been selective about which students were allowed to return to campus this semester. Closing status choices are either Thanksgiving, fully remote, early, or Post Finals/Christmas. Colleges that chose Thanksgiving decided to close their campuses fully after sending students home for Thanksgiving break. Colleges that are fully remote never allowed students on campus and will continue this decision between Thanksgiving break and post-finals/Christmas. Colleges that closed early are those who were forced to suspend in-person activity due to rises in Covid-19 cases. Colleges that close post-finals/Christmas are those who will allow students to remain on-campus following Thanksgiving break. </p>
-
+    <div id="vis2"></div>
+    <p>This visualization shows all the schools from our dataset and their number of cases as of November 5th. We wanted to show all schools to address how each school has done so far in terms of cases. The vis is a stacked chart that implements brushing so we can zoom in and see a smaller number of schools where we can hover to see the name and the number of cases. All these schools have used a different system for managing this semester, we will dive more into the systems and how a selection of schools have done so far.</p>
     <div id="vis"></div>
     <p>As demonstrated in the bar chart above, college students (red lines) have not contributed significantly to the cases in their state (blue bars). However, the red line is still above zero for every single state. These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
 
@@ -77,6 +85,8 @@
   <div id="bubbletooltip" class="hidden">
       <p><span id="value"></span></p>
     </div>
+<div id="vis"></div>
+<p>As demonstrated in the bar chart above, college students (red lines) have not contributed significantly to the cases in their state (blue bars). However, the red line is still above zero for every single state. These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
 </body>
 </body>
 </html>
