@@ -43,6 +43,7 @@
     <div id="tooltip" class="hidden">
         <p><span id="value"></span></p>
     </div>
+    <h3>Top 100 Colleges vs. Their School Opening Status</h3>
     <div id="circle-chart"></div>
     <p>The visualization depicted above shows the amount of cases schools have based on what regulations they chose to have for the Fall 2020 semester. We consider hybrid schools to be colleges or universities that did not allow all students to return for the semester, but allowed some students to be on campus. For example, Harvard University only allowed freshmen to return to campus this fall. We consider completely open schools to be those which allowed every student to return to campus. For example, Boston College welcomed all students back to campus this Fall, even though they allowed students to request to be fully online. Finally, we consider completely closed schools to be those which allowed no students to return to campus under any circumstances. For example, University of Southern California held all of their classes online this semester and did not allow students to enter campus. </p>
   
@@ -59,7 +60,10 @@
         <input id="emoji" type="radio" name="pick" value="closing"> Closing Status
       </form>
     </div>
+    <p>The visualization depicted above is our “petri dish” of cases in the top 100 ranked colleges. The virus icons each encode one of these colleges and their size is dependent on how many cumulative cases these schools had, as of November 5th. By pressing a button, the visualization changes its color-coding to be dependent on cases, opening decision, and closing status. Opening decision choices are completely open, completely closed, or hybrid. As described earlier, completely open colleges are those who have allowed all students to return to campus this semester, completely closed colleges are those who have allowed no students to return to campus this semester, and hybrid colleges are those who have been selective about which students were allowed to return to campus this semester. Closing status choices are either Thanksgiving, fully remote, early, or Post Finals/Christmas. Colleges that chose Thanksgiving decided to close their campuses fully after sending students home for Thanksgiving break. Colleges that are fully remote never allowed students on campus and will continue this decision between Thanksgiving break and post-finals/Christmas. Colleges that closed early are those who were forced to suspend in-person activity due to rises in Covid-19 cases. Colleges that close post-finals/Christmas are those who will allow students to remain on-campus following Thanksgiving break. </p>
+
     <div id="vis"></div>
+    <p>As demonstrated in the bar chart above, college students (red lines) have not contributed significantly to the cases in their state (blue bars). However, the red line is still above zero for every single state. These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
 
   </body>
 
@@ -73,9 +77,6 @@
   <div id="bubbletooltip" class="hidden">
       <p><span id="value"></span></p>
     </div>
-<p>The visualization depicted above is our “petri dish” of cases in the top 100 ranked colleges. The virus icons each encode one of these colleges and their size is dependent on how many cumulative cases these schools had, as of November 5th. By pressing a button, the visualization changes its color-coding to be dependent on cases, opening decision, and closing status. Opening decision choices are completely open, completely closed, or hybrid. As described earlier, completely open colleges are those who have allowed all students to return to campus this semester, completely closed colleges are those who have allowed no students to return to campus this semester, and hybrid colleges are those who have been selective about which students were allowed to return to campus this semester. Closing status choices are either Thanksgiving, fully remote, early, or Post Finals/Christmas. Colleges that chose Thanksgiving decided to close their campuses fully after sending students home for Thanksgiving break. Colleges that are fully remote never allowed students on campus and will continue this decision between Thanksgiving break and post-finals/Christmas. Colleges that closed early are those who were forced to suspend in-person activity due to rises in Covid-19 cases. Colleges that close post-finals/Christmas are those who will allow students to remain on-campus following Thanksgiving break. </p>
-<div id="vis"></div>
-<p>As demonstrated in the bar chart above, college students (red lines) have not contributed significantly to the cases in their state (blue bars). However, the red line is still above zero for every single state. These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
 </body>
 </body>
 </html>

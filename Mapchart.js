@@ -30,7 +30,9 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
   const color = d3.scaleSequential(d3.interpolateBlues)
     .domain([0, d3.max(covid,d=>d.cumulativeCases)]);
 
-
+const mask=d3.scaleOrdinal()
+    .domain(["State Mask Mandate", "No Mask Mandate"])
+    .range(["red","green"]);
 
   const svg = d3.select(".mapchart").append("svg")
     .attr("viewBox", [0,0,width,height]);
@@ -93,6 +95,16 @@ svg.selectAll(".circle")
     })
     .style("opacity", 0.75);
 
+    svg.selectAll('.statelegend')
+        .data(["State Mask Mandate", "No Mask Mandate"])
+        .enter()
+        .append("rect")
+        .attr("class","statelegend")
+        .attr("width", 20)
+        .attr("height",20)
+        .attr("x", 850)
+        .attr("y", (d,i)=> 100+ i*25 )
+        .attr("fill",d=>mask(d));
 
 d3.selectAll("#map").on("change", event=>{
     const visType = event.target.value;// selected button
