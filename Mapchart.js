@@ -106,6 +106,17 @@ svg.selectAll(".circle")
         .attr("y", (d,i)=> 100+ i*25 )
         .attr("fill",d=>mask(d));
 
+    svg.selectAll('.label')
+        .data(["State Mask Mandate", "No Mask Mandate"])
+        .enter()
+        .append('text').attr("class","label")
+        .attr("x", 880)
+        .attr("y", (d,i)=> 110+ i*25 )
+        .text((d)=> d)
+        .attr("text-anchor", "left")
+        .attr("font-size",15)
+        .style("alignment-baseline", "middle");
+
 d3.selectAll("#map").on("change", event=>{
     const visType = event.target.value;// selected button
     if (visType === "States") {
