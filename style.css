@@ -46,9 +46,13 @@ h4 {
 }
 .left-button {
   margin-right: 5px;
+  background-color: blue;
+  border-color: black;
 }
 .right-button {
   margin-left: 5px;
+  background-color: blue;
+  border-color: black;
 }
 .col1{
   width: 66%;
@@ -61,7 +65,8 @@ h4 {
   position: absolute;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) 
+  transform: translate(-50%, -50%);
+
 }
 .vega-embed .chart-wrapper {
   width: 100%;

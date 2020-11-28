@@ -63,7 +63,7 @@ export default function BarChart(data){
         return (height - y(d.cases));
       })
       .attr("width", x.bandwidth())
-      .attr("fill", "lightblue")
+      .attr("fill", "blue")
       .on("mouseover", function(event, d) {
         const pos = d3.pointer(event, window);
 

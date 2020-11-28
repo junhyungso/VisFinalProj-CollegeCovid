@@ -57,7 +57,7 @@
   },
   "layer": [
     {
-      "mark": {"type": "bar", "fill": "#4292c6", "fillOpacity": 0.6},
+      "mark": {"type": "bar", "fill": "blue", "fillOpacity": 0.6},
       "encoding": {
         "x": {
           "field": "state",
