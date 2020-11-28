@@ -1,99 +1,375 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-  "title": "Cumulative Cases per State vs University/College as of November 5th, 2020 (red line = college, bar = state)",
-  "width": 800,
-  "height": 300,
-  "data": {
-    "values": [
-      {"current": 199158, "target": 9858, "state": "Alabama"},
-      {"current": 18174, "target": 105, "state": "Alaska"},
-      {"current": 252768, "target": 5690, "state": "Arizona"},
-      {"current": 117360, "target": 5236, "state": "Arkansas"},
-      {"current": 944576, "target": 5224, "state": "California"},
-      {"current": 117637, "target": 3937, "state": "Colorado"},
-      {"current": 77060, "target": 2171, "state": "Connecticut"},
-      {"current": 25753, "target": 646, "state": "Deleware"},
-      {"current": 816376, "target": 13650, "state": "Florida"},
-      {"current": 368368, "target": 11406, "state": "Georgia"},
-      {"current": 15686, "target": 41, "state": "Hawaii"},
-      {"current": 68314, "target": 1975, "state": "Idaho"},
-      {"current": 453750, "target": 9263, "state": "Illinois"},
-      {"current": 196176, "target": 9736, "state": "Indiana"},
-      {"current": 130732, "target": 5522, "state": "Iowa"},
-      {"current": 190845, "target": 4493, "state": "Louisiana"},
-      {"current": 7260, "target": 15, "state": "Maine"},
-      {"current": 149964, "target": 2671, "state": "Maryland"},
-      {"current": 165161, "target": 1901, "state": "Massachusetts"},
-      {"current": 218263, "target": 8733, "state": "Michigan"},
-      {"current": 164865, "target": 3793, "state": "Minnesota"},
-      {"current": 123887, "target": 2975, "state": "Mississippi"},
-      {"current": 196576, "target": 8319, "state": "Missouri"},
-      {"current": 36968, "target": 1155, "state": "Montana"},
-      {"current": 75888, "target": 3236, "state": "Nebraska"},
-      {"current": 105360, "target": 1280, "state": "Nevada"},
-      {"current": 11808, "target": 418, "state": "New Hampshire"},
-      {"current": 247219, "target": 2019, "state": "New Jersey"},
-      {"current": 518812, "target": 7695, "state": "New York"},
-      {"current": 285661, "target": 10296, "state": "North Carolina"},
-      {"current": 49837, "target": 2889, "state": "North Dakota"},
-      {"current": 235170, "target": 12171, "state": "Ohio"},
-      {"current": 129873, "target": 3975, "state": "Oklahoma"},
-      {"current": 47839, "target": 971, "state": "Oregon"},
-      {"current": 10777, "target": 971, "state": "Pennsylvania"},
-      {"current": 35750, "target": 1000, "state": "Rhode Island"},
-      {"current": 181639, "target": 9974, "state": "South Carolina"},
-      {"current": 51151, "target": 762, "state": "South Dakota"},
-      {"current": 271771, "target": 7862, "state": "Tennessee"},
-      {"current": 934994, "target": 20036, "state": "Texas"},
-      {"current": 124292, "target": 6239, "state": "Utah"},
-      {"current": 2303, "target": 91, "state": "Vermont"},
-      {"current": 187202, "target": 7830, "state": "Virginia"},
-      {"current": 17682, "target": 529, "state": "Washington, D.C."},
-      {"current": 111480, "target": 2896, "state": "Washington"},
-      {"current": 26547, "target": 1247, "state": "West Virginia"},
-      {"current": 263571, "target": 10054, "state": "Wisconsin"},
-      {"current": 15409, "target": 1213, "state": "Wyoming"}
-    ]
-  },
-  "layer": [
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "title": "College's Contribution to the Cases in Their States (as of November 5th, 2020)",
+  "width": 3000,
+  "height": 800,
+  "padding": 1,
+  "data": [
     {
-      "mark": {"type": "bar", "fill": "blue", "fillOpacity": 0.6},
-      "encoding": {
-        "x": {
-          "field": "state",
-          "type": "ordinal",
-          "scale": {"paddingInner": 0.4},
-          "axis": {"title": ""}
+      "name": "table",
+      "values": [
+        {"x": "Alabama", "y": 9858, "c": "College", "y0": 199158, "y1": 209016},
+        {"x": "Alabama", "y": 199158, "c": " State", "y0": 0, "y1": 199158},
+        {"x": "Alaska", "y": 105, "c": "College", "y0": 18174, "y1": 18279},
+        {"x": "Alaska", "y": 18174, "c": " State", "y0": 0, "y1": 18174},
+        {"x": "Arizona", "y": 5690, "c": "College", "y0": 252768, "y1": 258458},
+        {"x": "Arizona", "y": 252768, "c": " State", "y0": 0, "y1": 252768},
+        {
+          "x": "Arkansas",
+          "y": 5236,
+          "c": "College",
+          "y0": 117360,
+          "y1": 122596
         },
-        "y": {"field": "current", "type": "quantitative", "axis": {"title": ""}}
-      }
+        {"x": "Arkansas", "y": 117360, "c": " State", "y0": 0, "y1": 117360},
+        {
+          "x": "California",
+          "y": 5224,
+          "c": "College",
+          "y0": 944576,
+          "y1": 949800
+        },
+        {"x": "California", "y": 944576, "c": " State", "y0": 0, "y1": 944576},
+        {
+          "x": "Colorado",
+          "y": 3937,
+          "c": "College",
+          "y0": 117637,
+          "y1": 121574
+        },
+        {"x": "Colorado", "y": 117637, "c": " State", "y0": 0, "y1": 117637},
+        {
+          "x": "Connecticut",
+          "y": 2171,
+          "c": "College",
+          "y0": 77060,
+          "y1": 79231
+        },
+        {"x": "Connecticut", "y": 77060, "c": " State", "y0": 0, "y1": 77060},
+        {"x": "Delaware", "y": 646, "c": "College", "y0": 25753, "y1": 26399},
+        {"x": "Delaware", "y": 25753, "c": " State", "y0": 0, "y1": 25753},
+        {
+          "x": "Florida",
+          "y": 13650,
+          "c": "College",
+          "y0": 816376,
+          "y1": 830026
+        },
+        {"x": "Florida", "y": 816376, "c": " State", "y0": 0, "y1": 816376},
+        {
+          "x": "Georgia",
+          "y": 11406,
+          "c": "College",
+          "y0": 368368,
+          "y1": 379774
+        },
+        {"x": "Georgia", "y": 368368, "c": " State", "y0": 0, "y1": 368368},
+        {"x": "Hawaii", "y": 41, "c": "College", "y0": 15686, "y1": 15727},
+        {"x": "Hawaii", "y": 15686, "c": " State", "y0": 0, "y1": 15686},
+        {"x": "Idaho", "y": 1975, "c": "College", "y0": 68314, "y1": 70289},
+        {"x": "Idaho", "y": 68314, "c": " State", "y0": 0, "y1": 68314},
+        {
+          "x": "Illinois",
+          "y": 9263,
+          "c": "College",
+          "y0": 453750,
+          "y1": 463013
+        },
+        {"x": "Illinois", "y": 453750, "c": " State", "y0": 0, "y1": 453750},
+        {"x": "Indiana", "y": 9736, "c": "College", "y0": 196176, "y1": 205912},
+        {"x": "Indiana", "y": 196176, "c": " State", "y0": 0, "y1": 196176},
+        {"x": "Iowa", "y": 5522, "c": "College", "y0": 130732, "y1": 136254},
+        {"x": "Iowa", "y": 130732, "c": " State", "y0": 0, "y1": 130732},
+        {
+          "x": "Louisiana",
+          "y": 4493,
+          "c": "College",
+          "y0": 190845,
+          "y1": 195338
+        },
+        {"x": "Louisiana", "y": 190845, "c": " State", "y0": 0, "y1": 190845},
+        {"x": "Maine", "y": 15, "c": "College", "y0": 7260, "y1": 7275},
+        {"x": "Maine", "y": 7260, "c": " State", "y0": 0, "y1": 7260},
+        {
+          "x": "Maryland",
+          "y": 2671,
+          "c": "College",
+          "y0": 149964,
+          "y1": 152635
+        },
+        {"x": "Maryland", "y": 149964, "c": " State", "y0": 0, "y1": 149964},
+        {
+          "x": "Massachusetts",
+          "y": 1901,
+          "c": "College",
+          "y0": 165161,
+          "y1": 167062
+        },
+        {
+          "x": "Massachusetts",
+          "y": 165161,
+          "c": " State",
+          "y0": 0,
+          "y1": 165161
+        },
+        {
+          "x": "Michigan",
+          "y": 8733,
+          "c": "College",
+          "y0": 218263,
+          "y1": 226996
+        },
+        {"x": "Michigan", "y": 218263, "c": " State", "y0": 0, "y1": 218263},
+        {
+          "x": "Minnesota",
+          "y": 3793,
+          "c": "College",
+          "y0": 164865,
+          "y1": 168658
+        },
+        {"x": "Minnesota", "y": 164865, "c": " State", "y0": 0, "y1": 164865},
+        {
+          "x": "Mississippi",
+          "y": 2975,
+          "c": "College",
+          "y0": 123887,
+          "y1": 126862
+        },
+        {"x": "Mississippi", "y": 123887, "c": " State", "y0": 0, "y1": 123887},
+        {
+          "x": "Missouri",
+          "y": 8319,
+          "c": "College",
+          "y0": 196576,
+          "y1": 204895
+        },
+        {"x": "Missouri", "y": 196576, "c": " State", "y0": 0, "y1": 196576},
+        {"x": "Montana", "y": 1155, "c": "College", "y0": 36968, "y1": 38123},
+        {"x": "Montana", "y": 36968, "c": " State", "y0": 0, "y1": 36968},
+        {"x": "Nebraska", "y": 3236, "c": "College", "y0": 75888, "y1": 79124},
+        {"x": "Nebraska", "y": 75888, "c": " State", "y0": 0, "y1": 75888},
+        {"x": "Nevada", "y": 1280, "c": "College", "y0": 105360, "y1": 106640},
+        {"x": "Nevada", "y": 105360, "c": " State", "y0": 0, "y1": 105360},
+        {
+          "x": "New Hampshire",
+          "y": 418,
+          "c": "College",
+          "y0": 11808,
+          "y1": 12226
+        },
+        {"x": "New Hampshire", "y": 11808, "c": " State", "y0": 0, "y1": 11808},
+        {
+          "x": "New Jersey",
+          "y": 2019,
+          "c": "College",
+          "y0": 247219,
+          "y1": 249238
+        },
+        {"x": "New Jersey", "y": 247219, "c": " State", "y0": 0, "y1": 247219},
+        {
+          "x": "New York",
+          "y": 7695,
+          "c": "College",
+          "y0": 518812,
+          "y1": 526507
+        },
+        {"x": "New York", "y": 518812, "c": " State", "y0": 0, "y1": 518812},
+        {
+          "x": "North Carolina",
+          "y": 10296,
+          "c": "College",
+          "y0": 285661,
+          "y1": 295957
+        },
+        {
+          "x": "North Carolina",
+          "y": 285661,
+          "c": " State",
+          "y0": 0,
+          "y1": 285661
+        },
+        {
+          "x": "North Dakota",
+          "y": 2889,
+          "c": "College",
+          "y0": 49837,
+          "y1": 52726
+        },
+        {"x": "North Dakota", "y": 49837, "c": " State", "y0": 0, "y1": 49837},
+        {"x": "Ohio", "y": 12171, "c": "College", "y0": 235170, "y1": 247341},
+        {"x": "Ohio", "y": 235170, "c": " State", "y0": 0, "y1": 235170},
+        {
+          "x": "Oklahoma",
+          "y": 3975,
+          "c": "College",
+          "y0": 129873,
+          "y1": 133848
+        },
+        {"x": "Oklahoma", "y": 129873, "c": " State", "y0": 0, "y1": 129873},
+        {"x": "Oregon", "y": 971, "c": "College", "y0": 47839, "y1": 48810},
+        {"x": "Oregon", "y": 47839, "c": " State", "y0": 0, "y1": 47839},
+        {
+          "x": "Pennsylvania",
+          "y": 10817,
+          "c": "College",
+          "y0": 220566,
+          "y1": 231383
+        },
+        {
+          "x": "Pennsylvania",
+          "y": 220566,
+          "c": " State",
+          "y0": 0,
+          "y1": 220566
+        },
+        {
+          "x": "Rhode Island",
+          "y": 1000,
+          "c": "College",
+          "y0": 35750,
+          "y1": 36750
+        },
+        {"x": "Rhode Island", "y": 35750, "c": " State", "y0": 0, "y1": 35750},
+        {
+          "x": "South Carolina",
+          "y": 9974,
+          "c": "College",
+          "y0": 181639,
+          "y1": 191613
+        },
+        {
+          "x": "South Carolina",
+          "y": 181639,
+          "c": " State",
+          "y0": 0,
+          "y1": 181639
+        },
+        {
+          "x": "South Dakota",
+          "y": 762,
+          "c": "College",
+          "y0": 51151,
+          "y1": 51913
+        },
+        {"x": "South Dakota", "y": 51151, "c": " State", "y0": 0, "y1": 51151},
+        {
+          "x": "Tennessee",
+          "y": 7862,
+          "c": "College",
+          "y0": 271771,
+          "y1": 279633
+        },
+        {"x": "Tennessee", "y": 271771, "c": " State", "y0": 0, "y1": 271771},
+        {"x": "Texas", "y": 20036, "c": "College", "y0": 934994, "y1": 955030},
+        {"x": "Texas", "y": 934994, "c": " State", "y0": 0, "y1": 934994},
+        {"x": "Utah", "y": 6239, "c": "College", "y0": 124292, "y1": 130531},
+        {"x": "Utah", "y": 124292, "c": " State", "y0": 0, "y1": 124292},
+        {"x": "Vermont", "y": 91, "c": "College", "y0": 2303, "y1": 2394},
+        {"x": "Vermont", "y": 2303, "c": " State", "y0": 0, "y1": 2303},
+        {
+          "x": "Virginia",
+          "y": 7830,
+          "c": "College",
+          "y0": 187202,
+          "y1": 195032
+        },
+        {"x": "Virginia", "y": 187202, "c": " State", "y0": 0, "y1": 187202},
+        {
+          "x": "Washington, D.C.",
+          "y": 529,
+          "c": "College",
+          "y0": 17682,
+          "y1": 18211
+        },
+        {
+          "x": "Washington, D.C.",
+          "y": 17682,
+          "c": " State",
+          "y0": 0,
+          "y1": 17682
+        },
+        {
+          "x": "Washington",
+          "y": 2896,
+          "c": "College",
+          "y0": 111480,
+          "y1": 114376
+        },
+        {"x": "Washington", "y": 111480, "c": " State", "y0": 0, "y1": 111480},
+        {
+          "x": "West Virginia",
+          "y": 1247,
+          "c": "College",
+          "y0": 26547,
+          "y1": 27794
+        },
+        {"x": "West Virginia", "y": 26547, "c": " State", "y0": 0, "y1": 26547},
+        {
+          "x": "Wisconsin",
+          "y": 10054,
+          "c": "College",
+          "y0": 263571,
+          "y1": 273625
+        },
+        {"x": "Wisconsin", "y": 263571, "c": " State", "y0": 0, "y1": 263571},
+        {"x": "Wyoming", "y": 1213, "c": "College", "y0": 15409, "y1": 16622},
+        {"x": "Wyoming", "y": 15409, "c": " State", "y0": 0, "y1": 15409}
+      ],
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["x"],
+          "sort": {"field": "c"},
+          "field": "y"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "range": "width",
+      "domain": {"data": "table", "field": "x"}
     },
     {
-      "mark": {
-        "type": "point",
-        "filled": true,
-        "fill": "#de2d26",
-        "stroke": "#de2d26",
-        "shape": "stroke"
-      },
-      "encoding": {
-        "x": {"field": "state", "type": "ordinal"},
-        "y": {"field": "target", "type": "quantitative"},
-        "size": {"value": 250},
-        "opacity": {"value": 1}
-      }
+      "name": "y",
+      "type": "linear",
+      "range": "height",
+      "nice": true,
+      "zero": true,
+      "domain": {"data": "table", "field": "y1"}
     },
     {
-      "mark": {"type": "rect", "stroke": "#636363", "strokeWidth": 2},
-      "encoding": {
-        "x": {"field": "date", "type": "nominal"},
-        "y": {"field": "limit", "type": "quantitative"},
-        "y2": {"field": "limit", "type": "quantitative"}
+      "name": "color",
+      "type": "ordinal",
+      "range": ["#FFFF00", "#0000FF"],
+      "domain": {"data": "table", "field": "c"}
+    }
+  ],
+  "axes": [
+    {"orient": "bottom", "scale": "x", "zindex": 1, "title": "Colleges"},
+    {"orient": "left", "scale": "y", "zindex": 1, "title": "Cumulative Cases"}
+  ],
+  "legends": [{"stroke": "color", "title": "Cases"}],
+  "background": "rgb(243, 251, 253)",
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "x", "title": "College"},
+          "width": {"scale": "x", "band": 1, "offset": -1},
+          "y": {"scale": "y", "field": "y0"},
+          "y2": {"scale": "y", "field": "y1"},
+          "fill": {"scale": "color", "field": "c"},
+          "update": {"fillOpacity": {"value": 1}},
+          "hover": {"fillOpacity": {"value": 0.5}},
+          "tooltip": [{"field": "y", "type": "quantitative", "title": "Cases"}]
+        }
       }
     }
   ],
-  "config": {
-    "axisY": {"ticks": false, "domain": false},
-    "view": {"strokeWidth": 0}
-  }
+  "config": {}
 }
