@@ -1,6 +1,6 @@
 export default function BarChart(data){
     let margin = {top: 20, right: 20, bottom: 70, left: 75},
-      width = 1000 - margin.left - margin.right,
+      width = 1500 - margin.left - margin.right,
       height = 300 - margin.top - margin.bottom;
   
     d3.select('#chartAges').remove(); 
@@ -21,11 +21,11 @@ export default function BarChart(data){
   
     let y = d3.scaleLinear().range([height, 0]);
   
-    let color = d3.scaleSequential(d3.interpolateBlues);
+    let color = d3.scaleSequential(d3.interpolatePurples);
 
     let xAxis = d3
       .axisBottom()
-      .ticks(5)
+      // .ticks(5)
       .scale(x)
 
   
@@ -63,7 +63,7 @@ export default function BarChart(data){
         return (height - y(d.cases));
       })
       .attr("width", x.bandwidth())
-      .attr("fill", d=>color(d.cases))
+      .attr("fill", "lightblue")
       .on("mouseover", function(event, d) {
         const pos = d3.pointer(event, window);
 

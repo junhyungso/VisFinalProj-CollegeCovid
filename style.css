@@ -1,12 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(243, 251, 253);
+}
 h1 {
   text-align: center;
 }
 p {
   text-align: center;
-  font: 100;
-  color: white;
+  /* font: 100; */
+  /* color: black; */
   font-family: "Times New Roman", Times, serif;
-  background-color: black;
+  /* background-color: black; */
 }
 h3 {
   text-align: center;
@@ -15,14 +19,53 @@ h3 {
 h4 {
   text-align: center;
 }
+.intro {
+  height: 100%;
+  width: 100%;
+  border-bottom: dotted;
+}
+.mapsect {
+  height: 110%;
+  width: 100%;
+}
+.sect {
+  height: 175%;
+}
 
+.container {
+  margin-top: 15%;
+
+}
+.statesChoice {
+  display: flex;
+}
+.divrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-button {
+  margin-right: 5px;
+}
+.right-button {
+  margin-left: 5px;
+}
+.col1{
+  width: 66%;
+}
+.col2{
+  margin-left:5px;
+  width: 33%;
+}
 .mapbutton {
   position: absolute;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%) 
 }
-
+.vega-embed .chart-wrapper {
+  width: 100%;
+}
 #tooltip {
     position: absolute;
     width: 200px;

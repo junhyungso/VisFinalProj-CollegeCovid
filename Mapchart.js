@@ -1,4 +1,5 @@
 import BarChart from './barchart.js';
+import StateCases from './stateCases.js';
 
 Promise.all([d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
 d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
@@ -27,12 +28,12 @@ d3.csv('College-Covid.csv', d3.autoType)]).then(([map, covid])=>{
     
     const path = d3.geoPath().projection(projection);
     
-  const color = d3.scaleSequential(d3.interpolateBlues)
+  const color = d3.scaleSequential(d3.interpolateGreys)
     .domain([0, d3.max(covid,d=>d.cumulativeCases)]);
 
 const mask=d3.scaleOrdinal()
     .domain(["State Mask Mandate", "No Mask Mandate"])
-    .range(["red","green"]);
+    .range(["orange","blue"]);
 
   const svg = d3.select(".mapchart").append("svg")
     .attr("viewBox", [0,0,width,height]);
@@ -52,23 +53,27 @@ const mask=d3.scaleOrdinal()
         .style("top", pos[1] + "px")
         .select("#map")
         .html(
-            "Total State Cases: " + d.properties.cumulativeCases
+            "Total " + d.properties.name + " Cases: " + d.properties.cumulativeCases
         )
         d3.select("#statetooltip").classed("hidden", false);
       })
       .on("mouseleave", (event, d) => {
         d3.select("#statetooltip").classed("hidden", true);
-
       })
     .on("click", (event,d )=> {
+        document.getElementById("stateChoose").scrollIntoView();
         const state = d.properties.name;
         const dataFilter = filteredCovid.filter(d=> d.state === state);
         const sortedDataFilter = dataFilter.sort(function(a, b){return b.cases-a.cases});
-        if (sortedDataFilter.length !== 0)
-            BarChart(sortedDataFilter);
+
+        const stateSelect = document.getElementById('states-choice');
+        stateSelect.value = state;
+        StateCases(d);
+
+        BarChart(sortedDataFilter);
     });
   
-  svg.append("path")
+    svg.append("path")
     .datum(topojson.mesh(map, map.objects.states))
     .attr("fill", "none")
     .attr("stroke", "black")
@@ -90,13 +95,13 @@ svg.selectAll(".circle")
         return Math.sqrt(d.cases/10);
     })
     .attr("fill", d=>{
-        if (d.stateRestrictionsMasksRequired === "yes") return "green"
-        else return "red"
+        if (d.stateRestrictionsMasksRequired === "yes") return "blue"
+        else return "orange"
     })
     .style("opacity", 0.75);
 
     svg.selectAll('.statelegend')
-        .data(["State Mask Mandate", "No Mask Mandate"])
+        .data(["No Mask Mandate", "State Mask Mandate"])
         .enter()
         .append("rect")
         .attr("class","statelegend")
@@ -138,8 +143,8 @@ d3.selectAll("#map").on("change", event=>{
                 return Math.sqrt(d.cases/10);
             })
             .attr("fill", d=>{
-                if (d.stateRestrictionsMasksRequired === "yes") return "green"
-                else return "red"
+                if (d.stateRestrictionsMasksRequired === "yes") return "blue"
+                else return "orange"
             })
             .style("opacity", 0.75);
     } 

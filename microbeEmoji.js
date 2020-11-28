@@ -11,8 +11,8 @@ Promise.all([
     let topCovid = colleges.filter(d=>d.openStatus!==null);
 
     console.log("topcovid",topCovid);
-    const width = 500;
-    const height =300;
+    const width = 1100;
+    const height =500;
     const rad=15;
 /*
     const margin = 30;
@@ -25,7 +25,7 @@ Promise.all([
 */
 
     const svg = d3.select("#bubble").append("svg")
-    .attr("viewBox",  [-width/2,-height/2, width*2, height*2]);
+    .attr("viewBox",  [-width/3,-height/3, width, height]);
 
     const size=d3.scaleLinear()
     .domain(d3.extent(topCovid,d=>d.cases))
