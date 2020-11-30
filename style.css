@@ -9,6 +9,10 @@ p {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
+.p-margins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 h3 {
   text-align: center;
 }
@@ -30,6 +34,10 @@ h4 {
   height: 175%;
 }
 
+.fullsect {
+  height: 175%
+}
+
 .container {
   margin-top: 15%;
 
@@ -46,11 +54,26 @@ h4 {
   margin-right: 5px;
   background-color: blue;
   border-color: black;
+  border-radius: 10px;
+}
+.left-button:hover{
+  background-color: orange;
 }
 .right-button {
   margin-left: 5px;
   background-color: blue;
   border-color: black;
+  border-radius: 10px;
+}
+.right-button:hover{
+  background-color: orange;
+}
+.next-button {
+  background-color: blue;
+  border-radius: 10px;
+}
+.next-button:hover{
+  background-color: orange;
 }
 .col1{
   width: 66%;

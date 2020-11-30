@@ -46,16 +46,16 @@
     </div>
     <div class="container">
       <div class="divrow">
-        <h1>Was the Decision to Bring Students Back to Campus a Safe Idea?</h1> 
+        <h1>Was it a Safe Decision to Bring Students Back to Campus for the Fall 2020 Semester?</h1> 
       </div>
       <div class="divrow">
         <p>What do YOU think?</p>
       </div>
       <div class="divrow">
-        <a href="#mapSection">
+        <a href="#infoSection">
           <button class="left-button" id="but1" value="Yes" onclick="buttonAnswer1()">Yes</button>        
         </a>
-        <a href="#mapSection">
+        <a href="#infoSection">
           <button class="right-button" id="but2" value="No" onclick="buttonAnswer2()">No</button>
         </a>
       </div>
@@ -69,11 +69,32 @@
     </div>
     </section>
   
-    <section id="mapSection" class="mapsect">
+    <section id="infoSection" class="mapsect">
       <p id="answerHTML">You answered: </p>
-      <p>Individual colleges have been making their own decisions on whether to open or close schools based on the trend of cases, state regulations, and the affordability of safety.</p>
-      
+      <div class="p-margins">
+        <p>Individual colleges have been making their own decisions on whether to open or close schools based on the trend of cases, state regulations, and the affordability of safety.
+          While some schools have done well to contain the spread of the virus through strict rules on social distancing, others have suffered from uncontrollable spread of the virus.
+        </p>
+      </div>
+
+      <div>
+        <img src="./assets/coronacollege.png" alt="" width="49%" height="150px">
+        <img src="./assets/goodcollege.png" alt="" width="49%" height="150px">
+      </div>
+      <div>
+        <img src="./assets/social-dist.jpg" alt="" width="49%" height="350px">
+        <img src="./assets/partying.jpg" alt="" width="49%" height="350px">
+      </div>
       <br />
+      <div class="divrow">
+        <a href="#mapSection">
+          <button class="next-button" >Next</button>
+        </a>
+      </div>
+
+    </section>
+
+    <section id="mapSection" class="mapsect">
       <p>The United States map shown above has several important components. First, the states are color-coded based on their number of cumulative Covid-19 cases as of November 5th. Darker blue colored states such as California have much higher cases than lighter blue colored states such as New Mexico. There are also dots on the locations of top 100 ranked colleges in the United States. These dots are colored red if their state does not require masks, and colored green if they do require masks. These dots are also sized based on the number of cases these colleges have. Click on a state with a top 100 ranked college to see how many cases per college in that state.</p>
 
       <h3>US Map of Covid-19 Cases by State and Top 100 Colleges</h3> 
@@ -83,68 +104,76 @@
       </form>
       <p>Click on the states for a detailed case count for thee state and its affiliated colleges.</p>
       <div class="mapchart"></div>
+      <br />
+      <br />
+      <div class="divrow">
+        <!-- <a href="#barsect" width="5%"> -->
+          <img src="./assets/arrow.png" alt="" width="5%">
+        <!-- </a> -->
+      </div>
     </section>
 
 
-    <section class="intro"> 
-      <label id="stateChoose" for="states" margin-left="5px">Choose a state:</label>
-      <div class="statesChoice">
-        <div class="col2">
-          <select id="states-choice" name="states">
-            <option value="Alabama">Alabama</option>
-            <option value="Alaska">Alaska</option>
-            <option value="Arkansas">Arkansas</option>
-            <option value="California">California</option>
-            <option value="Colorado">Colorado</option>
-            <option value="Connecticut">Connecticut</option>
-            <option value="Delaware">Delaware</option>
-            <option value="Florida">Florida</option>
-            <option value="Georgia">Georgia </option>
-            <option value="Hawaii">Hawaii</option>
-            <option value="Idaho">Idaho</option>
-            <option value="Illinois">Illinois</option>
-            <option value="Indiana">Indiana</option>
-            <option value="Iowa">Iowa</option>
-            <option value="Kansas">Kansas</option>
-            <option value="Kentucky">Kentucky</option>
-            <option value="Louisiana">Louisiana</option>
-            <option value="Maine">Maine</option>
-            <option value="Maryland">Maryland</option>
-            <option value="Massachusetts">Massachusetts</option>
-            <option value="Michigan">Michigan</option>
-            <option value="Minnesota">Minnesota</option>
-            <option value="Missouri">Missouri</option>
-            <option value="Montana">Montana</option>
-            <option value="Michigan">Michigan</option>
-            <option value="Nebraska">Nebraska</option>
-            <option value="Nevada">Nevada</option>
-            <option value="New Hampshire">New Hampshire</option>
-            <option value="New Jersey">New Jersey</option>
-            <option value="New Mexico">New Mexico</option>
-            <option value="New York">New York</option>
-            <option value="North Carolina">North Carolina</option>
-            <option value="North Dakota">North Dakota</option>
-            <option value="Ohio">Ohio</option>
-            <option value="Oklahoma">Oklahoma</option>
-            <option value="Oregon">Oregon</option>
-            <option value="Pennsylvania">Pennsylvania</option>
-            <option value="Rhode Island">Rhode Island</option>
-            <option value="South Carolina">South Carolina</option>
-            <option value="South Dakota">South Dakota</option>
-            <option value="Tennessee">Tennessee</option>
-            <option value="Texas">Texas</option>
-            <option value="Utah">Utah</option>
-            <option value="Texas">Texas</option>
-            <option value="Vermont">Vermont</option>
-            <option value="Virginia">Virginia</option>
-            <option value="Washington, D.C.">Washington, D.C.</option>
-            <option value="Washington">Washington</option>
-            <option value="West Virginia">West Virginia</option>
-            <option value="Wisconsin">Wisconsin</option>
-            <option value="Wyoming">Wyoming</option>
-          </select>
-        </div>
-        
+    <section id="barsect" class="intro"> 
+      <div margin-left="15px">
+        <label id="stateChoose" for="states" >Choose a state:</label>
+        <div class="statesChoice">
+          <div class="col2">
+            <select id="states-choice" name="states">
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="California">California</option>
+              <option value="Colorado">Colorado</option>
+              <option value="Connecticut">Connecticut</option>
+              <option value="Delaware">Delaware</option>
+              <option value="Florida">Florida</option>
+              <option value="Georgia">Georgia </option>
+              <option value="Hawaii">Hawaii</option>
+              <option value="Idaho">Idaho</option>
+              <option value="Illinois">Illinois</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Iowa">Iowa</option>
+              <option value="Kansas">Kansas</option>
+              <option value="Kentucky">Kentucky</option>
+              <option value="Louisiana">Louisiana</option>
+              <option value="Maine">Maine</option>
+              <option value="Maryland">Maryland</option>
+              <option value="Massachusetts">Massachusetts</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Minnesota">Minnesota</option>
+              <option value="Missouri">Missouri</option>
+              <option value="Montana">Montana</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Nebraska">Nebraska</option>
+              <option value="Nevada">Nevada</option>
+              <option value="New Hampshire">New Hampshire</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="New Mexico">New Mexico</option>
+              <option value="New York">New York</option>
+              <option value="North Carolina">North Carolina</option>
+              <option value="North Dakota">North Dakota</option>
+              <option value="Ohio">Ohio</option>
+              <option value="Oklahoma">Oklahoma</option>
+              <option value="Oregon">Oregon</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+              <option value="Rhode Island">Rhode Island</option>
+              <option value="South Carolina">South Carolina</option>
+              <option value="South Dakota">South Dakota</option>
+              <option value="Tennessee">Tennessee</option>
+              <option value="Texas">Texas</option>
+              <option value="Utah">Utah</option>
+              <option value="Texas">Texas</option>
+              <option value="Vermont">Vermont</option>
+              <option value="Virginia">Virginia</option>
+              <option value="Washington, D.C.">Washington, D.C.</option>
+              <option value="Washington">Washington</option>
+              <option value="West Virginia">West Virginia</option>
+              <option value="Wisconsin">Wisconsin</option>
+              <option value="Wyoming">Wyoming</option>
+            </select>
+          </div>
+      </div>  
         <div class="col1">
           <p id="stateText"></p>
         </div>
@@ -189,11 +218,13 @@
     <div id="vis2"></div>
   </section> 
 
-  <section class="intro">
-     <p>As demonstrated in the bar chart below, college students (yellow) have not contributed significantly to the cases in their state (blue). However, the yellow line is still above zero for every single state (as you can see when you hover). These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
+  <section class="fullsect">
      <div id="vis"></div>
   </section>
     
+  <section class="fullsect">
+    <p>As demonstrated in the bar chart below, college students (yellow) have not contributed significantly to the cases in their state (blue). However, the yellow line is still above zero for every single state (as you can see when you hover). These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
+  </section>
   <div id="tooltip" class="hidden">
     <p><span id="value"></span></p>
   </div>
@@ -220,6 +251,7 @@
       document.getElementById("answerHTML").innerHTML = p;
       p = null;
     }
+    
   </script>
   </body>
 
