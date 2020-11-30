@@ -208,7 +208,7 @@
       document.getElementById("answerHTML").innerHTML = "You answered: "
       const ans = document.getElementById("but1").value;
       let p = document.getElementById("answerHTML").innerHTML
-      p = p + " " + ans;
+      p = p + " <strong>" + ans + "</strong>";
       document.getElementById("answerHTML").innerHTML = p;
       p = null;
     }
@@ -216,7 +216,7 @@
       document.getElementById("answerHTML").innerHTML = "You answered: "
       const ans = document.getElementById("but2").value;
       let p = document.getElementById("answerHTML").innerHTML
-      p = p + " " + ans;
+      p = p + " <strong>" + ans + "</strong>";
       document.getElementById("answerHTML").innerHTML = p;
       p = null;
     }
