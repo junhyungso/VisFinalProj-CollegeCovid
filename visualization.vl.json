@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "title": "College's Contribution to the Cases in Their States (as of November 5th, 2020)",
-  "width": 3000,
+  "width": 1000,
   "height": 800,
-  "padding": 1,
+  "padding": 100,
   "data": [
     {
       "name": "table",
@@ -371,5 +371,8 @@
       }
     }
   ],
-  "config": {}
+  "config": {
+    "axisY": {"ticks": false, "domain": false},
+    "axisX" : { "labelAngle": 90, "labelAlign" : "bottom"}
+  }
 }
