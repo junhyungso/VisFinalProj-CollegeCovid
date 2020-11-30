@@ -10,8 +10,6 @@
   },
   "vconcat": [
     {
-      "width": 1000,
-      "height": 200,
       "mark": "bar",
       "selection": {"brush": {"type": "interval"}},
       "encoding": {
@@ -27,18 +25,16 @@
           "field": "college",
           "type": "nominal",
           "axis": {"labels": false},
-          "sort": "-y"
+          "sort": {"field": "state"}
         },
         "color": {
-          "field": "college",
-          "scale": {"scheme": "category20b"},
+          "field": "state",
+          "type": "nominal",
           "legend": null
         }
       }
     },
     {
-      "width": 1000,
-      "height": 200,
       "mark": "bar",
       "transform": [{"filter": {"selection": "brush"}}],
       "encoding": {
@@ -46,7 +42,7 @@
           "title": "College",
           "field": "college",
           "type": "nominal",
-          "sort": "-y",
+          "sort": {"field": "state"},
           "axis": {"labels": false}
         },
         "y": {
@@ -58,18 +54,29 @@
         },
         "tooltip": [
           {"field": "college", "type": "nominal", "title": "School"},
-          {"field": "cases", "aggregate": "sum", "type": "quantitative", "title": "# of Cases"}
+          {
+            "field": "cases",
+            "aggregate": "sum",
+            "type": "quantitative",
+            "title": "# of Cases"
+          },
+          {
+            "field": "state",
+            "title": "State",
+            "type": "nominal"
+          }
         ],
         "color": {
-          "field": "college",
-          "scale": {"scheme": "category20b"},
+          "field": "state",
+          "type": "nominal",
           "legend": null
         }
       }
     }
   ],
   "config": {
-    "background": "#f3fbfd"
-
+    "background": "#f3fbfd",
+    "font": "Times New Roman",
+    "view": {"width": 1580, "height": 200}
   }
 }
