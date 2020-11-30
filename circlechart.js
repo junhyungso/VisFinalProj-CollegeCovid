@@ -72,6 +72,22 @@ var svg = d3.select("#circle-chart")
 
       })
 
+      svg.append("text")             
+      .attr("transform",
+            "translate(" + (width/2+120) + " ," + (height-80) + ")")
+      .style("text-anchor", "middle")
+      .text("Colleges");
+  
+  // text label for the y axis
+    svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", margin.left - 20) 
+      .attr("x",0 - (height / 2)+60)
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("School Status");   
+     
+
 
 
 
