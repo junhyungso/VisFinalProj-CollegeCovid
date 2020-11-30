@@ -68,5 +68,8 @@
       }
     }
   ],
-  "config": {}
+  "config": {
+    "background": "#f3fbfd"
+
+  }
 }

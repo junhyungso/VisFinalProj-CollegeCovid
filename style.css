@@ -20,6 +20,7 @@ h4 {
   height: 100%;
   width: 100%;
   border-bottom: dotted;
+  position: relative;
 }
 .mapsect {
   height: 110%;
