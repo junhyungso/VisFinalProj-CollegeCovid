@@ -32,7 +32,7 @@ Promise.all([
     .range([.5,3]);
 
 
-    const color = d3.scaleQuantize(d3.extent(topCovid,d=>d.cases), d3.schemeGreens[9]);
+    const color = d3.scaleQuantize([0,5000], d3.schemeGreens[9]);
 
 
     const open=d3.scaleOrdinal()
