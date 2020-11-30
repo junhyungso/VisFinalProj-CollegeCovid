@@ -172,7 +172,35 @@ svg.append("circle")
       .duration(1000)
       .style("fill", function(d) { return color(d.cases); });
       d3.selectAll(".legend").remove();
-      d3.selectAll(".label").remove();
+      svg.selectAll('.legend')
+    .data([0,500,1000,1500,2000,2500,3000,3500,4000,4500,5000])
+    .enter()
+    .append("rect").attr("class","legend")
+    .attr("width", 15)
+    .attr("height",15)
+    .attr("stroke","black")
+    .attr("stroke-width",.2)
+    .attr("x", 210)
+    .attr("y", (d,i)=>  i*15 )
+    .attr("fill",(d)=>color(d));
+    d3.selectAll(".label").remove();
+    svg.selectAll('.label')
+    .data([0,500,1000,1500,2000,2500,3000,3500,4000,4500,5000])
+    .enter()
+    .append('text').attr("class","label")
+          .attr("x", 230)
+          .attr("y", (d,i)=> 9 +i*15)
+          .text((d)=> {
+
+            if(d==5000){
+              return d+" cases";
+            }
+            return d;}
+            )
+          .attr("text-anchor", "left")
+          .attr("font-size",15)
+          .style("alignment-baseline", "middle")
+          ;
    }
 
    if (visType === "closing") {
@@ -206,7 +234,7 @@ svg.append("circle")
       .append("rect").attr("class","legend")
       .attr("width", 20)
       .attr("height",20)
-      .attr("x", 350)
+      .attr("x", 210)
       .attr("y", (d,i)=> 10+ i*25 )
       .attr("fill",(d)=>closed(d));
 
@@ -215,7 +243,7 @@ svg.append("circle")
       .data(cvals)
       .enter()
       .append('text').attr("class","label")
-            .attr("x", 380)
+            .attr("x", 240)
             .attr("y", (d,i)=> 21 + i*25)
             .text((d)=> d)
             .attr("text-anchor", "left")
@@ -250,7 +278,7 @@ svg.append("circle")
   .append("rect").attr("class","legend")
   .attr("width", 20)
   .attr("height",20)
-  .attr("x", 350)
+  .attr("x", 210)
   .attr("y", (d,i)=> 10+ i*25 )
   .attr("fill",(d)=>open(d));
 
@@ -259,7 +287,7 @@ svg.append("circle")
   .data(ovals)
   .enter()
   .append('text').attr("class","label")
-        .attr("x", 380)
+        .attr("x", 240)
         .attr("y", (d,i)=> 21 + i*25)
         .text((d)=> d)
         .attr("text-anchor", "left")
