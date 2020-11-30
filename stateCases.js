@@ -1,7 +1,7 @@
 import Barchart from './barchart.js';
 
 export default function stateCases(data) {
-    document.getElementById("stateText").innerHTML = "Total " + data.properties.name + " Cases as of 11/05/2020: " + data.properties.cumulativeCases
+    document.getElementById("stateText").innerHTML = "Total " + data.properties.name + " Cases as of 11/05/2020: <strong>" + data.properties.cumulativeCases + "</strong>"
 }
 
 d3.csv('College-Covid.csv', d3.autoType).then((covid)=>{
@@ -14,7 +14,7 @@ d3.csv('College-Covid.csv', d3.autoType).then((covid)=>{
         const dataFilter = filteredCovid.filter(d=> d.state === stateSelect.value);
         const sortedDataFilter = dataFilter.sort(function(a, b){return b.cases-a.cases});
 
-        document.getElementById("stateText").innerHTML = "Total " + filteredState[0].state + " Cases as of 11/05/2020: " + filteredState[0].cumulativeCases
+        document.getElementById("stateText").innerHTML = "Total " + filteredState[0].state + " Cases as of 11/05/2020:  <strong>" + filteredState[0].cumulativeCases + "</strong>"
         Barchart(sortedDataFilter)
     }
 });
