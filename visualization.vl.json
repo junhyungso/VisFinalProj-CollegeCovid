@@ -348,7 +348,7 @@
     }
   ],
   "axes": [
-    {"orient": "bottom", "scale": "x", "zindex": 1, "title": "Colleges"},
+    {"orient": "bottom", "scale": "x", "zindex": 1, "title": "States"},
     {"orient": "left", "scale": "y", "zindex": 1, "title": "Cumulative Cases"}
   ],
   "legends": [{"stroke": "color", "title": "Cases"}],
