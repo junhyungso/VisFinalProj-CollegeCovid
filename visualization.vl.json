@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "title": "College's Contribution to the Cases in Their States (as of November 5th, 2020)",
   "width": 800,
   "height": 800,
   "padding": 100,
