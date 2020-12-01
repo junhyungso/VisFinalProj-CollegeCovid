@@ -3,15 +3,11 @@
   "data": {
     "url": "https://raw.githubusercontent.com/junhyungso/VisFinalProj-CollegeCovid/master/College-Covid.csv"
   },
-  "title": {
-    "text": "# of Cases at Colleges in the US",
-    "anchor": "middle",
-    "subtitle": "Drag to Zoom"
-  },
+
   "vconcat": [
     {
       "mark": "bar",
-      "selection": {"brush": {"type": "interval"}},
+      "selection": {"brush": {"type": "interval", "empty": "none"}},
       "encoding": {
         "y": {
           "title": "Cases",
@@ -77,6 +73,6 @@
   "config": {
     "background": "#f3fbfd",
     "font": "Times New Roman",
-    "view": {"width": 1580, "height": 200}
+    "view": {"width": 1200, "height": 200}
   }
 }
