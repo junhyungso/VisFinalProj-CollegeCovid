@@ -342,7 +342,7 @@
     {
       "name": "color",
       "type": "ordinal",
-      "range": ["#FFFF00", "#0000FF"],
+      "range": ["orange", "#0000FF"],
       "domain": {"data": "table", "field": "c"}
     }
   ],

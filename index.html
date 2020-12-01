@@ -39,7 +39,7 @@
 
 </head>
 <body>
-  <section class="intro">
+  <section class="intro" id="top">
     <div class="text-block">
       <p>By: Grace Sacco, Shahzad Manji, Larissa Portillo, Junhyung So</p>
     </div>
@@ -201,11 +201,10 @@
           <button class="next-button" >Next</button>
         </div>
       </a>
-        <div id="statetooltip" class="hidden">
-          <p><span id="map"></span></p>
-        </div>
     </section>
-
+    <div id="statetooltip" class="hidden">
+      <p><span id="map"></span></p>
+    </div>
 
 
   <section class="dishsect" id="microbesection">
@@ -221,7 +220,9 @@
       </form>
     </div>
   </section>
-
+  <div id="bubbletooltip" class="hidden">
+    <p><span id="value"></span></p>
+  </div>
   <section class="bordersect">
     <p>The visualization depicted above is our “petri dish” of cases in the top 100 ranked colleges. The virus icons each encode one of these colleges and their size is dependent on how many cumulative cases these schools had, as of November 5th. By pressing a button, the visualization changes its color-coding to be dependent on cases, opening decision, and closing status. Opening decision choices are completely open, completely closed, or hybrid. As described earlier, completely open colleges are those who have allowed all students to return to campus this semester, completely closed colleges are those who have allowed no students to return to campus this semester, and hybrid colleges are those who have been selective about which students were allowed to return to campus this semester. Closing status choices are either Thanksgiving, fully remote, early, or Post Finals/Christmas. Colleges that chose Thanksgiving decided to close their campuses fully after sending students home for Thanksgiving break. Colleges that are fully remote never allowed students on campus and will continue this decision between Thanksgiving break and post-finals/Christmas. Colleges that closed early are those who were forced to suspend in-person activity due to rises in Covid-19 cases. Colleges that close post-finals/Christmas are those who will allow students to remain on-campus following Thanksgiving break. </p>
     <a href="#dragsection" width="5%">
@@ -233,6 +234,7 @@
 
   <section class="sect" id="dragsection">
     <h3># of Cases at Colleges in the US</h3>
+    <p>Drag to select and zoom</p>
     <div id="vis2"></div>
   </section>
   <section class="bordersect">
@@ -255,16 +257,20 @@
       <img src="./assets/online.jpg" alt="" width="20%">
     </div>
     <br />
+    <div class="divrow">
+      <a href="#top" width="5%">
+        <button class="next-button" >Back to top</button>
+      </a>
+    </div>
   </section>
   <section class="footer">
     <p>Copyright: Group 14</p>
   </section>
+
   <div id="tooltip" class="hidden">
     <p><span id="value"></span></p>
   </div>
-  <div id="bubbletooltip" class="hidden">
-    <p><span id="value"></span></p>
-  </div>
+
 
 
 
