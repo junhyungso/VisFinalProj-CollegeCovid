@@ -52,10 +52,10 @@
         <p>What do YOU think?</p>
       </div>
       <div class="divrow">
-        <a href="#infoSection">
+        <a href="#infosection">
           <button class="left-button" id="but1" value="Yes" onclick="buttonAnswer1()">Yes</button>        
         </a>
-        <a href="#infoSection">
+        <a href="#infosection">
           <button class="right-button" id="but2" value="No" onclick="buttonAnswer2()">No</button>
         </a>
       </div>
@@ -69,7 +69,7 @@
     </div>
     </section>
   
-    <section id="infoSection" class="mapsect">
+    <section id="infosection" class="mapsect">
       <p id="answerHTML">You answered: </p>
       <div class="p-margins">
         <p>Individual colleges have been making their own decisions on whether to open or close schools based on the trend of cases, state regulations, and the affordability of safety.
@@ -87,35 +87,37 @@
       </div>
       <br />
       <div class="divrow">
-        <a href="#mapSection">
+        <a href="#mapsection">
           <button class="next-button" >Next</button>
         </a>
       </div>
 
     </section>
 
-    <section id="mapSection" class="mapsect">
-      <p>The United States map shown above has several important components. First, the states are color-coded based on their number of cumulative Covid-19 cases as of November 5th. Darker blue colored states such as California have much higher cases than lighter blue colored states such as New Mexico. There are also dots on the locations of top 100 ranked colleges in the United States. These dots are colored red if their state does not require masks, and colored green if they do require masks. These dots are also sized based on the number of cases these colleges have. Click on a state with a top 100 ranked college to see how many cases per college in that state.</p>
+    <section id="mapsection" class="mapsect">
+      <p>The United States map shown below showcases several important components. First, the states are color-coded based on their number of cumulative Covid-19 cases as of November 5th. Darker colored states such as California have much higher cases than lighter colored states such as New Mexico. There are also dots on the locations of top 100 ranked colleges in the United States. These dots are colored orange if their state does not require masks, and colored blue if they do require masks. These dots are also sized based on the number of cases these colleges have.</p>
+      <p>Since a majority of the Top 100 schools are located in the east coast, it is no surprise that there are larger outbreaks in the east. But it is important to note that schools in California and Texas had fewer cases despite the states suffering from higher cases, due to their state decisions to completely shut down the schools. Further breakdown of these schools and their school statuses will be explored further down.</p>
 
       <h3>US Map of Covid-19 Cases by State and Top 100 Colleges</h3> 
       <form class="mapbutton">
           <input id="map" type="radio" name="pick" value="States"> States
           <input id="map" type="radio" name="pick" value="Colleges" checked> Top 100 Colleges
       </form>
-      <p>Click on the states for a detailed case count for thee state and its affiliated colleges.</p>
+      <p> <strong>Click</strong> on the states for a detailed case count for the state and its affiliated colleges.</p>
       <div class="mapchart"></div>
       <br />
       <br />
-      <div class="divrow">
-        <!-- <a href="#barsect" width="5%"> -->
-          <img src="./assets/arrow.png" alt="" width="5%">
-        <!-- </a> -->
-      </div>
+      
+      <!-- <a href="#barsection" width="5%">
+        <div class="divrow">
+            <img src="./assets/arrow.png" alt="" width="5%">
+        </div>
+      </a> -->
+
     </section>
 
 
-    <section id="barsect" class="intro"> 
-      <div margin-left="15px">
+    <section id="barsection" class="intro"> 
         <label id="stateChoose" for="states" >Choose a state:</label>
         <div class="statesChoice">
           <div class="col2">
@@ -173,24 +175,34 @@
               <option value="Wyoming">Wyoming</option>
             </select>
           </div>
-      </div>  
         <div class="col1">
           <p id="stateText"></p>
         </div>
-      </div>
+      </div>  
+
       <div id="chart-area"></div>
       <div>
-        <p>Here we rank the colleges of the chosen state by their total number of cases.</p>
+        <p>Here we rank all the colleges of the chosen state by their total number of cases.</p>
       </div>
+      <br /><br />
+      <br /><br />
+      <br /><br />
+      <a href="#rectsection" width="5%">
+        <div class="divrow">
+            <img src="./assets/arrow.png" alt="" width="5%">
+        </div>
+      </a>
     </section>
     <br />
     <div id="tooltip" class="hidden">
       <p><span id="value"></span></p>
   </div>
-    <section class="intro">
+    <section class="intro" id="rectsection">
       <h3>Top 100 Colleges vs. Their School Opening Status</h3>
+      <p>Hover each squares for a more detailed information for each college</p>
       <div id="circle-chart"></div>
       <p>The visualization depicted above shows the amount of cases schools have based on what regulations they chose to have for the Fall 2020 semester. We consider hybrid schools to be colleges or universities that did not allow all students to return for the semester, but allowed some students to be on campus. For example, Harvard University only allowed freshmen to return to campus this fall. We consider completely open schools to be those which allowed every student to return to campus. For example, Boston College welcomed all students back to campus this Fall, even though they allowed students to request to be fully online. Finally, we consider completely closed schools to be those which allowed no students to return to campus under any circumstances. For example, University of Southern California held all of their classes online this semester and did not allow students to enter campus. </p>
+      <p>From observations we can see that a majority of the Top 100 schools who completely opened schools did a decent job at keeping the number of cases low. But still some have failed to contain the spread of virus. Another interesting thing to note is that some schools such as </p>
     </section>
 
     <div id="statetooltip" class="hidden">
@@ -222,8 +234,9 @@
      <div id="vis"></div>
   </section>
     
-  <section class="fullsect">
-    <p>As demonstrated in the bar chart below, college students (yellow) have not contributed significantly to the cases in their state (blue). However, the yellow line is still above zero for every single state (as you can see when you hover). These college students may have not contributed significantly, but they have contributed. This leads us to ask once more; was the decision to bring college students back to campus a safe one? </p>
+  <section>
+    <p>As demonstrated in the bar chart below, college students (yellow) have not contributed significantly to the cases in their state (blue). However, the yellow line is still above zero for every single state (as you can see when you hover). These college students may have not contributed significantly, but they have contributed. This leads us to ask once more:</p>
+    <h3>Was it a Safe Decision to Bring Students Back to Campus for the Fall 2020 Semester?</h3>
   </section>
   <div id="tooltip" class="hidden">
     <p><span id="value"></span></p>
