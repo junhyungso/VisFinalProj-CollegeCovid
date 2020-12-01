@@ -212,12 +212,15 @@
     <p>Drag the microbes for interaction!</p>
     <p><i>Pssst</i> these college microbes are sized by their respective number of cases</p>
     <div id="bubble">
-      <h5>Choose a color coding method</h5>
+      <div class="marginleft">
+        <h5>Choose a color coding method</h5>
       <form>
         <input id="emoji" type="radio" name="pick" value="cases"> Cases
         <input id="emoji" type="radio" name="pick" value="opening"> Opening Decision
         <input id="emoji" type="radio" name="pick" value="closing"> Closing Status
       </form>
+    </div>
+
     </div>
   </section>
   <div id="bubbletooltip" class="hidden">
@@ -238,7 +241,7 @@
     <div id="vis2"></div>
   </section>
   <section class="bordersect">
-    <p>This visualization shows all the schools from our dataset and their number of cases as of November 5th. We wanted to show all schools to address how each school has done so far in terms of cases. The vis is a stacked chart that implements brushing so we can zoom in and see a smaller number of schools where we can hover to see the name and the number of cases. All these schools have used a different system for managing this semester, we will dive more into the systems and how a selection of schools have done so far. </p>
+    <p>This visualization shows all the schools from our dataset and their number of cases as of November 5th. We took all the schools and sorted them by state as a color scale, through this we can show how the states compare to each other. We wanted to show all schools on a grander scale so that we can see how varied the number of cases is between schools and between states. The vis is a stacked chart that implements brushing so we can zoom in and see a smaller number of schools where we can hover to see the name and the number of cases. All these schools have used a different system for managing this semester and we can see the varied results. After a few months into the school year, we can see that each school has been affected differently and this gives us a more general idea of how schools in each state are doing. Many of the cases reported at the colleges in the US could have been less if more remote teaching was implemented.</p>
     <a href="#barsection2" width="5%">
       <div class="divrow">
         <button class="next-button" >Next</button>
