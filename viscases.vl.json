@@ -77,6 +77,6 @@
   "config": {
     "background": "#f3fbfd",
     "font": "Times New Roman",
-    "view": {"width": 1580, "height": 200}
+    "view": {"width": 1400, "height": 200}
   }
 }

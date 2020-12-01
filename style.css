@@ -4,6 +4,7 @@ html {
 }
 h1 {
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 p {
   text-align: center;
@@ -15,10 +16,13 @@ p {
 }
 h3 {
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+
 }
 
 h4 {
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 .intro {
   height: 100%;
@@ -32,6 +36,7 @@ h4 {
 }
 .sect {
   height: 175%;
+  border-bottom: dotted;
 }
 
 .fullsect {
@@ -89,9 +94,7 @@ h4 {
   transform: translate(-50%, -50%);
 
 }
-.vega-embed .chart-wrapper {
-  width: 100%;
-}
+
 #tooltip {
     position: absolute;
     width: 200px;
