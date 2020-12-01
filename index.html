@@ -208,7 +208,7 @@
 
 
 
-  <section class="sect" id="microbesection">
+  <section class="dishsect" id="microbesection">
     <h3>Top 100 Colleges as Microbes </h3>
     <p>Drag the microbes for interaction!</p>
     <p><i>Pssst</i> these college microbes are sized by their respective number of cases</p>
@@ -220,9 +220,10 @@
         <input id="emoji" type="radio" name="pick" value="closing"> Closing Status
       </form>
     </div>
-    <div>
-      <p>The visualization depicted above is our “petri dish” of cases in the top 100 ranked colleges. The virus icons each encode one of these colleges and their size is dependent on how many cumulative cases these schools had, as of November 5th. By pressing a button, the visualization changes its color-coding to be dependent on cases, opening decision, and closing status. Opening decision choices are completely open, completely closed, or hybrid. As described earlier, completely open colleges are those who have allowed all students to return to campus this semester, completely closed colleges are those who have allowed no students to return to campus this semester, and hybrid colleges are those who have been selective about which students were allowed to return to campus this semester. Closing status choices are either Thanksgiving, fully remote, early, or Post Finals/Christmas. Colleges that chose Thanksgiving decided to close their campuses fully after sending students home for Thanksgiving break. Colleges that are fully remote never allowed students on campus and will continue this decision between Thanksgiving break and post-finals/Christmas. Colleges that closed early are those who were forced to suspend in-person activity due to rises in Covid-19 cases. Colleges that close post-finals/Christmas are those who will allow students to remain on-campus following Thanksgiving break. </p>
-    </div>
+  </section>
+
+  <section class="bordersect">
+    <p>The visualization depicted above is our “petri dish” of cases in the top 100 ranked colleges. The virus icons each encode one of these colleges and their size is dependent on how many cumulative cases these schools had, as of November 5th. By pressing a button, the visualization changes its color-coding to be dependent on cases, opening decision, and closing status. Opening decision choices are completely open, completely closed, or hybrid. As described earlier, completely open colleges are those who have allowed all students to return to campus this semester, completely closed colleges are those who have allowed no students to return to campus this semester, and hybrid colleges are those who have been selective about which students were allowed to return to campus this semester. Closing status choices are either Thanksgiving, fully remote, early, or Post Finals/Christmas. Colleges that chose Thanksgiving decided to close their campuses fully after sending students home for Thanksgiving break. Colleges that are fully remote never allowed students on campus and will continue this decision between Thanksgiving break and post-finals/Christmas. Colleges that closed early are those who were forced to suspend in-person activity due to rises in Covid-19 cases. Colleges that close post-finals/Christmas are those who will allow students to remain on-campus following Thanksgiving break. </p>
     <a href="#dragsection" width="5%">
       <div class="divrow">
         <button class="next-button" >Next</button>
@@ -230,25 +231,33 @@
     </a>
   </section>
 
-  <section  id="dragsection">
+  <section class="sect" id="dragsection">
     <h3># of Cases at Colleges in the US</h3>
     <div id="vis2"></div>
+  </section>
+  <section class="bordersect">
     <p>This visualization shows all the schools from our dataset and their number of cases as of November 5th. We wanted to show all schools to address how each school has done so far in terms of cases. The vis is a stacked chart that implements brushing so we can zoom in and see a smaller number of schools where we can hover to see the name and the number of cases. All these schools have used a different system for managing this semester, we will dive more into the systems and how a selection of schools have done so far. </p>
     <a href="#barsection2" width="5%">
-      <div class="divrow">s
+      <div class="divrow">
         <button class="next-button" >Next</button>
       </div>
     </a>
   </section>
-
   <section class="fullsect" id="barsection2">
     <h3>College's Contribution to the Cases in Their States (as of November 5th, 2020)</h3>
      <div id="vis"></div>
   </section>
     
-  <section>
+  <section class="closing">
     <p>As demonstrated in the bar chart below, college students (yellow) have not contributed significantly to the cases in their state (blue). However, the yellow line is still above zero for every single state (as you can see when you hover). These college students may have not contributed significantly, but they have contributed. This leads us to ask once more:</p>
     <h3>Was it a Safe Decision to Bring Students Back to Campus for the Fall 2020 Semester?</h3>
+    <div class="divrow">
+      <img src="./assets/online.jpg" alt="" width="20%">
+    </div>
+    <br />
+  </section>
+  <section class="footer">
+    <p>Copyright: Group 14</p>
   </section>
   <div id="tooltip" class="hidden">
     <p><span id="value"></span></p>

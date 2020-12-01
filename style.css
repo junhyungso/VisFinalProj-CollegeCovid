@@ -33,16 +33,29 @@ h4 {
 .mapsect {
   height: 110%;
   width: 100%;
+  border-bottom: dotted;
 }
 .sect {
-  height: 175%;
+  height: 100%;
+}
+.bordersect {
   border-bottom: dotted;
+}
+
+.dishsect {
+  height: 125%;
 }
 
 .fullsect {
   height: 175%
 }
-
+.closing{
+  border-bottom: solid;
+  border-width: 1px;
+}
+.footer {
+  text-align: end;
+}
 .container {
   margin-top: 15%;
 
