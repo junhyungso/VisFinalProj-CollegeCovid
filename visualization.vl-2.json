@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 800,
+  "padding": 100,
+  "background": "rgb(243, 251, 253)",
+  "data": {
+    "values": [
+      {"x": "Alabama", "y": 9858, "y0": 199158},
+      {"x": "Alaska", "y": 105, "y0": 18174},
+      {"x": "Arizona", "y": 5690, "y0": 252768},
+      {"x": "Arkansas", "y": 5236, "y0": 117360},
+      {"x": "California", "y": 5224, "y0": 944576},
+      {"x": "Colorado", "y": 3937, "y0": 117637},
+      {"x": "Connecticut", "y": 2171, "y0": 77060},
+      {"x": "Delaware", "y": 646, "y0": 25753},
+      {"x": "Florida", "y": 13650, "y0": 816376},
+      {"x": "Georgia", "y": 11406, "y0": 368368},
+      {"x": "Hawaii", "y": 41, "y0": 15686},
+      {"x": "Idaho", "y": 1975, "y0": 68314},
+      {"x": "Illinois", "y": 9263, "y0": 453750},
+      {"x": "Indiana", "y": 9736, "y0": 196176},
+      {"x": "Iowa", "y": 5522, "y0": 130732},
+      {"x": "Louisiana", "y": 4493, "y0": 190845},
+      {"x": "Maine", "y": 15, "y0": 7260},
+      {"x": "Maryland", "y": 2671, "y0": 149964},
+      {"x": "Massachusetts", "y": 1901, "y0": 165161},
+      {"x": "Michigan", "y": 8733, "y0": 218263},
+      {"x": "Minnesota", "y": 3793, "y0": 164865},
+      {"x": "Mississippi", "y": 2975, "y0": 123887},
+      {"x": "Missouri", "y": 8319, "y0": 196576},
+      {"x": "Montana", "y": 1155, "y0": 36968},
+      {"x": "Nebraska", "y": 3236, "y0": 75888},
+      {"x": "Nevada", "y": 1280, "y0": 105360},
+      {"x": "New Hampshire", "y": 418, "y0": 11808},
+      {"x": "New Jersey", "y": 2019, "y0": 247219},
+      {"x": "New York", "y": 7695, "y0": 518812},
+      {"x": "North Carolina", "y": 10296, "y0": 285661},
+      {"x": "North Dakota", "y": 2889, "y0": 49837},
+      {"x": "Ohio", "y": 12171, "y0": 235170},
+      {"x": "Oklahoma", "y": 3975, "y0": 129873},
+      {"x": "Oregon", "y": 971, "y0": 47839},
+      {"x": "Pennsylvania", "y": 10817, "y0": 220566},
+      {"x": "Rhode Island", "y": 1000, "y0": 35750},
+      {"x": "South Carolina", "y": 9974, "y0": 181639},
+      {"x": "South Dakota", "y": 762, "y0": 51151},
+      {"x": "Tennessee", "y": 7862, "y0": 271771},
+      {"x": "Texas", "y": 20036, "y0": 934994},
+      {"x": "Utah", "y": 6239, "y0": 124292},
+      {"x": "Vermont", "y": 91, "y0": 2303},
+      {"x": "Virginia", "y": 7830, "y0": 187202},
+      {"x": "Washington, D.C.", "y": 529, "y0": 17682},
+      {"x": "Washington", "y": 2896, "y0": 111480},
+      {"x": "West Virginia", "y": 1247, "y0": 26547},
+      {"x": "Wisconsin", "y": 10054, "y0": 263571},
+      {"x": "Wyoming", "y": 1213, "y0": 15409}
+    ]
+  },
+  "scales": [
+    {"name": "x", "type": "band", "range": "width", "domain": {"field": "x"}}
+  ],
+  "vconcat": [
+    {
+      "mark": "bar",
+      "title": "Cumulative Cases by College",
+      "encoding": {
+        "x": {"field": "x", "type": "ordinal", "sort": "-y", "title": "States"},
+        "width": {"scale": "x", "band": 1, "offset": -1},
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "title": "Cumulative Cases"
+        },
+        "color": {"value": "#FFA500"},
+        "tooltip": [{"field": "y", "type": "quantitative", "title": "Cases"}]
+      }
+    },
+    {
+      "mark": "bar",
+      "title": "Cumulative Cases by State",
+      "encoding": {
+        "x": {"field": "x", "type": "ordinal", "sort": "-y", "title": "States"},
+        "width": {"scale": "x", "band": 1, "offset": -1},
+        "y": {
+          "field": "y0",
+          "type": "quantitative",
+          "title": "Cumulative Cases"
+        },
+        "color": {"value": "#0000FF"},
+        "tooltip": [{"field": "y0", "type": "quantitative", "title": "Cases"}]
+      }
+    }
+  ],
+  "config": {}
+}

@@ -28,6 +28,12 @@
         .then(result => console.log(result))
         .catch(console.warn);
     </script>
+        <script>
+          const spec3 = "visualization.vl-2.json";
+          vegaEmbed("#vis3", spec3)
+            .then(result => console.log(result))
+            .catch(console.warn);
+        </script>
     <script>
       const spec2 = "viscases.vl.json";
       vegaEmbed("#vis2", spec2)
@@ -251,10 +257,12 @@
   <section class="fullsect" id="barsection2">
     <h3>College's Contribution to the Cases in Their States (as of November 5th, 2020)</h3>
      <div id="vis"></div>
+     <div id="vis3"></div>
   </section>
     
   <section class="closing">
     <p>As demonstrated in the bar chart below, college students (yellow) have not contributed significantly to the cases in their state (blue). However, the yellow line is still above zero for every single state (as you can see when you hover). These college students may have not contributed significantly, but they have contributed. This leads us to ask once more:</p>
+    <br>
     <h3>Was it a Safe Decision to Bring Students Back to Campus for the Fall 2020 Semester?</h3>
     <div class="divrow">
       <img src="./assets/online.jpg" alt="" width="20%">
