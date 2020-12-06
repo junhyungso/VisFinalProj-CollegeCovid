@@ -5,6 +5,42 @@
     <title>About</title>
 </head>
 <body>
-    
+    <h1>Team Members:</h1>
+    <p> Grace Sacco, Larissa Portillo, Shahzad Manji, Junhyung So</p>
+    <h2>Data Processing:</h2>
+    <p>
+        We utilized a dataset that included every college in the nation and the respective coronavirus cases at that college. This dataset also included the state, country, and city of those colleges as well as their state restrictions (whether masks were required or not), the cumulative cases in the state of that college, the opening status of the top 100 colleges, the closing status of the top 100 colleges, and the longitude/latitude of the top 100 colleges. The opening status of the college was that college’s plan for the fall semester in the beginning of the year (i.e. hybrid, fully remote, or fully in-person). The closing status of the college was that college’s plan for when their campus would close down for Christmas break (i.e. close at Thanksgiving, close at Christmas/after finals, or fully remote). The original dataset we found from the New York Times only included every college in the nation, their respective coronavirus cases, the city of that college, and the state of that college. We generated the rest of the data through our own independent research.  
+    </p>
+    <h3>Design Processes:</h3>
+
+    <p>
+    In order to make our website both informational and interactive, we first asked users what their stance on the current colleges' decisions about school opening amid the virus. We began by including several pictures of news articles and how college students are behaving in this time period in order to support our ongoing storyline that would be portrayed in our visualizations. 
+    </p>
+
+    <p>
+    The map visualization was created in order to best portray a combination of columns in our dataset, including the state number of cases, mask mandate, top 100 colleges’ cases, location, and severity of the virus. By creating two buttons to optionally see the states and the colleges, users are able to navigate easily to see the details they wish to see by hovering the states. Furthermore, we added a clickable function to the states so that upon click, users are smoothly transitioned into a bar chart of that specific state, showcasing all the top 100 colleges in that state and their number of cases. 
+    </p>
+
+    <p>
+    The rectangular scatter chart visualization compares the top 100 colleges with their decisions of whether to open their school or not. Although a majority of states appeared on the lower end of the cases as expected, it was very interesting to see several unexpected cases of large coronavirus cases despite having closed school.
+    </p>
+
+    <p>
+    We wanted to create visualizations that would allow the user to see the extremes in our data. This was the main goal of our novel idea. In our attempt to create a petri dish with the colleges as microbes, we wanted the user to be able to visualize the cases in each school. The different sizes would make it easier to compare the cases between the colleges. Furthermore, the user could assign a color filter on the microbes in order to either see how eah college would be colored by cases, their opening status and closing status. The color coding would also allow them to see the popular decision or least popular decision between the colleges when it came to their opening and closing decision. The user could also use the radio buttons as a way to compare the college's cases and their closing or opening decisions, being given two pieces of information at once of size and color. We added the dragging effect to the visualization in order to create a fun way of interaction with the design as well.   
+    </p>
+
+    <p>
+    The all colleges bar chart was created using Vegalite. This bar chart included all the colleges found in our dataset, sorted and colored by state, and their number of Covid cases accumulated till November 5th, 2020. We implemented brushing and zooming. The data selected by brushing in the bar chart led to a zoom of the data in the chart found below. We created this visualization because we wanted to show our data on a larger scale to get a better view of the cases occurring at colleges throughout the United States. 
+    </p>
+
+    <p>
+    We utilized Vegalite to create a stacked bar chart and two subsequent bar charts that were the unstacked versions of the stacked bar chart. These bar charts encoded the total number of coronavirus cases in a state and the total number of coronavirus cases contributed by colleges in that state. We chose to create this stacked bar chart visualization because we felt that it was an important way to show that while college students did not make a significant impact on the coronavirus in their states, they did make an impact. If it was fully safe for students and the respective members of the community for colleges to return to in-person classes, then you would expect there to be little to no cases. However, in states like Georgia, there were 11,406 college coronavirus cases as of November 5th. We also thought it was important to unstack the bar chart and show each bar individually in order to show that there is not a consistent correlation between college coronavirus cases and state coronavirus cases. For example, New York state is in the top ten states for cumulative cases by state, but not in the top ten states for cumulative cases by college. This provides us with a mixed message about whether college students endangered their state by returning or did the state endanger college students. We thought this was an important note to end on because it shows both sides of the story and leaves the viewer to determine their own opinion based on the data and the visualizations we have provided them with. 
+    </p>
+
+    <h4>Demo Video:</h4>
+    <video width="600" height="600" controls>
+        <source src="Group14Demo1080p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
 </body>
 </html>

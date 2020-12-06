@@ -95,11 +95,11 @@ h4 {
 .right-button:hover{
   background-color: orange;
 }
-.next-button {
+.button {
   background-color: blue;
   border-radius: 10px;
 }
-.next-button:hover{
+.button:hover{
   background-color: orange;
 }
 .col1{
