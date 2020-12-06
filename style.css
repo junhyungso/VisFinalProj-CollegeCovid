@@ -52,7 +52,9 @@ h4 {
 .dishsect {
   height: 125%;
 }
-
+.twobarsect {
+  height: 100%;
+}
 .fullsect {
   height: 175%
 }
