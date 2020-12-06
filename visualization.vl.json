@@ -372,6 +372,6 @@
   ],
   "config": {
     "axisY": {"ticks": false, "domain": false},
-    "axisX" : { "labelAngle": 90, "labelAlign" : "bottom"}
+    "axisX" : { "labelAngle": 270, "labelPadding": 0, "labelAlign": "right", "labelBound": "true"}
   }
 }
