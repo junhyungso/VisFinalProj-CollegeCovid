@@ -76,7 +76,7 @@ var svg = d3.select("#circle-chart")
       .attr("transform",
             "translate(" + (width/2+120) + " ," + (height-80) + ")")
       .style("text-anchor", "middle")
-      .text("Colleges");
+      .text("Cases");
   
   // text label for the y axis
     svg.append("text")

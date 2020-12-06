@@ -26,8 +26,6 @@ export default function BarChart(data){
   
     let y = d3.scaleLinear().range([height, 0]);
   
-    let color = d3.scaleSequential(d3.interpolatePurples);
-
     let xAxis = d3
       .axisBottom()
       // .ticks(5)
@@ -47,7 +45,10 @@ export default function BarChart(data){
     console.log(data)
     x.domain( data.map(function(d) { return d.college; }))
     y.domain([ 0, d3.max(data, function(d) { return d.cases;  })]);
-    color.domain([0, d3.max(data,d=>d.cases)]);
+
+    // function statusColor(d) {
+      
+    // }
     let bars = svg
       .selectAll(".stateBarChart")
       .attr("class", "stateBarChart")
@@ -68,7 +69,7 @@ export default function BarChart(data){
         return (height - y(d.cases));
       })
       .attr("width", x.bandwidth())
-      .attr("fill", "blue")
+      .attr("fill", function(d) { return d.openStatus === "Completely Open" ? "blue" : d.openStatus === "Completely Closed" ? "lightblue" : "orange"})
       .on("mouseover", function(event, d) {
         const pos = d3.pointer(event, window);
 
