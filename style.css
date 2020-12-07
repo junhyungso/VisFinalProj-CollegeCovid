@@ -102,6 +102,13 @@ h4 {
 .button:hover{
   background-color: orange;
 }
+.next-button {
+  background-color: blue;
+  border-radius: 10px;
+}
+.next-button:hover{
+  background-color: orange;
+}
 .col1{
   width: 66%;
 }
