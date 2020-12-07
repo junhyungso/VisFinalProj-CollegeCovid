@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(243, 251, 253);
+  }
+
+h2 {
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+
+}
+
+p {
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.p2 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.p-margins {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.divrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+.button {
+    background-color: blue;
+    border-radius: 10px;
+  }
+
+.button:hover{
+    background-color: orange;
+  }
+
+
+.footer {
+    text-align: end;
+  }
+
+.closing{
+    border-bottom: solid;
+    border-width: 1px;
+  }
