@@ -13,11 +13,11 @@ export default function BarChart(data){
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
   
-    svg.append("text")
-      .attr("x", width / 2 )
-      .attr("y", 0)
-      .style("text-anchor", "middle")
-      .text("COVID-19 Cases in the Top 100 United States Colleges in Selected State as of November 5th, 2020");
+    // svg.append("text")
+    //   .attr("x", width / 2 )
+    //   .attr("y", 0)
+    //   .style("text-anchor", "middle")
+    //   .text("COVID-19 Cases in the Top 100 United States Colleges in Selected State as of November 5th, 2020");
 
     let x = d3
       .scaleBand()

@@ -103,7 +103,7 @@
     </section>
 
     <section id="mapsection" class="mapsect">
-      <p>The United States map shown below showcases several important components. First, the states are color-coded based on their number of cumulative Covid-19 cases as of November 5th. Darker colored states such as California have much higher cases than lighter colored states such as New Mexico. There are also dots on the locations of top 100 ranked colleges in the United States. These dots are colored orange if their state does not require masks, and colored blue if they do require masks. These dots are also sized based on the number of cases these colleges have.</p>
+      <p>The United States map shown below showcases several important components. First, the states are color-coded based on their number of cumulative Covid-19 cases as of November 5th. Darker colored states such as California have much higher cases than lighter colored states such as New Mexico. There are also dots on the locations of top 100 ranked colleges in the United States. These dots are colored orange if their state does not require masks, and colored blue if they do require masks. These dots are also sized based on the number of cases these colleges have. Keep in mind that these values are square rooted from their actual values so the Eastern circles reflect much smaller than their actual values.</p>
       <p>Since a majority of the Top 100 schools are located in the east coast, it is no surprise that there are larger outbreaks in the east. But it is important to note that schools in California and Texas had fewer cases despite the states suffering from higher cases, due to their state decisions to completely shut down the schools. Further breakdown of these schools and their school statuses will be explored further down.</p>
 
       <h3>US Map of Covid-19 Cases by State and Top 100 Colleges</h3>
@@ -181,7 +181,9 @@
           <p id="stateText"></p>
         </div>
       </div>  
-
+      <div>
+        <h3>COVID-19 Cases in the Top 100 United States Colleges in Selected State as of November 5th, 2020</h3>
+      </div>
       <div id="chart-area"></div>
       <div>
         <p>Here we rank all the colleges of the chosen state by their total number of cases. It is interesting to note that even though these colleges are in the same state, they vary in cases due to their schools status and their differences in enrollment sizes. 
@@ -193,7 +195,6 @@
           <button class="next-button" >Back to Map</button>
         </div>
       </a>
-      <br /><br />
       <br /><br />
       <a href="#rectsection" width="5%">
         <div class="divrow">
